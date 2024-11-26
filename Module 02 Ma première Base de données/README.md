@@ -8,7 +8,7 @@
 </a>  
 <br><br>  
   
-  
+  aq
 ## Dans PhpMyAdmin ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL  
 :two: Saisir le code SQL   
