@@ -48,6 +48,7 @@ Module 02 Ma première Base de données
 
 </tr>
 </table>
+
 ### Ajouter des données
 - Ajouter des données avec ou sans clef primaire  
 - Tester les valeurs par défaults  
@@ -59,13 +60,13 @@ Module 02 Ma première Base de données
 - Filtrer avec **LIMIT**
 - Classer avec **ORDER BY**
 
- **TP 03 VIP Cockatail V2**
- - Ajouter les données avec **INSERT**
- - Afficher les données avec **SELECT**
+ **TP 03 VIP Cockatail partie 2**
+Ajouter les données avec **INSERT**
+Afficher les données avec **SELECT**
 
- **TP 04 Le monde des chats V2** __optionel__
- - Ajouter les données avec **INSERT**
- - Afficher les données avec **SELECT**
+ **TP 04 Le monde des chats partie 2** 
+Ajouter les données avec **INSERT**
+Afficher les données avec **SELECT**
 
 ## JOUR 2 MATIN
 
