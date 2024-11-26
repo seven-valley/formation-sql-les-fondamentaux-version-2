@@ -123,6 +123,7 @@ Module 06 Les jointures
 - Extraire les données  
   
 **TP 08 Les films & Acteurs** Extraire les données  
+## Jour 3 APRES MIDI
   
 **TP 09 Site E-commerce**
 Insérer les données  
