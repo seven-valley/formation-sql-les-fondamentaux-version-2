@@ -1,13 +1,13 @@
-# Ma première Base de données
+# Ma Première Base de données
 
 ## Dans PhpMyAdmin ouvrez le terminal SQL
-:one: cliquer sur l'onglet SQL  
-:two: Saisir le code SQL 
-:three:  Cliquez sur GO  
+:one: Cliquez sur l'onglet SQL  
+:two: Saisir le code SQL   
+:three: Cliquez sur GO  
 <img src="../img/02/terminal.webp" width="500"> 
 
-## OU dans workbench ouvrez le terminal SQL
-:one: cliquer sur l'onglet SQL  
+## OU dans Workbench ouvrez le terminal SQL
+:one: Cliquez sur l'onglet SQL    
 :two: Saisir le code SQL 
 :three:  Cliquez sur l'éclaire
 
