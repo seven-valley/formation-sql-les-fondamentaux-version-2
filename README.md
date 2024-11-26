@@ -25,23 +25,23 @@ Module 02 Ma première Base de données
 
 **TP 02 Le monde des chats** Création d'une table chat
 ## JOUR 1 APRES MIDI
-<table>
+<table border=0>
 <tr>
 <td>
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-  <img src="./img/02/m2.png" width="300">
+<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
+  <img src="./img/03/m3.png" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
+<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
 Module 02 Ma première Base de données
 </a>  
 </td>
 <td>
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-  <img src="./img/02/m2.png" width="300">
+<a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
+  <img src="./img/04/m4.png" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
+<a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
 Module 02 Ma première Base de données
 </a>  
 </td>
