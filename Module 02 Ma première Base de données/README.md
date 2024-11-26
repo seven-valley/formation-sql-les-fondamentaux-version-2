@@ -124,9 +124,9 @@ Autres  :
 | ENUM ('vert','rouge') | choix prédéfini  |
 
 # Exemple : Création d'une table film
-<img src="../img/02/film.svg" width="100">
+<img src="../img/02/film.svg" width="300">
   
-  
+
 
 ## :key: Mise en place d'une clé primaire sur notre table
 la clef primaire : **primary key** ou **PK**  
