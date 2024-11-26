@@ -38,15 +38,16 @@ SI je souhaite créer la base si elle n'existe pas
 CREATE DATABASE IF NOT EXISTS videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-Je precise la base que j'utilise pour la suite des commandes SQL
+Je precise la base que j'utilise pour la suite des commandes SQL  
+avec <code>USE</code>
 ```sql
 USE videotheque;
 ```
 ## Effacer une base de données :warning:
-:warning: Attention **toutes les tables** de la base seront éffacées.  
+:warning: Attention **toutes les tables** de la base seront effacées.  
 :warning: Attention **toutes les données** à l'intérieur des tables seront effacées.
     
-Il est possible d'effacer sa base
+Il est possible d'effacer sa base :
 ```sql
 DROP DATABASE ma_data_base;
 ```
@@ -61,7 +62,16 @@ Voici la commande pour créer une table :
 ```sql
 CREATE TABLE film(...);
 ```
+Il est recommandé de:  
+Je peux preciser le **moteur de stockage** de ma table  
+InnoDB est un moteur de stockage : **storage engine**    
+Sinon par défault j'aurais **MylSAM** au lien de innoDB    
+Celà sera problématique pour les contraintes de clefs étrangère    
 
+```sql
+CREATE TABLE film (..) ENGINE=InnoDB; 
+```
+## Effacer notre première table
 Effacer une table :  
 :warning: **Attention toutes les données seront éffacées !** :sweat_smile:
 ```sql
@@ -71,15 +81,7 @@ Effacer une table si elle existe:
 ```sql
 DROP TABLE IF EXISTS film;
 ```
-Il est recommandé de:  
-Je peux preciser le **moteur de stockage** de ma table  
-InnoDB est un moteur de stockage : **storage engine**    
-Sinon par défault j'aurais **MylSAM** au lien de innoDB    
-Celà sera problématique pour les contraintes de clefs étrangère    
 
-```mysql
-CREATE TABLE film (..) ENGINE=InnoDB; 
-```
 
 
 ## Les type de champs : Data types
@@ -130,10 +132,10 @@ CREATE TABLE film (
 ## :movie_camera: Création des autres champs :
 :warning: Chaque ligne est terminée par une **virgule**   
 **sauf la dernière ligne**
-```mysql
+```sql
 USE videotheque;
 CREATE TABLE film (
-  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL
 ) ENGINE=InnoDB;
@@ -141,24 +143,24 @@ CREATE TABLE film (
 
 Il est aussi possible de définir la clef primaire à la fin :
 
-```mysql
+```sql
 USE videotheque;
 CREATE TABLE film (
-  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
 
-je peux rajouter des commentaires avec **#** ou **--**
+Je peux rajouter des commentaires avec <code>#</code> ou <code>--</code> ou <code>/* .... */</code>
 
-```mysql
+```sql
 -- je selectionne ma database : videotheque
 USE videotheque;
 # creation table film;
 CREATE TABLE film (
-  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
   PRIMARY KEY (id)
