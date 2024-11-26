@@ -35,7 +35,7 @@ CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 SI je souhaite créer la base si elle n'existe pas 
 <code>IF NOT EXISTS</code>
   
-```sql
+```mysql
 CREATE DATABASE IF NOT EXISTS videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
