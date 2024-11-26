@@ -20,11 +20,12 @@ Chaque personne à :
 - une description
 - salaire annuel
   
-| prenom | nom | age | inscription | statut | type | description | salaire |
-|----|---|---|---|---|---|---|---|
-| Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
-| George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
-| Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
+| id | prenom | nom | age | inscription | statut | type | description | salaire |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
+| 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
+| 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
+
 
 :one: Créer une base de donnée : **invitation**  
 :two: Créer une table : **personne**  
