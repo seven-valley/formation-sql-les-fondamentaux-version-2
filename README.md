@@ -1,11 +1,11 @@
 # Plan de la formation -Les fondamentaux SQL
 
 ## JOUR 1 MATIN
-<a href="../00 pdf/02 Ma première Base de données.pdf">
-  <img src="../img/02/m2.png" width="300">
+<a href="./00 pdf/02 Ma première Base de données.pdf">
+  <img src="./img/02/m2.png" width="300">
 </a>  
 <br>
-<a href="../00 pdf/02 Ma première Base de données.pdf">
+<a href="./00 pdf/02 Ma première Base de données.pdf">
 Module 02 Ma première Base de données
 </a>  
 ### Création de la base données (data base)
