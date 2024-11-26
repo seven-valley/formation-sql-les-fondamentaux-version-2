@@ -3,7 +3,8 @@
 ## Dans PhpMyAdmin ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL  
 :two: Saisir le code SQL   
-:three: Cliquez sur GO  
+:three: Cliquez sur GO 
+   
 <img src="../img/02/terminal.webp" width="500"> 
 
 ## OU dans Workbench ouvrez le terminal SQL
@@ -62,14 +63,17 @@ Voici la commande pour créer une table :
 ```sql
 CREATE TABLE film(...);
 ```
-Il est recommandé de:  
-Je peux preciser le **moteur de stockage** de ma table  
+Il est recommandé  preciser le **moteur de stockage** de ma table  
 InnoDB est un moteur de stockage : **storage engine**    
 Sinon par défault j'aurais **MylSAM** au lien de innoDB    
 Celà sera problématique pour les contraintes de clefs étrangère    
 
 ```sql
 CREATE TABLE film (..) ENGINE=InnoDB; 
+```
+Je peux créer la table si elle n'existe pas <code>IF NOT EXISTS<code>:
+```sql
+CREATE TABLE IF NOT EXISTS film (..) ENGINE=InnoDB; 
 ```
 ## Effacer notre première table
 Effacer une table :  
