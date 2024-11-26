@@ -178,3 +178,19 @@ CREATE TABLE film (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
+# Conclusion
+```sql
+# 1 - Effacer le base de données si elle existe
+DROP DATABASE IF EXISTS videotheque_2024;
+# 2 - Créer la base de données
+CREATE DATABASE videotheque_2024 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+# 3 -Préciser la base de données sur laquelle je travaille
+USE videotheque_2024;
+# 4 -Création de la table
+CREATE TABLE film (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    titre VARCHAR(255) NOT NULL,
+    sortie DATE NOT NULL
+
+) ENGINE=InnoDB; 
+```
