@@ -81,7 +81,7 @@ Module 05 La clef étrangère
 - Créer une clef étrangère  
 - Remplir une table avec une clef étrangère  
 - Présentation de db diagram    
-![salade](./img/08/salade.png)
+
 
 
 ### Les Jointures :
