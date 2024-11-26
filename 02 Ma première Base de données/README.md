@@ -1,17 +1,24 @@
 # Ma première Base de données
 
 ## Dans PhpMyAdmin ouvrez le terminal SQL
-  
-   
 - 1 cliquer sur l'onglet SQL  
 - 2 Saisir le code SQL 
 - 3 Cliquez sur GO  
-  
-    
-![terminal](/img/02/terminal.webp)
+<img src="../img/02/terminal.webp" width="500"> 
+
+## OU dans workbench ouvrez le terminal SQL
+- 1 cliquer sur l'onglet SQL  
+- 2 Saisir le code SQL 
+- 3 Cliquez sur l'éclaire
+
+<img src="../img/02/terminal.png" width="500">     
+
 
 ## une documentation bien utile !
 https://www.w3schools.com/mysql/default.asp
+https://sql.sh/  
+https://dev.mysql.com/doc/refman/8.4/en/select.html  
+
 
 ## Création d'une base de données &#x1F600;
 Commande pour créer une base
