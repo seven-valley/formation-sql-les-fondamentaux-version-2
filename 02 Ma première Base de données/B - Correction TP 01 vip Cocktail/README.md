@@ -7,9 +7,9 @@ Créer une table : **personne**
 Rajouter le prefixe "inv" à votre table  
   
 Nou allons créer une liste d'invités pour des soirées VIP  
-![brad](../img/03/brad.webp)
-![george](../img/03/george.webp)
-![jean](../img/03/jean.webp)
+![brad](../../img/03/brad.webp)
+![george](../../img/03/george.webp)
+![jean](../../img/03/jean.webp)
   
 
 ## Partie 1 Création de la table
