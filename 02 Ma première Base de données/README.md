@@ -129,9 +129,9 @@ Car je viole la contrainte de clef primaire
 Nous rajoutons aussi la **contrainte de nullité**    
 Car notre id ne peut être null
 
-```mysql
+```sql
 CREATE TABLE film (
-  id int NOT NULL AUTO_INCREMENT PRIMARY KEY
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
 );
 ```
 ## :movie_camera: Création des autres champs :
