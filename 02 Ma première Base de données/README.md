@@ -71,7 +71,8 @@ Celà sera problématique pour les contraintes de clefs étrangère
 ```sql
 CREATE TABLE film (..) ENGINE=InnoDB; 
 ```
-Je peux créer la table si elle n'existe pas <code>IF NOT EXISTS<code>:
+Je peux créer la table si elle n'existe pas
+ <code>IF NOT EXISTS</code>:
 ```sql
 CREATE TABLE IF NOT EXISTS film (..) ENGINE=InnoDB; 
 ```
