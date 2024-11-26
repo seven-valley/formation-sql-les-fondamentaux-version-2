@@ -28,7 +28,7 @@ Chaque personne à :
 
 :one: Créer une base de donnée : **invitation**  
 :two: Créer une table : **personne**  
-:three: Rajouter le prefixe <code>inv_<code> à votre table   
+:three: Rajouter le prefixe <code>inv_</code> à votre table   
 
 
 ## La correction  :heart_eyes: :
