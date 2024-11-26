@@ -1,5 +1,14 @@
-# La clef étrangère
+# Module 05 - La clef etrangère
 
+<a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
+  <img src="../img/05/m5.png" width="300">
+</a>  
+<br>
+<a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
+05 La clef étrangère
+</a> 
+    
+    
 ![salade](/img/08/salade.png)
   
 ![salade](/img/10/salade.png)

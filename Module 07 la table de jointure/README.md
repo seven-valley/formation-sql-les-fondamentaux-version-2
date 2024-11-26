@@ -1,4 +1,14 @@
-# La table de jointure
+# Module 07 - la table de jointure
+<a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+  <img src="../img/06/m6.png" width="300">
+</a>  
+<br>
+<a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+06 Les jointures
+</a> 
+      
+    
+
 ![film](../img/13/once.webp)
 ![db](fight-club.webp)
 ## Le modèle relationnel
