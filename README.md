@@ -110,7 +110,7 @@ Module 06 Les jointures
 
 ## Jour 3 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
-  <img src="./img/06/m6.png" width="300">
+  <img src="./img/07/m7.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">  
