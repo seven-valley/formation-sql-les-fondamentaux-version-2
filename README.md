@@ -49,12 +49,12 @@ Module 04 Extraire les données
 </tr>
 </table>
 
-### Ajouter des données
+### Ajouter des données dans une table
 - Ajouter des données avec ou sans clef primaire  
 - Tester les valeurs par défaults  
 - Tester les valeurs null  
 
-### Lecture des données
+### Lecture des données des données dans une table
 - Prendre en main **AS**
 - Utiliser la condition **WHERE**
 - Filtrer avec **LIMIT**
@@ -77,17 +77,17 @@ Afficher les données avec **SELECT**
 Module 05 La clef étrangère
 </a>
 
-### la clef étrangère
+### La clef étrangère
 - Créer une clef étrangère  
 - Remplir une table avec une clef étrangère  
 - Présentation de db diagram    
 
-
-
 ### Les Jointures :
-LEFT, RIGHT ou INNER JOIN ?
-Mettre en place des jointures pour extraires les données
-
+Mettre en place des jointures pour extraires les données :
+- INNER JOIN  
+- LEFT JOIN  
+- RIGHT JOIN  
+  
 **TP 05 le monde des chats partie 3 avec clef étrangère**
 Afficher les chats avec leurs couleurs d'yeux 
 
@@ -100,7 +100,7 @@ Afficher les chats avec leurs couleurs d'yeux
 Module 06 Les jointures
 </a>
   
-### TP 06 Films  avec clef étrangère __optionel__
+### TP 06 Films  avec clef étrangère 
 - Afficher les films avec les catégories
 
 ### TP 07 CRM : Devis & Factures 
