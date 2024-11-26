@@ -122,7 +122,8 @@ Module 06 Les jointures
 - Mettre enplace une clef primaire sur 2 ID
 - Extraire les données  
   
-**TP 08 Les films & Acteurs** Extraire les données
+**TP 08 Les films & Acteurs** Extraire les données  
+  
 **TP 09 Site E-commerce**
 Insérer les données  
 Extraire les données  
