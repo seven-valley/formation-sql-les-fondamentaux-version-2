@@ -1,5 +1,4 @@
 # Les fondamentaux SQL
-
 # Plan de la formation
 
 ## JOUR 1 MATIN
@@ -18,7 +17,7 @@
 
 **TP 01 VIP Cocktail**
 Création d'une table personne  
-![personne](./img/personne.png)
+
 
 **TP 02 Le monde des chats** 
 __optionel__   
