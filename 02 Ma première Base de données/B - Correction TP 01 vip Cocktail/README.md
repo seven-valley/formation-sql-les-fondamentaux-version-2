@@ -1,6 +1,6 @@
 # :cocktail: TP 01 VIP Cocktail
 ## La correction
-<img src="../../c.webp" width="100">  
+<img src="../../img/c.webp" width="100">  
 
 Créer une base de donnée : **invitation**  
 Créer une table : **personne**  
