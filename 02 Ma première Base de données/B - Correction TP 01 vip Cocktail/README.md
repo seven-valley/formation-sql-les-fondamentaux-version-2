@@ -48,7 +48,7 @@ CREATE TABLE inv_personne(
     pers_statut TINYINT NOT NULL DEFAULT 1, -- 1 ok 0 pas ok
     pers_type ENUM('membre','NON MEMBRE') NOT NULL DEFAULT 'NON MEMBRE',
     pers_description TEXT, -- peut etre null
-    pers_salaire INT,
+    pers_salaire INT NOT NULL,
     CONSTRAINT pk_personne PRIMARY KEY(pers_id) # pk_personne le nom de la contrainte
 ) ENGINE=InnoDB; 
  

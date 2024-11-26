@@ -1,7 +1,13 @@
-# TP 03 les chats
+# TP 02 Le monde des chats
 
 ![terminal](/img/07/tableau.png)
-  
+| id | nom | yeux | age |
+|---|---|---|---|
+| 1 | Maine coon | marron | 20 |
+| 2 | Siamois | bleu | 15 |
+| 3 | Bengal | marron | 18 |
+| 4 | Scottish Fold | marron | 10 |
+
 ![maincoon](/img/09/maincoon.webp)
 ![siamois](/img/09/siamois.webp)
 ![bengal](/img/09/bengal.webp)
