@@ -21,7 +21,7 @@ https://dev.mysql.com/doc/refman/8.4/en/select.html
 
 
 ## Création d'une base de données &#x1F600;
-Commande pour créer une base
+Commande pour créer une base de données
 ```sql
 CREATE DATABASE ma_base;
 ```
@@ -62,7 +62,7 @@ Voici la commande pour créer une table :
 CREATE TABLE film(...);
 ```
 
-Effacer une table :
+Effacer une table :  
 :warning: **Attention toutes les données seront éffacées !** :sweat_smile:
 ```sql
 DROP TABLE film;
