@@ -4,7 +4,7 @@
 </a>  
 <br>
 <a href="../00 pdf/02 Ma première Base de données.pdf">
-Voir le PDF 02 Ma première Base de données.pdf
+02 Ma première Base de données.pdf
 </a>  
   
 ## Dans PhpMyAdmin ouvrez le terminal SQL
