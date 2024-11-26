@@ -15,45 +15,62 @@
 
 
 ## une documentation bien utile !
-https://www.w3schools.com/mysql/default.asp
+https://www.w3schools.com/mysql/default.asp  
 https://sql.sh/  
 https://dev.mysql.com/doc/refman/8.4/en/select.html  
 
 
 ## Création d'une base de données &#x1F600;
 Commande pour créer une base
-```mysql
+```sql
 CREATE DATABASE ma_base;
 ```
 
 Il est préférable de rajouter l'encodage **UTF8**:
-```mysql
+```sql
 CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-Je precise la base que j'utilise
-```mysql
-USE videotheque;
+SI je souhaite créer la base si elle n'existe pas 
+<code>IF NOT EXISTS</code>
+  
+```sql
+CREATE DATABASE IF NOT EXISTS videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-Il est possible d'éffacer sa base
-:warning: **Attention toutes les tables et donnée seront éffacées !** :scream:
-```mysql
-DROP DATABASE ma_data_base
+Je precise la base que j'utilise pour la suite des commandes SQL
+```sql
+USE videotheque;
 ```
+## Effacer une base de données :warning:
+:warning: Attention **toutes les tables** de la base seront éffacées.  
+:warning: Attention **toutes les données** à l'intérieur des tables seront effacées.
+    
+Il est possible d'effacer sa base
+```sql
+DROP DATABASE ma_data_base;
+```
+Nous pouvons l'effacer **uniquement** si elle existe
+```sql
+DROP DATABASE IF EXISTS ma_data_base;
+```
+
 ## Création de notre première table
 
 Voici la commande pour créer une table :
-```mysql
+```sql
 CREATE TABLE film(...);
 ```
 
 Effacer une table :
 :warning: **Attention toutes les données seront éffacées !** :sweat_smile:
-```mysql
+```sql
 DROP TABLE film;
 ```
-
+Effacer une table si elle existe:
+```sql
+DROP TABLE IF EXISTS film;
+```
 Il est recommandé de:  
 Je peux preciser le **moteur de stockage** de ma table  
 InnoDB est un moteur de stockage : **storage engine**    
