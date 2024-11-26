@@ -6,7 +6,7 @@
 <a href="../00 pdf/02 Ma première Base de données.pdf">
 02 Ma première Base de données.pdf
 </a>  
-  
+<br><br>  
 ## Dans PhpMyAdmin ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL  
 :two: Saisir le code SQL   
