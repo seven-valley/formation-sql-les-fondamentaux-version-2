@@ -33,7 +33,7 @@ Module 02 Ma première Base de données
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-Module 02 Ma première Base de données
+Module 03 Insertion des données
 </a>  
 </td>
 <td>
@@ -42,7 +42,7 @@ Module 02 Ma première Base de données
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-Module 02 Ma première Base de données
+Module 04 Extraire les données
 </a>  
 </td>
 
@@ -69,9 +69,13 @@ Ajouter les données avec **INSERT**
 Afficher les données avec **SELECT**
 
 ## JOUR 2 MATIN
-
-### Révision
-Et Finir le TP 04 le monde des chats
+<a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
+  <img src="./img/05/m5.png" width="300">
+</a>  
+<br>
+<a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
+Module 05 La clef étrangère
+</a>
 
 ### la clef étrangère
 - Créer une clef étrangère  
@@ -84,10 +88,17 @@ Et Finir le TP 04 le monde des chats
 LEFT, RIGHT ou INNER JOIN ?
 Mettre en place des jointures pour extraires les données
 
-### TP 05 le monde des chats V3 avec clef étrangère
-- Afficher les chats avec leurs couleurs d'yeux 
+**TP 05 le monde des chats partie 3 avec clef étrangère**
+Afficher les chats avec leurs couleurs d'yeux 
 
 ## Jour 2 APRES MIDI
+<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+  <img src="./img/06/m6.png" width="300">
+</a>  
+<br>
+<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+Module 06 Les jointures
+</a>
 ### TP 06 Films  avec clef étrangère __optionel__
 - Afficher les films avec les catégories
 
