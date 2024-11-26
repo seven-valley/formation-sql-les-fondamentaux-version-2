@@ -21,13 +21,9 @@ Module 02 Ma première Base de données
 - Mettre des valeurs par défault  
 
 
-**TP 01 VIP Cocktail**
-Création d'une table personne  
+**TP 01 VIP Cocktail** Création d'une table personne  
 
-
-**TP 02 Le monde des chats** 
-__optionel__   
-Création d'une table chat
+**TP 02 Le monde des chats** Création d'une table chat
 ## JOUR 1 APRES MIDI
 
 ### Ajouter des données
