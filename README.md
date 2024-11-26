@@ -1,4 +1,4 @@
-# Plan de la formation -Les fondamentaux SQL
+# Plan de la formation - Les fondamentaux SQL
 
 ## JOUR 1 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
@@ -124,7 +124,7 @@ Module 06 Les jointures
   
 **TP 08 Les films & Acteurs** Extraire les données  
 ## Jour 3 APRES MIDI
-  
+
 **TP 09 Site E-commerce**
 Insérer les données  
 Extraire les données  
