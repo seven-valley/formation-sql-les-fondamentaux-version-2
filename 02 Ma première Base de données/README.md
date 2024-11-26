@@ -41,7 +41,7 @@ CREATE DATABASE IF NOT EXISTS videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_
 
 Je precise la base que j'utilise pour la suite des commandes SQL  
 avec <code>USE</code>
-```sql
+```mysql
 USE videotheque;
 ```
 ## Effacer une base de données :warning:
