@@ -1,6 +1,6 @@
 # TP 02 Le monde des chats
 
-![terminal](/img/07/tableau.png)
+
 | id | nom | yeux | age |
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |
