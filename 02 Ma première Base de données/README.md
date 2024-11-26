@@ -138,7 +138,7 @@ CREATE TABLE film (
 :warning: Chaque ligne est terminée par une **virgule**   
 **sauf la dernière ligne**
 ```sql
-USE videotheque;
+
 CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
@@ -149,7 +149,7 @@ CREATE TABLE film (
 Il est aussi possible de définir la clef primaire à la fin :
 
 ```sql
-USE videotheque;
+
 CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
@@ -162,7 +162,7 @@ Je peux rajouter des commentaires avec <code>#</code> ou <code>--</code> ou <cod
 
 ```sql
 -- je selectionne ma database : videotheque
-USE videotheque;
+
 # creation table film;
 CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
