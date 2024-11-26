@@ -99,27 +99,29 @@ Afficher les chats avec leurs couleurs d'yeux
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
 Module 06 Les jointures
 </a>
+  
 ### TP 06 Films  avec clef étrangère __optionel__
 - Afficher les films avec les catégories
 
 ### TP 07 CRM : Devis & Factures 
- **Difficulté** (Bucheron cannadien) 
 - Création des Tables
 - mettre en place les left join sur 3 tables  
 - Extraire les données avec plusieurs jointures  
 
 ## Jour 3 MATIN
-### TP 07 CRM(suite) : Devis & Factures 
-
-- mettre en place les left join sur 3 tables  
-- Extraire les données avec plusieurs jointures  
+<a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
+  <img src="./img/06/m6.png" width="300">
+</a>  
+<br>
+<a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">  
+07 La table de jointure
+</a>
 
 ### Les Tables de jointures :
 - Créations d'une table de jointures
 - Mettre enplace une clef primaire sur 2 ID
 - Extraire les données
-###  TP 08 Les films & Acteurs
-- Extraire les données
-###  TP 09 Site E-commerce __optionel__
-- Insérer les données
-- Extraire les données
+**TP 08 Les films & Acteurs** Extraire les données
+**TP 09 Site E-commerce**
+Insérer les données  
+Extraire les données  
