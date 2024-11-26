@@ -1,5 +1,10 @@
 # Ma Première Base de données
-
+<a href="../00 pdf/02 Ma première Base de données.pdf">
+  <img src="../img/02/m2.png" width="100">
+</a>
+<a href="../00 pdf/02 Ma première Base de données.pdf">
+Voir le PDF 02 Ma première Base de données.pdf
+</a>
 ## Dans PhpMyAdmin ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL  
 :two: Saisir le code SQL   
