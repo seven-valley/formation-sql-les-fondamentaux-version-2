@@ -2,10 +2,6 @@
 ## La correction
 <img src="../../img/c.webp" width="100">  
 
-Créer une base de donnée : **invitation**  
-Créer une table : **personne**  
-Rajouter le prefixe "inv" à votre table  
-  
 Nou allons créer une liste d'invités pour des soirées VIP  
 ![brad](../../img/03/brad.webp)
 ![george](../../img/03/george.webp)
@@ -23,16 +19,16 @@ Chaque personne à :
 - un type : membre ou non membre (une énumération)
 - une description
 - salaire annuel
-
-
-
-
-
+  
 | prenom | nom | age | inscription | statut | type | description | salaire |
 |----|---|---|---|---|---|---|---|
 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
+
+:one: Créer une base de donnée : **invitation**  
+:two: Créer une table : **personne**  
+:three: Rajouter le prefixe <code>inv_<code> à votre table   
 
 
 ## La correction  :heart_eyes: :
@@ -45,7 +41,7 @@ USE invitation;
 DROP TABLE IF EXISTS inv_personne;
 CREATE TABLE inv_personne(
     pers_id int NOT NULL AUTO_INCREMENT, 
-    pers_prenom VARCHAR(100) NOT NULL DEFAULT 'toto',
+    pers_prenom VARCHAR(100) NOT NULL,
     pers_nom VARCHAR(100) NOT NULL,
     pers_age INT NOT NULL,
     pers_inscription DATE NOT NULL,
