@@ -8,7 +8,7 @@
 
 ## OU dans Workbench ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL    
-:two: Saisir le code SQL 
+:two: Saisir le code SQL  
 :three:  Cliquez sur l'éclaire
 
 <img src="../img/02/terminal.png" width="500">     
