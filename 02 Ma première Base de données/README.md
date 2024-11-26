@@ -1,15 +1,15 @@
 # Ma première Base de données
 
 ## Dans PhpMyAdmin ouvrez le terminal SQL
-- 1 cliquer sur l'onglet SQL  
-- 2 Saisir le code SQL 
-- 3 Cliquez sur GO  
+:one: cliquer sur l'onglet SQL  
+:two: Saisir le code SQL 
+:three:  Cliquez sur GO  
 <img src="../img/02/terminal.webp" width="500"> 
 
 ## OU dans workbench ouvrez le terminal SQL
-- 1 cliquer sur l'onglet SQL  
-- 2 Saisir le code SQL 
-- 3 Cliquez sur l'éclaire
+:one: cliquer sur l'onglet SQL  
+:two: Saisir le code SQL 
+:three:  Cliquez sur l'éclaire
 
 <img src="../img/02/terminal.png" width="500">     
 
