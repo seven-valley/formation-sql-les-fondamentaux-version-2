@@ -18,7 +18,7 @@
 https://www.w3schools.com/mysql/mysql_join_inner.asp
   
 ![inner](/img/08/inner.png)  
-<img src="../img/06/inner.png" width="600">  
+<img src="../img/06/inner.png" width="800">  
 
 
 
