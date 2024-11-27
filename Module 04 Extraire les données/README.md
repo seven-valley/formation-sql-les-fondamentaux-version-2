@@ -120,7 +120,7 @@ Pour compter le nombre de films j'utilise <code>COUNT()</code>
 SELECT 
 COUNT(id) AS nb_films
 FROM film
-``
+```
 
 Cette commande affiche :  
 | nb_films |
