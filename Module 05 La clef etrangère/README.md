@@ -50,6 +50,7 @@ CREATE TABLE fruit (
   nom VARCHAR(30) NOT NULL,
   couleur_id INT  NULL,
     CONSTRAINT pk_couleur PRIMARY KEY(id),
+    # Version 1 la clef étrangère est definit dans la table fruit
     CONSTRAINT fk_couleur FOREIGN KEY (couleur_id) REFERENCES couleur(id)
 )ENGINE=InnoDB;
 ```
@@ -70,7 +71,11 @@ CREATE TABLE fruit (
 )ENGINE=InnoDB;
 
 -- ajout de la contrainte de clef etrangere foreign key
+
+
 ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERENCES couleur(id);
+
+
 ```
 ## Pour plus de clareté écrivez sur plusieur lignes
 Détail de la creation de la contrainte d'intégrité avec <code>ALTER TABLE</code>
