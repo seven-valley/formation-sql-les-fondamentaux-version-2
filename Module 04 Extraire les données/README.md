@@ -38,7 +38,8 @@ Cette commande affiche :
 | 3 | PULP FICTION |
 
 ## AS
-je peux aussi créer des alias avec **AS**
+Je peux aussi définir des alias avec **AS**  
+Il est préférable de mettre les champs sur plusieurs lignes pour plus de lisibilité  
 ```sql
 SELECT 
 id AS numero,
