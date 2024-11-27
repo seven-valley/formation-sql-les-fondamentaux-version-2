@@ -54,8 +54,11 @@ CREATE TABLE fruit (
     CONSTRAINT fk_couleur FOREIGN KEY (couleur_id) REFERENCES couleur(id)
 )ENGINE=InnoDB;
 ```
+<img src="../img/05/fk.png" width="800">
+  
+  
 ## Création des tables Version 2 :
-**Version 1** la clef étrangère est definit a l'extèrieur des tables avec <code>ALTER TABLE</code>
+**Version 2** la clef étrangère est definit a l'extèrieur des tables avec <code>ALTER TABLE</code>
   
 
 
