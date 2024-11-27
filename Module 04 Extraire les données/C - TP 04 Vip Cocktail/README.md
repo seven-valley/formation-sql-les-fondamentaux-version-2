@@ -71,12 +71,12 @@
 :nine: Proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER() 
   
 | id | prenom | nom |
-|---|---|---|---|
+|---|---|---|
 | 1 | Brad | pitt | 
 
 
 | id | prenom | nom |
-|---|---|---|---|
+|---|---|---|
 | 1 | BRAD | pitt | 
 
 
