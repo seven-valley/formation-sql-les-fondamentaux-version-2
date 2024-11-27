@@ -63,6 +63,8 @@ INSERT INTO film (titre,sortie) VALUES
 ## Effacer un ou des enregistrements
 
 :warning: **Penser à vider la table** :scream:  
+  
+  
 Pour vider la table :  
 :warning: l'ID n'est pas remis à 1
 ```sql
