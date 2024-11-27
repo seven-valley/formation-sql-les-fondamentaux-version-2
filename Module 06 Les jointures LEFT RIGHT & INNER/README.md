@@ -7,7 +7,8 @@
 <a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
 06 Les jointures
 </a> 
-    
+
+   <br><br> 
     
 <img src="../img/05/fruit.svg" width="600">
   
