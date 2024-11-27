@@ -1,5 +1,5 @@
 # :cocktail: TP 02 - VIP Cocktail
-## La correction
+## :warning: La correction
 <img src="../../img/c.webp" width="100">  
 
 Nou allons créer une liste d'invités pour des soirées VIP  
