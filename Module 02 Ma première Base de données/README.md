@@ -149,7 +149,7 @@ CREATE TABLE film (
 );
 ```
 ## :movie_camera: Création des autres champs :
-:warning: Chaque ligne est terminée par une **virgule**   
+:warning: Chaque ligne est terminée par une **virgule** <code>,<code>    
 **sauf la dernière ligne**
 ```sql
 
@@ -162,7 +162,7 @@ CREATE TABLE film (
 
 Il est aussi possible de définir la clef primaire à la fin : 
 **Bonne pratique** 
-Avec <code>CONSTRAINT<code> je nomme la clef primaire <code>pk_film</code>  
+Avec <code>CONSTRAINT</code> je nomme la clef primaire <code>pk_film</code>    
 **pk** pour **p**rimary **k**ey  + le nom de la table  
 ```sql
 
