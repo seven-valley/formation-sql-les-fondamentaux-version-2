@@ -29,8 +29,9 @@ Chaque personne a :
 
 :one: Créer une base de donnée : **invitation**  
 :two: Créer une table : **personne**  
+:three: Rajouter le prefixe <code>inv_</code> à votre table  
+   
 ## Le modèle Relationnel
-:three: Rajouter le prefixe <code>inv_</code> à votre table   
 <img src="../../img/02/personne.svg" width="300">
 
 
