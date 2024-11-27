@@ -43,6 +43,7 @@
 | prenom | nom | salaire |
 |---|---|---|
 | Jean | DUJARDIN | 1000000 |
+  
 :five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire avec <code>LIMIT</code> & <code>ORDER BY</code>
   
 | prenom | nom | salaire |
