@@ -1,123 +1,154 @@
-# TP 03 les chats
+# TP 03 - Le monde des les chats
+## La correction
+<img src="../../img/c.webp" width="100"> 
 
-![terminal](/img/07/tableau.png)
+| id | nom | yeux | age |
+|---|---|---|---|
+| 1 | Maine coon | marron | 20 |
+| 2 | Siamois | bleu | 15 |
+| 3 | Bengal | marron | 18 |
+| 4 | Scottish Fold | marron | 10 |
   
 ![maincoon](/img/09/maincoon.webp)
 ![siamois](/img/09/siamois.webp)
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
+:one: - Ajouter les données  
+:two: - Afficher le chat avec l'id :2  
+:three: - Trier les chats par nom et par age  
+:four: - Afficher les chats qui vive entre 11 et 19 ans  
+:five: - Afficher le ou les chats dont le nom contient 'sia'  
+:six: - Afficher le ou les chats dont le nom contient 'a'  
+:seven: - Afficher la moyenne d'age des chats  
+:eight: - Afficher le nombre de chats dans la table   
+:nine: - Afficher le nombre de chat avec couleur d'yeux marron  
+10 - Afficher le nombre de chat par couleur d'yeux    
+[BONUS] - Ajouter les données à partir d'un fichier excel  
 
+# La correction :
+:one: - Ajouter les données  
 ```sql
 USE zoo;
-
--- INSERTION DES DONNES
+-- vider la table
 TRUNCATE chat;
-
+-- INSERTION DES DONNES
 INSERT INTO chat (nom,yeux,age)
 VALUES
 ('maine coon','marron',20),
 ('siamois','bleu',15),
 ('bengal','marron',18),
 ('scottish Fold','marron',10);
-
--- Trier les chats par nom et par age
-SELECT
-id,nom,yeux,age
-FROM chat
-ORDER BY nom,age;
-
 ```
 
-01 - Créer la data base **zoo**  
-02 - Créer la table **chat**  
-03 - Ajouter les données  
-04 - Afficher le chat avec l'id :2  
-05 - Trier les chats par nom et par age  
-06 - Afficher les chats qui vive entre 11 et 19 ans  
-07 - Afficher le ou les chats dont le nom contient 'sia'  
-08 - Afficher la moyenne d'age des chats  
-09 - Afficher le nombre de chats dans la table   
-10 - Afficher le nombre de chat par couleur d'yeux
-avec **COUNT()** et **GROUP BY()**  
-marron : 3  
-bleu : 1  
-  
-[BONUS] 11 - Ajouter les données à partir d'un fichier excel  
-
-# Correction structure de la table
-
-```mysql
--- CREATION DATA BASE
-CREATE DATABASE IF NOT EXISTS zoo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
+:two: - Afficher le chat avec l'id :2 
+| id | nom | yeux | age |
+|---|---|---|---|
+| 2 | Siamois | bleu | 15 |
+```sql
 USE zoo;
-
--- SUPPRIMER LA TABLE
-DROP TABLE IF EXISTS chat;
-
-CREATE TABLE IF NOT EXISTS chat(
- id INT NOT NULL AUTO_INCREMENT,
- nom VARCHAR(50) NOT NULL,
- yeux VARCHAR(20) NOT NULL,
- age INT NOT NULL,
- CONSTRAINT pk_chat PRIMARY KEY (id)
-)ENGINE=INNODB;
-
--- INSERTION DES DONNES
-TRUNCATE chat;
-
-INSERT INTO chat (nom,yeux,age)
-VALUES
-('maine coon','marron',20),
-('siamois','bleu',15),
-('bengal','marron',18),
-('scottish Fold','marron',10);
-
--- affiche 
-SELECT * from chat;
-```
-
-```mysql
-# 04 - Ajouter les données 
 SELECT 
-*
-FROM chat  where id=2;
-```
-
-```mysql
-# 05 - Afficher le chat avec l'id :2 
-SELECT 
-id, nom, yeux, age 
+    id, nom, yeux, age 
 FROM chat 
 WHERE id=2
-```
+```  
+:three: - Trier les chats par nom et par age  
 
-```mysql
-# 06 - Afficher les chats qui vive entre 11 et 19 ans 
+| id | nom | yeux | age |
+|---|---|---|---|
+| 3 | Bengal | marron | 18 |
+| 1 | Maine coon | marron | 20 |
+| 4 | Scottish Fold | marron | 10 |
+| 2 | Siamois | bleu | 15 |
+```sql
+USE zoo;
+SELECT
+    id,nom,yeux,age
+FROM chat
+ORDER BY nom,age;
+``` 
+:four: - Afficher les chats qui vive entre 11 et 19 ans  
+| id | nom | yeux | age |
+|---|---|---|---|
+| 3 | Bengal | marron | 18 |
+| 2 | Siamois | bleu | 15 |
+```sql
+USE zoo;
 SELECT 
-nom, age 
+    nom, age 
 FROM chat 
 WHERE age >=11
 AND age <=19
-```
-```mysql
-# 07 - Afficher le ou les chats dont le nom contient 'sia'  
+``` 
+:five: - Afficher le ou les chats dont le nom contient 'sia'
+| id | nom | yeux | age |
+|---|---|---|---|
+| 2 | Siamois | bleu | 15 |
+```sql
+USE zoo; 
 SELECT 
-id, nom, yeux, age 
-FROM chat 
-WHERE nom LIKE 'sia%'
-```
-```mysql
-# 08 - Afficher la moyenne d'age des chats  
-SELECT 
-AVG(age)
-FROM chat 
-```
-```mysql
-# 09 - Afficher le nombre de chats dans la table 
-SELECT 
-COUNT(id) AS nb_chat
+    nom, age 
 FROM chat  
+WHERE nom LIKE 'sia%'
+``` 
+:six: - Afficher le ou les chats dont le nom contient 'a'
+| id | nom | yeux | age |
+|---|---|---|---|
+| 1 | Maine coon | marron | 20 |
+| 2 | Siamois | bleu | 15 |
+| 3 | Bengal | marron | 18 |
+```sql
+USE zoo; 
+SELECT 
+    nom, age 
+FROM chat  
+WHERE nom LIKE '%a%'
+```
+:seven: - Afficher la moyenne d'age des chats 
+| age_moyen |
+|---|
+| 15.7500 |
+```sql
+USE zoo;
+SELECT 
+    AVG(age) AS age_moyen
+FROM chat 
+```
+:eight: - Afficher le nombre de chats dans la table
+| nb_chat |
+|---|
+| 4 |   
+```sql
+USE zoo;
+SELECT 
+    COUNT(id) AS nb_chat
+FROM chat 
+```
+
+:nine: - Afficher le nombre de chat avec couleur d'yeux marron
+| couleur | nb_chat |
+|---|---|
+| marron | 3 |
+```sql
+USE zoo;
+SELECT
+    yeux AS couleur,
+    COUNT(id) AS nb_chat
+FROM chat
+WHERE yeux ='marron'
+GROUP BY (yeux)
+```
+10 - Afficher le nombre de chat par couleur d'yeux
+| couleur | nb_chat |
+|---|---|
+| marron | 3 |
+| bleu | 1 |
+```sql
+USE zoo;
+SELECT
+    yeux AS couleur,
+    COUNT(id) AS nb_chat
+FROM chat
+GROUP BY (yeux)
 ```
 
