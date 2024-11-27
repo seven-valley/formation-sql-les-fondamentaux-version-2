@@ -25,10 +25,9 @@ TRUNCATE inv_personne;
 INSERT INTO inv_personne 
     (prenom,nom,age,inscription,etat,statut,cv,salaire)  
 VALUES
-('Brad','PITT',	60,	'1970-01-01',1,	'non membre','lorem ipsum', 2000000),
+('Brad','PITT',	60,'1970-01-01',1,'non membre','lorem ipsum', 2000000),
 ('George','Cloney',62,'1999-01-01',1,'membre','juste beau',4000000),
-('Jean','DUJARDIN',51,'1994-01-01',0,'membre','brice de nice',1000000)
-;
+('Jean','DUJARDIN',51,'1994-01-01',0,'membre','brice de nice',1000000);
 ```       
 
 :two: - Afficher le plus gros salaire (avec MAX)  [doc max w3](https://www.w3schools.com/sql/func_mysql_max.asp)    
