@@ -57,7 +57,7 @@ CREATE TABLE fruit (
 ## Création des tables Version 2 :
 **Version 1** la clef étrangère est definit a l'extèrieur des tables avec <code>ALTER TABLE</code>
   
-<img src="../img/05/alter.png" width="800">
+
 
 ```sql
 CREATE TABLE couleur (
@@ -74,13 +74,10 @@ CREATE TABLE fruit (
 )ENGINE=InnoDB;
 
 -- ajout de la contrainte de clef etrangere foreign key
-
-
 ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERENCES couleur(id);
 
-
 ```
-
+<img src="../img/05/alter.png" width="800">
   
 
 ## Pour plus de clareté écrivez sur plusieur lignes
@@ -115,7 +112,7 @@ VALUES
 ```
 
 
-# pseudo code pour db diagram
+# Super Bonus : pseudo code pour db diagram
 
 https://dbdiagram.io/home  
 prompt db diagram :
