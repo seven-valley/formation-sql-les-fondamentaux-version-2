@@ -44,7 +44,7 @@ CREATE TABLE couleur (
 )ENGINE=InnoDB;
 
 
--- ajout de la contrainte de clef etrangere foreign key
+-- ajout de la contrainte de clef etrangere foreign key dans la table fruit
 CREATE TABLE fruit (
   id INT NOT NULL AUTO_INCREMENT,
   nom VARCHAR(30) NOT NULL,
@@ -56,7 +56,7 @@ CREATE TABLE fruit (
 ```
 <img src="../img/05/fk.png" width="800">
   
-  
+
 ## Création des tables Version 2 :
 **Version 2** la clef étrangère est definit a l'extèrieur des tables avec <code>ALTER TABLE</code>
   
