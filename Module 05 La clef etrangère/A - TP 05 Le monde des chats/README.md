@@ -1,5 +1,7 @@
 # TP 03 A Table de jointure
 
+<img src="../../img/05/chat_couleur.svg" width="600">
+
 ![chat](/img/09/chat.png)
 
 ![maincoon](/img/09/maincoon.webp)
@@ -7,13 +9,13 @@
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
-<img src="../../img/05/chat_couleur.svg" width="600">
+
 
 # objectif :
-:one: - Création de la base de données **spa**  
-:two: - Création de la table **chat**  
-:three: - Creation de la table **couleur**  
-:four: - Insérer  les données  
+:one: Création de la base de données **spa**  
+:two: Création de la table **chat**  
+:three: Creation de la table **couleur**  
+:four: Insérer  les données  
 
  
 
