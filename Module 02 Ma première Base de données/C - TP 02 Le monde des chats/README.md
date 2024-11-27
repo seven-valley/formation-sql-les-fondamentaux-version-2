@@ -1,6 +1,8 @@
 # TP 02 Le monde des chats
 
-
+### Les données
+Voici les données qui seront ajoutées  
+Afin de vous aider  à choisir les types de champs  
 | id | nom | yeux | age |
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |
