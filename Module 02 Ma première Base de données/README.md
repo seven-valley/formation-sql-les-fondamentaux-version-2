@@ -22,7 +22,7 @@
 <img src="../img/02/terminal.png" width="500">     
 
 
-## une documentation bien utile !
+## Une documentation bien utile !
 https://www.w3schools.com/mysql/default.asp  
 https://sql.sh/  
 https://dev.mysql.com/doc/refman/8.4/en/select.html  
@@ -80,6 +80,7 @@ CREATE TABLE film (..) ENGINE=InnoDB;
 ```
 Je peux créer la table si elle n'existe pas
  <code>IF NOT EXISTS</code>:
+ 
 ```sql
 CREATE TABLE IF NOT EXISTS film (..) ENGINE=InnoDB; 
 ```
@@ -129,12 +130,14 @@ Autres  :
 
 
 ## :key: Mise en place d'une clé primaire sur notre table
-la clef primaire : **primary key** ou **PK**  
+La clef primaire : **primary key** ou **PK**  
     
 Afin d'identifier une ligne de façon précise on définit une clef primaire    
-La clef primaire peut être définit par MySQL **AI AUTO_INCREMENT**   
+La clef primaire peut être définit par MySQL **AI** ou **AUTO_INCREMENT**  
+   
 :lock: La contrainte de clef primaire impose d'avoir qu'un seul ID  
-c'est à dire si je rentre le même ID MySQL me bloque  
+c'est à dire si je rentre le même ID  :MySQL me bloque 
+(violation de clef de contrainte de clef primaire)  
 Car je viole la contrainte de clef primaire  
   
 Nous rajoutons aussi la **contrainte de nullité**    

@@ -60,7 +60,7 @@ Module 04 Extraire les données
 - Filtrer avec **LIMIT**
 - Classer avec **ORDER BY**
 
- **TP 03 VIP Cockatail partie 2**
+ **TP 03 VIP Cocktail partie 2**
 Ajouter les données avec **INSERT**
 Afficher les données avec **SELECT**
 
