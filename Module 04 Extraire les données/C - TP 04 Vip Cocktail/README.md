@@ -24,7 +24,54 @@
 13 - Afficher le nombre de membres  
 14 - Afficher le nombre des membres et  des non membres  
 
+# Résultats attendus
+
 :two: - Afficher le plus gros salaire (avec MAX)
 | plus_gros_salaire |
 |---|
 | 4000000 |
+:three: - Afficher le plus petit chiffre d'affaire (avec MIN)[doc min w3](https://www.w3schools.com/sql/func_mysql_min.asp)  
+| plus_petit_salaire |
+|---|
+| 4000000 |
+
+:four: - Afficher le nom de l'acteur (et son salaire) qui a le plus petit salaire avec <code>LIMIT</code> & <code>ORDER BY</code>  
+| prenom | nom | salaire |
+|---|---|---|
+| Jean | DUJARDIN | 1000000 |
+:five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire avec <code>LIMIT</code> & <code>ORDER BY</code>
+| prenom | nom | salaire |
+|---|---|---|
+| Jean | DUJARDIN | 1000000 |   
+:six: - Afficher le salaire moyen
+| salaire_moyen |
+|---|
+| 2333333.3333 |   
+:seven: - Afficher le nombre de personnes  
+| nb_personnes |
+|---|
+| 3 | 
+:eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec BETWEEN
+| id | prenom | nom | salaire |
+|---|---|---|---|
+| 1 | Brad | PITT | 2 000 000 |
+
+:nine: Proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER()  
+10 - Afficher les personnes dont le prenom contient 'bra'  
+| id | prenom | nom | salaire |
+|---|---|---|---|
+| 1 | Brad | PITT | 2 000 000 |
+12 - Trier par age les membres  
+| prenom | nom | age |
+|---|---|---|
+| Jean | DUJARDIN | 51 |
+| George | Cloney | 62 |
+13 - Afficher le nombre d'acteur membres 
+ | nb_membres |
+|---|
+| 3 | 
+14 - Afficher le nombre des membres et  d'acteur "non membre" 
+| membre | nb_acteur| 
+|---|---|
+| membre | 2 |  
+| non membre | 1 | 
