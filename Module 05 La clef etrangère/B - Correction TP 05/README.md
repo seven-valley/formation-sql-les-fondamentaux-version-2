@@ -1,4 +1,7 @@
 # TP 05 le mondes des chats avec une table de jointure
+## :warning: La correction
+
+<img src="../../img/c.webp" width="100">  
 
 <img src="../../img/05/chat_couleur.svg" width="600">
 
@@ -15,14 +18,14 @@
 :one: Création de la base de données **spa**  
 :two: Création de la table **chat**  
 :three: Creation de la table **couleur**  
-:four: Insérer  les données  
-
- 
-
-
-## La structure
 ```sql
+# 1 Création de la base de données spa
+DROP DATABASE IF EXISTS spa;
+-- CREATION DE LA DATA BASE
+CREATE DATABASE spa CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE spa;
 
+# 2 Création de la table chat  
 CREATE TABLE chat (
  id int NOT NULL AUTO_INCREMENT,
  nom VARCHAR(50) NOT NULL,
@@ -30,6 +33,7 @@ CREATE TABLE chat (
  CONSTRAINT pk_chat PRIMARY KEY (id)
 )ENGINE=INNODB;
 
+# 3 Creation de la table couleur 
 CREATE TABLE couleur (
  id int NOT NULL AUTO_INCREMENT,
  nom VARCHAR(50) NOT NULL,
@@ -39,14 +43,14 @@ CREATE TABLE couleur (
 ALTER TABLE chat ADD CONSTRAINT fk_couleur FOREIGN KEY (couleur_id) REFERENCES couleur(id);
 ```
 
-## Les data
+:four: Insérer  les données  
 ```sql
+# 1 on commence par la table couleur
 INSERT INTO couleur (nom) VALUES
 ('marron'),
 ('bleu');
 
-
-
+# 1 ensuite la table chat
 INSERT INTO chat (nom,couleur_id) VALUES
 ('maine coon',1),
 ('siaimois',2),
@@ -55,8 +59,7 @@ INSERT INTO chat (nom,couleur_id) VALUES
 ```
 
 # BONUS Le prompt de dbDiagram
-  
-https://dbdiagram.io/home  
+  https://dbdiagram.io/home  
   
 ```
 Table couleur{
@@ -73,7 +76,7 @@ Table chat{
 Ref: "couleur"."id" < "chat"."couleur_id"
 ```
 
-# AFFICHER 
+# Je teste et j'affiche
 ```mysql
 SELECT 
 chat.nom as chat,
@@ -81,5 +84,4 @@ couleur.nom as couleur
 FROM chat
 INNER JOIN couleur 
 ON chat.couleur_id = couleur.id
-# la_table.le_champ
 ```
