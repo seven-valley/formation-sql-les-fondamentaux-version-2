@@ -52,3 +52,33 @@ INSERT INTO film (titre,sortie,categ_id) VALUES
 ('THE MATRIX','1999/06/23',1),
 ('PULP FICTION','1994/10/26',2);
 ```  
+
+# BONUS Le prompt de dbDiagram
+ 
+https://dbdiagram.io/home  
+  
+```
+Table categ{
+  id int [pk,not null, increment]
+  nom varchar(30) [not null]
+}
+Table "film" {
+  "id" INT [pk, not null, increment]
+  "titre" VARCHAR(255) [not null]
+  "sortie" DATE [not null]
+  categ_id INT [null]
+}
+Ref: "categ"."id" < "film"."categ_id"
+```
+
+
+# AFFICHER 
+```mysql
+SELECT 
+film.titre as film,
+categ.nom as categorie
+FROM film
+INNER JOIN categ 
+ON film.categ_id = categ.id
+# la_table.le_champ
+```
