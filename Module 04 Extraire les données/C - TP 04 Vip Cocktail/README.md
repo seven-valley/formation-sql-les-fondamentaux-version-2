@@ -69,6 +69,7 @@
 | 1 | Brad | PITT | 2 000 000 |
   
 :nine: Proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER() 
+  
 | id | prenom | nom |
 |---|---|---|---|
 | 1 | Brad | pitt | 
