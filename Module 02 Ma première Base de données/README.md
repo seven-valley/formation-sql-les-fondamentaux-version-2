@@ -191,7 +191,6 @@ CREATE TABLE film (
   sortie DATE NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
-
 ```
 # Conclusion
 ```sql

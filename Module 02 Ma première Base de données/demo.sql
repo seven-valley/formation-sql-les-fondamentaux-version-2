@@ -1,9 +1,0 @@
-DROP DATABASE IF EXISTS videotheque_2024;
-CREATE DATABASE videotheque_2024 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE videotheque_2024;
-CREATE TABLE film (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    titre VARCHAR(255) NOT NULL,
-    sortie DATE NOT NULL
-
-) ENGINE=InnoDB; 

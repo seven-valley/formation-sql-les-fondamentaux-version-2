@@ -8,8 +8,8 @@ Nou allons créer une liste d'invités pour des soirées VIP
 ![jean](../../img/03/jean.webp)
   
 
-## Partie 1 Création de la table
-Chaque personne à :
+## Partie 1 - Création de la table
+Chaque personne a :
   
 - un prénom
 - un nom  
@@ -30,6 +30,7 @@ Chaque personne à :
 :one: Créer une base de donnée : **invitation**  
 :two: Créer une table : **personne**  
 :three: Rajouter le prefixe <code>inv_</code> à votre table   
+<img src="../img/02/personne.svg" width="300">
 
 
 ## La correction  :heart_eyes: :
