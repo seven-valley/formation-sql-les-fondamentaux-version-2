@@ -17,8 +17,8 @@
 :five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire avec <code>LIMIT</code> & <code>ORDER BY</code>   
 :six: - Afficher le salaire moyen  
 :seven: - Afficher le nombre de personnes  
-:eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec BETWEEN  
-:nine: Proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER()  
+:eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec <code>BETWEEN</code>  
+:nine: Proposer une requete avec  <code>UPPER()</code> & <code>LOWER()</code>  
 10 - Afficher les personnes dont le prenom contient 'bra'  
 12 - Trier par age les membres  
 13 - Afficher le nombre de membres  
@@ -62,13 +62,13 @@
 |---|
 | 3 | 
   
-:eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec BETWEEN
+:eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec <code>BETWEEN</code>
   
 | id | prenom | nom | salaire |
 |---|---|---|---|
 | 1 | Brad | PITT | 2 000 000 |
   
-:nine: Proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER() 
+:nine: Proposer une requete avec  <code>UPPER()</code> & <code>LOWER()</code> 
   
 | id | prenom | nom |
 |---|---|---|
