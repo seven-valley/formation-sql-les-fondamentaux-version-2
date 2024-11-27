@@ -77,6 +77,9 @@ ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERE
 
 
 ```
+<img src="../img/05/alter.png" width="600">
+  
+  
 ## Pour plus de clareté écrivez sur plusieur lignes
 Détail de la creation de la contrainte d'intégrité avec <code>ALTER TABLE</code>
 ```sql
@@ -90,12 +93,22 @@ FOREIGN KEY fruit(couleur_id)
 REFERENCES couleur(id)
 ```
 
-<img src="../img/10/salade.png" width="600">
+
 
 # Ajouter les données
+<img src="../img/10/salade.png" width="600">
+
 ```sql
-INSERT INTO couleur (nom) VALUES ('rouge'),('vert'),('bleu');
-INSERT INTO fruit (nom,couleur_id) VALUES ('pomme',1),('poire',2),('cerise',NULL);
+INSERT INTO couleur (nom) VALUES 
+('rouge'),
+('vert'),
+('bleu');
+
+INSERT INTO fruit (nom,couleur_id) 
+VALUES 
+('pomme',1),
+('poire',2),
+('cerise',NULL);
 ```
 
 
