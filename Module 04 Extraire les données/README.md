@@ -97,7 +97,7 @@ Cette commande affiche :
 
   
 ## ORDER BY
-Pour classer les film par date justilise **ORDER BY**
+Pour classer les films par date justilise **ORDER BY**
 avec **ASC** ou **DESC**
 ```sql
 SELECT 

@@ -1,6 +1,6 @@
 # :cocktail: TP 04 VIP Cocktail - partie 2
   
-| id | prenom | nom | age | inscription | statut | type | description | salaire |
+| id | prenom | nom | age | inscription | etat | statut | cv | salaire |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
 | 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |

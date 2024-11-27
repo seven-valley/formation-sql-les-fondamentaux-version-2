@@ -12,15 +12,17 @@ Chaque personne a :
 - un nom  
 - un age  
 - la date de sont inscription
-- un status : Valide ou NON Valide (un booléen)
-- un type : membre ou non membre (une énumération)
-- une description
+- un etat : Valide ou NON Valide (un booléen)
+- un statut : membre ou non membre (une énumération)
+- un CV
 - salaire annuel
+  
+
 
 ### Les données
 Voici les données qui seront ajoutées  
 Afin de vous aider  à choisir les types de champs  
-| id | prenom | nom | age | inscription | statut | type | description | salaire |
+| id | prenom | nom | age | inscription | etat | statut | cv | salaire |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
 | 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
