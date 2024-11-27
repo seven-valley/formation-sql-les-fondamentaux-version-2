@@ -53,16 +53,21 @@ Cette commande affiche :
 | 2 | THE MATRIX |
 | 3 | PULP FICTION |
   
-### WHERE
-je peux aussi mettre une condition avec **WHERE**
+## WHERE
+Je peux aussi mettre une condition avec **WHERE**
 ```sql
 SELECT 
 id,titre,sortie
 FROM film
 WHERE id=1
 ```
+Cette commande affiche :  
+| id | titre | sortie |
+|---|---|---|
+| 1 | STAR WARS | 1977/05/25 |
 
-### AND
+
+## AND
 je peux filtre avec **WHERE** et **AND**  
 ```sql
 SELECT 
@@ -71,7 +76,12 @@ FROM film
 WHERE titre='STAR WARS'
 AND id=1
 ```
-### LIMIT
+Cette commande affiche :  
+| id | titre | sortie |
+|---|---|---|
+| 1 | STAR WARS | 1977/05/25 |
+
+## LIMIT
 je peux aussi limiter le nombre de résultats avec **LIMIT** 
 ```sql
 SELECT 
@@ -79,7 +89,14 @@ id,titre,sortie
 FROM film
 LIMIT 2
 ```
-### ORDER BY
+Cette commande affiche :  
+| id | titre | sortie |
+|---|---|---|
+| 1 | STAR WARS | 1977/05/25 |
+| 2 | THE MATRIX | 1999/06/23 |
+
+  
+## ORDER BY
 Pour classer les film par date justilise **ORDER BY**
 avec **ASC** ou **DESC**
 ```sql
@@ -88,3 +105,10 @@ id,titre,sortie
 FROM film
 ORDER BY sortie DESC
 ```
+
+Cette commande affiche :  
+| id | titre | sortie |
+|---|---|---|
+| 2 | THE MATRIX | 1999/06/23 |
+| 3 | PULP FICTION | 1994/10/26 |
+| 1 | STAR WARS | 1977/05/25 |
