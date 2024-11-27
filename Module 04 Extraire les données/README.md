@@ -20,9 +20,12 @@ Cette commande affiche :
 | 1 | STAR WARS | 1977/05/25 |
 | 2 | THE MATRIX | 1999/06/23 |
 | 3 | PULP FICTION | 1994/10/26 |
-
+  
+-----------------------------------------------------------------------------------
+  
 Il préférable de cibler les champs :
 Chaque champ est séparé par une virgule <code>,</code>
+En effet <code>*</code> est trop gourmande en ressource  
 
 ```sql
 SELECT id,titre FROM film
