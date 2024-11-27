@@ -14,6 +14,12 @@ La commande **SELECT** permet d'extraire tous les films avec <code>*</code>
 ```sql
 SELECT * FROM film
 ```
+Cette commande affiche :  
+| id | titre | sortie |
+|---|---|---|
+| 1 | STAR WARS | 1977/05/25 |
+| 2 | THE MATRIX | 1999/06/23 |
+| 3 | PULP FICTION | 1994/10/26 |
 
 Il préférable de cibler les champs :
 Chaque champ est séparé par une virgule <code>,</code>
@@ -21,14 +27,28 @@ Chaque champ est séparé par une virgule <code>,</code>
 ```sql
 SELECT id,titre FROM film
 ```
-### AS
-je peux aussi créer des alias avec **as**
+Cette commande affiche :  
+| id | titre |
+|---|---|
+| 1 | STAR WARS |
+| 2 | THE MATRIX |
+| 3 | PULP FICTION |
+
+## AS
+je peux aussi créer des alias avec **AS**
 ```sql
 SELECT 
-id as numero,
-titre as nom
+id AS numero,
+titre AS nom
 FROM film
 ```
+Cette commande affiche :  
+| numero | nom |
+|---|---|
+| 1 | STAR WARS |
+| 2 | THE MATRIX |
+| 3 | PULP FICTION |
+  
 ### WHERE
 je peux aussi mettre une condition avec **WHERE**
 ```sql
