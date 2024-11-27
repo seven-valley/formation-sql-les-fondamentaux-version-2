@@ -56,6 +56,9 @@ CREATE TABLE fruit (
 ```
 ## Création des tables Version 2 :
 **Version 1** la clef étrangère est definit a l'extèrieur des tables avec <code>ALTER TABLE</code>
+  
+<img src="../img/05/alter.png" width="800">
+
 ```sql
 CREATE TABLE couleur (
   id INT NOT NULL AUTO_INCREMENT,
@@ -77,9 +80,9 @@ ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERE
 
 
 ```
-<img src="../img/05/alter.png" width="600">
+
   
-  
+
 ## Pour plus de clareté écrivez sur plusieur lignes
 Détail de la creation de la contrainte d'intégrité avec <code>ALTER TABLE</code>
 ```sql
