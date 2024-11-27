@@ -97,7 +97,7 @@ Cette commande affiche :
 
   
 ## ORDER BY
-Pour classer les films par date justilise **ORDER BY**
+Pour classer les films par date j'utilise **ORDER BY**
 avec **ASC** ou **DESC**
 ```sql
 SELECT 
@@ -113,6 +113,19 @@ Cette commande affiche :
 | 3 | PULP FICTION | 1994/10/26 |
 | 1 | STAR WARS | 1977/05/25 |
 
+## COUNT
+Pour compter le nombre de films j'utilise <code>COUNT()</code>
 
-## count grou by
-## between
+```sql
+SELECT 
+COUNT(id) AS nb_films
+FROM film
+``
+
+Cette commande affiche :  
+| nb_films |
+|---|
+| 3 | 
+
+
+## COUNT & GROUP BY
