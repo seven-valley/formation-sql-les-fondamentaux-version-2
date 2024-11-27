@@ -14,7 +14,7 @@
 ![pulp](../img/04/pulp.webp)
   
 | id | titre | sortie |
-|---|---|---|---|
+|---|---|---|
 | 1 | STAR WARS | 1977/05/25 |
 | 2 | THE MATRIX | 1999/06/23 |
 | 3 | PULP FICTION | 1994/10/26 |
