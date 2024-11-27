@@ -97,8 +97,8 @@ Cette commande affiche :
 
   
 ## ORDER BY
-Pour classer les films par date j'utilise **ORDER BY**
-avec **ASC** ou **DESC**
+Pour classer les films par date j'utilise <code>ORDER BY</code>
+avec <code>ASC</code> ou <code>DESC</code>
 ```sql
 SELECT 
 id,titre,sortie
