@@ -19,7 +19,7 @@
 :five: - Afficher le ou les chats dont le nom contient 'sia'  
 :six: - Afficher la moyenne d'age des chats  
 :seven: - Afficher le nombre de chats dans la table   
-:eight: - Afficher le nombre de chat par couleur d'yeux
+:eight: - Afficher le nombre de chat par couleur d'yeux  
 :nine: [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # Résultats attendus
@@ -36,7 +36,7 @@
 | 2 | Siamois | bleu | 15 |
 | 3 | Bengal | marron | 18 |
 | 4 | Scottish Fold | marron | 10 |
-  
+
 :four: - Afficher les chats qui vive entre 11 et 19 ans  
 :five: - Afficher le ou les chats dont le nom contient 'sia'  
 :six: - Afficher la moyenne d'age des chats  
