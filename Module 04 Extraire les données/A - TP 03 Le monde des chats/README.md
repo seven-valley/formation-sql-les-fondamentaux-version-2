@@ -21,7 +21,7 @@
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron  
-:ten: - Afficher le nombre de chat par couleur d'yeux    
+10 - Afficher le nombre de chat par couleur d'yeux    
 [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # Résultats attendus
@@ -72,7 +72,7 @@
 |---|---|
 | marron | 3 |
 
-:ten: - Afficher le nombre de chat par couleur d'yeux
+10 - Afficher le nombre de chat par couleur d'yeux
 | couleur | nb_chat |
 |---|---|
 | marron | 3 |
