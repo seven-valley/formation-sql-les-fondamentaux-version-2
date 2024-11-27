@@ -1,4 +1,4 @@
-# TP 02 les chats
+# TP 01 -Le mode des les chats
 ## La correction
 <img src="../../img/c.webp" width="100">    
   

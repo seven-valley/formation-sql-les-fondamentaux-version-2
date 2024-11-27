@@ -1,4 +1,4 @@
-# :cocktail: TP 01 VIP Cocktail
+# :cocktail: TP 02 - VIP Cocktail
 Nou allons créer une liste d'invités pour des soirées VIP  
 ![brad](../../img/03/brad.webp)
 ![george](../../img/03/george.webp)
