@@ -157,15 +157,17 @@ CREATE TABLE film (
 ) ENGINE=InnoDB;
 ```
 
-Il est aussi possible de définir la clef primaire à la fin :
-
+Il est aussi possible de définir la clef primaire à la fin : 
+**Bonne pratique** 
+Avec <code>CONSTRAINT<code> je nomme la clef primaire <code>pk_film</code>  
+**pk** pour **p**rimary **k**ey  + le nom de la table  
 ```sql
 
 CREATE TABLE film (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
-  PRIMARY KEY (id)
+  CONSTRAINT pk_film PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
 
@@ -173,7 +175,7 @@ Je peux rajouter des commentaires avec <code>#</code> ou <code>--</code> ou <cod
 
 ```sql
 -- je selectionne ma database : videotheque
-
+USE videotheque
 # creation table film;
 CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
