@@ -74,7 +74,7 @@ Effacer un enregistrement
 DELETE FROM film where id=1;
 ```
 
-**Bonne pratique**   :heart_eyes: : 
+**Bonne pratique**   :heart_eyes: :   
 Pour vider la table et repartir à l'ID=1:
 ```sql
 TRUNCATE film;
