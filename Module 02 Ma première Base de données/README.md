@@ -149,7 +149,7 @@ CREATE TABLE film (
 );
 ```
 ## :movie_camera: Création des autres champs :
-:warning: Chaque ligne est terminée par une **virgule** <code>,<code>    
+:warning: Chaque ligne est terminée par une **virgule** <code>,</code>    
 **sauf la dernière ligne**
 ```sql
 
