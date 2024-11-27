@@ -14,7 +14,7 @@
 :two: - Afficher le plus gros chiffre d'affaire (avec MAX)[doc max w3](https://www.w3schools.com/sql/func_mysql_max.asp)    
 :three: - Afficher le plus petit chiffre d'affaire (avec MIN)[doc min w3](https://www.w3schools.com/sql/func_mysql_min.asp)      
 :four: - Afficher le nom de l'acteur (et son salaire) qui a le plus petit salaire avec <code>LIMIT</code> & <code>ORDER BY</code>  
-:five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire  
+:five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire avec <code>LIMIT</code> & <code>ORDER BY</code>   
 :six: - Afficher le salaire moyen  
 :seven: - Afficher le nombre de personnes  
 :eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec BETWEEN  
