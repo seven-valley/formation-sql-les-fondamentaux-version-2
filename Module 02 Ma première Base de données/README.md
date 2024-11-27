@@ -148,20 +148,9 @@ CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
 );
 ```
-## :movie_camera: Création des autres champs :
-:warning: Chaque ligne est terminée par une **virgule** <code>,</code>    
-**sauf la dernière ligne**
-```sql
 
-CREATE TABLE film (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  titre VARCHAR(255) NOT NULL,
-  sortie DATE NOT NULL
-) ENGINE=InnoDB;
-```
-
+**Bonne pratique**   :heart_eyes: :  
 Il est aussi possible de définir la clef primaire à la fin :   
-**Bonne pratique**   
 Avec <code>CONSTRAINT</code> je nomme la clef primaire <code>pk_film</code>    
 **pk** pour **p**rimary **k**ey  + <code>le nom de la table</code>   
 :warning: Dans ce cas là on enlève <code>PRIMARY KEY</code> de la premère ligne
@@ -174,6 +163,20 @@ CREATE TABLE film (
   CONSTRAINT pk_film PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
+
+
+## :movie_camera: Création des autres champs :
+:warning: Chaque ligne est terminée par une **virgule** <code>,</code>    
+**sauf la dernière ligne**
+```sql
+
+CREATE TABLE film (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  titre VARCHAR(255) NOT NULL,
+  sortie DATE NOT NULL
+) ENGINE=InnoDB;
+```
+
 
 Je peux rajouter des commentaires avec <code>#</code> ou <code>--</code> ou <code>/* .... */</code>
 

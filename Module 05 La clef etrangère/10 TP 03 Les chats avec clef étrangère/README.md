@@ -56,7 +56,7 @@ INSERT INTO chat (nom,couleur_id) VALUES
 ('Scottish Fold',1);
 ```
 
-# Le prompt de dbDiagram
+# BONUS Le prompt de dbDiagram
   
 https://dbdiagram.io/home  
   
