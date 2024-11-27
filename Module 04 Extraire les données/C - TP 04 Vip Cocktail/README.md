@@ -6,9 +6,9 @@
 | 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
     
-![brad](../img/03/brad.webp)
-![george](../img/03/george.webp)
-![jean](../img/03/jean.webp)
+![brad](../../img/03/brad.webp)
+![george](../../img/03/george.webp)
+![jean](../../img/03/jean.webp)
 
 :one: - Ajouter les données      
 :two: - Afficher le plus gros chiffre d'affaire (avec MAX)
