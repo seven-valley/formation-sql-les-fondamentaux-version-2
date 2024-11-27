@@ -126,9 +126,9 @@ Autres  :
 
 # Exemple : Création d'une table film
 <img src="../img/02/film.svg" width="300">
+    
   
-
-
+  
 ## :key: Mise en place d'une clé primaire sur notre table
 La clef primaire : **primary key** ou **PK**  
     
