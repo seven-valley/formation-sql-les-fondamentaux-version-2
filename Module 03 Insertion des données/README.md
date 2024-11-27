@@ -60,9 +60,10 @@ INSERT INTO film (titre,sortie) VALUES
 ('THE MATRIX','1999/06/23'),
 ('PULP FICTION','1994/10/26');
 ```
+## Effacer un ou des enregistrements
 
 :warning: **Penser à vider la table** :scream:  
-Pour vider la table :
+Pour vider la table :  
 :warning: l'ID n'est pas remis à 1
 ```sql
 DELETE FROM film;
