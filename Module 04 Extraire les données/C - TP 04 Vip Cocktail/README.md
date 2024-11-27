@@ -11,10 +11,8 @@
 ![jean](../../img/03/jean.webp)
 
 :one: - Ajouter les données        
-:two: - Afficher le plus gros chiffre d'affaire (avec MAX)  
-[doc max w3](https://www.w3schools.com/sql/func_mysql_max.asp)    
-:three: - Afficher le plus petit chiffre d'affaire (avec MIN)
-[doc min w3](https://www.w3schools.com/sql/func_mysql_min.asp)      
+:two: - Afficher le plus gros chiffre d'affaire (avec MAX)[doc max w3](https://www.w3schools.com/sql/func_mysql_max.asp)    
+:three: - Afficher le plus petit chiffre d'affaire (avec MIN)[doc min w3](https://www.w3schools.com/sql/func_mysql_min.asp)      
 :four: - Afficher le nom de l'acteur (et son salaire) qui a le plus petit salaire avec <code>LIMIT</code> & <code>ORDER BY</code>  
 :five: - Afficher le nom de l'acteur (et son salaire) qui a le plus gros salaire  
 :six: - Afficher le salaire moyen  
