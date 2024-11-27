@@ -18,10 +18,11 @@
 
 
 ```sql
+
 # 1 Création de la base de données
-DROP DATABASE IF EXISTS videotheque;
-CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE videotheque;
+DROP DATABASE IF EXISTS netflix;
+CREATE DATABASE netflix CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE netflix;
 
 # 2 table film
 CREATE TABLE film (
