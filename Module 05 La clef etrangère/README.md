@@ -37,6 +37,11 @@ Une couleur est posséder par plusieurs fruis **One to   Many**
 **Version 1** la clef étrangère est definit dans la table <code>fruit</code>
 
 ```sql
+DROP DATABASE IF EXISTS salade_de_fruits;
+CREATE DATABASE salade_de_fruits CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE salade_de_fruits;
+# -------------------
+
 CREATE TABLE couleur (
   id INT NOT NULL AUTO_INCREMENT,
   nom VARCHAR(30) NOT NULL,
@@ -63,6 +68,11 @@ CREATE TABLE fruit (
 
 
 ```sql
+DROP DATABASE IF EXISTS salade_de_fruits;
+CREATE DATABASE salade_de_fruits CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE salade_de_fruits;
+# -------------------
+
 CREATE TABLE couleur (
   id INT NOT NULL AUTO_INCREMENT,
   nom VARCHAR(30) NOT NULL,
