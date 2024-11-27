@@ -11,11 +11,9 @@
 <br>
 <br>
      
---------------------------------------------------------------------  
   
 <img src="../img/05/fruit.svg" width="600">
   
---------------------------------------------------------------------  
   
 <img src="../img/10/salade.png" width="600">
 
@@ -74,7 +72,7 @@ CREATE TABLE fruit (
 -- ajout de la contrainte de clef etrangere foreign key
 ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERENCES couleur(id);
 ```
-# Pour plus de clareté écrivez sur plusieur lignes
+## Pour plus de clareté écrivez sur plusieur lignes
 Détail de la creation de la contrainte d'intégrité avec <code>ALTER TABLE</code>
 ```sql
 # ALTER TABLE "la table qui contient la clef etrangere" 
@@ -87,6 +85,7 @@ FOREIGN KEY fruit(couleur_id)
 REFERENCES couleur(id)
 ```
 
+<img src="../img/10/salade.png" width="600">
 
 # Ajouter les données
 ```sql
