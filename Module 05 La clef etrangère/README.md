@@ -8,8 +8,8 @@
 05 La clef étrangère
 </a> 
     
-    
-![salade](/img/08/salade.png)
+
+<img src="../img/05/fruit.svg" width="300">
   
 ![salade](/img/10/salade.png)
 
