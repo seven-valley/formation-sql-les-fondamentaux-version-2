@@ -53,7 +53,9 @@
 :six: - Afficher le ou les chats dont le nom contient 'a'
 | id | nom | yeux | age |
 |---|---|---|---|
-| 2 | Siamois | bleu | 15 | 
+| 1 | Maine coon | marron | 20 |
+| 2 | Siamois | bleu | 15 |
+| 3 | Bengal | marron | 18 |
 
 :seven: - Afficher la moyenne d'age des chats 
 | age_moyen |
