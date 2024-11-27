@@ -5,7 +5,7 @@ Nou allons créer une liste d'invités pour des soirées VIP
 ![jean](../../img/03/jean.webp)
   
 
-## Partie 1 Création de la table
+## Partie 1 - Création de la table
 Chaque personne à :
   
 - un prénom
@@ -16,7 +16,10 @@ Chaque personne à :
 - un type : membre ou non membre (une énumération)
 - une description
 - salaire annuel
-  
+
+### Les données
+Voici les données qui seront ajoutées  
+Afin de vous aider  à choisir les types de champs  
 | id | prenom | nom | age | inscription | statut | type | description | salaire |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
