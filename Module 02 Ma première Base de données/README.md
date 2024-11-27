@@ -184,12 +184,14 @@ Je peux rajouter des commentaires avec <code>#</code> ou <code>--</code> ou <cod
 -- je selectionne ma database : videotheque
 USE videotheque ;
 # creation table film;
+/* ceci est aussi des commentaires */
 CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
+
 ```
 # Conclusion
 ```sql
