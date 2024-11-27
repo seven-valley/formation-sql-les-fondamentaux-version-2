@@ -9,7 +9,7 @@
 </a> 
     
     
-![salade](/img/08/salade.png)
+<img src="../img/05/fruit.svg" width="600">
   
 ![salade](/img/10/salade.png)
   
