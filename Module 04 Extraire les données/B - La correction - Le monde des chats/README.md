@@ -50,7 +50,7 @@ USE zoo;
 SELECT 
     id, nom, yeux, age 
 FROM chat 
-WHERE id=2
+WHERE id=2;
 ```  
 :three: - Trier les chats par nom et par age  
 
@@ -78,7 +78,7 @@ SELECT
     nom, age 
 FROM chat 
 WHERE age >=11
-AND age <=19
+AND age <=19;
 ``` 
 :five: - Afficher le ou les chats dont le nom contient 'sia'
 | id | nom | yeux | age |
@@ -89,7 +89,7 @@ USE zoo;
 SELECT 
     nom, age 
 FROM chat  
-WHERE nom LIKE 'sia%'
+WHERE nom LIKE 'sia%';
 ``` 
 :six: - Afficher le ou les chats dont le nom contient 'a'
 | id | nom | yeux | age |
@@ -102,7 +102,7 @@ USE zoo;
 SELECT 
     nom, age 
 FROM chat  
-WHERE nom LIKE '%a%'
+WHERE nom LIKE '%a%';
 ```
 :seven: - Afficher la moyenne d'age des chats 
 | age_moyen |
@@ -112,7 +112,7 @@ WHERE nom LIKE '%a%'
 USE zoo;
 SELECT 
     AVG(age) AS age_moyen
-FROM chat 
+FROM chat; 
 ```
 :eight: - Afficher le nombre de chats dans la table
 | nb_chat |
@@ -122,7 +122,7 @@ FROM chat
 USE zoo;
 SELECT 
     COUNT(id) AS nb_chat
-FROM chat 
+FROM chat; 
 ```
 
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron
@@ -136,7 +136,7 @@ SELECT
     COUNT(id) AS nb_chat
 FROM chat
 WHERE yeux ='marron'
-GROUP BY (yeux)
+GROUP BY (yeux);
 ```
 10 - Afficher le nombre de chat par couleur d'yeux
 | couleur | nb_chat |
@@ -149,6 +149,6 @@ SELECT
     yeux AS couleur,
     COUNT(id) AS nb_chat
 FROM chat
-GROUP BY (yeux)
+GROUP BY (yeux);
 ```
 
