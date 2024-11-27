@@ -7,10 +7,15 @@
 <a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
 05 La clef étrangère
 </a> 
-    
 
-<img src="../img/05/fruit.svg" width="300">
+<br>
+<br>   
   
+<img src="../img/05/fruit.svg" width="600">
+  
+<br>
+<br>
+
 ![salade](/img/10/salade.png)
 
 
