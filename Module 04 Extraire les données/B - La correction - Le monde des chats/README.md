@@ -7,6 +7,28 @@
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
+
+```sql
+USE zoo;
+
+-- INSERTION DES DONNES
+TRUNCATE chat;
+
+INSERT INTO chat (nom,yeux,age)
+VALUES
+('maine coon','marron',20),
+('siamois','bleu',15),
+('bengal','marron',18),
+('scottish Fold','marron',10);
+
+-- Trier les chats par nom et par age
+SELECT
+id,nom,yeux,age
+FROM chat
+ORDER BY nom,age;
+
+```
+
 01 - Créer la data base **zoo**  
 02 - Créer la table **chat**  
 03 - Ajouter les données  
