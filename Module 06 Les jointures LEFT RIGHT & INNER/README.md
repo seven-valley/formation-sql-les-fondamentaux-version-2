@@ -12,7 +12,7 @@
     
 <img src="../img/05/fruit.svg" width="600">
   
-![salade](/img/10/salade.png)
+<img src="../img/10/salade.png" width="600">
   
   
 https://www.w3schools.com/mysql/mysql_join_inner.asp
