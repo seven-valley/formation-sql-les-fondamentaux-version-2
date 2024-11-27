@@ -36,7 +36,7 @@
    
 | plus_petit_salaire |
 |---|
-| 4000000 |
+| 1000000 |
   
 :four: - Afficher le nom de l'acteur (et son salaire) qui a le plus petit salaire avec <code>LIMIT</code> & <code>ORDER BY</code>
     
