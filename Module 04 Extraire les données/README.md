@@ -9,13 +9,14 @@
 </a> 
   
   
-### SELECT
-La commande **SELECT** permet d'extraire tous les films
+## SELECT
+La commande **SELECT** permet d'extraire tous les films avec <code>*</code>
 ```sql
 SELECT * FROM film
 ```
 
 Il préférable de cibler les champs :
+Chaque champ est séparé par une virgule <code>,</code>
 
 ```sql
 SELECT id,titre FROM film
