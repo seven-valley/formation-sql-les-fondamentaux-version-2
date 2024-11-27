@@ -18,18 +18,18 @@
 https://www.w3schools.com/mysql/mysql_join_inner.asp
   
 ![inner](/img/08/inner.png)  
-  
-```mysql
-SELECT *
+<img src="../img/06/inner.png" width="600">  
+
+
+
+```sql
+SELECT fruit.nom,couleur.nom 
 FROM fruit
 INNER JOIN couleur on fruit.couleur_id = couleur.id;
 ```
 
-```mysql
-SELECT fruit.nom,couleur.nom 
-FROM fruit
-INNER JOIN couleur on fruit.couleur_id = couleur.id;
 
+```sql
 SELECT f.nom AS fruit,c.nom AS couleur
 FROM fruit AS f
 INNER JOIN couleur AS c on f.couleur_id = c.id;
