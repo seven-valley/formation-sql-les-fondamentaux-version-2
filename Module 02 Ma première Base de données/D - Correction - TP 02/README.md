@@ -23,7 +23,7 @@ Chaque personne a :
 | id | prenom | nom | age | inscription | etat | statut | cv | salaire |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
-| 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
+| 2 | George | CLONEY | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
 
 
