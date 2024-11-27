@@ -93,11 +93,11 @@
 | Jean | DUJARDIN | 51 |
 | George | Cloney | 62 |
   
-13 - Afficher le nombre d'acteur membres 
+13 - Afficher le nombre d'acteur "membre" 
   
 | nb_membres |
 |---|
-| 3 | 
+| 2 | 
   
 14 - Afficher le nombre des membres et  d'acteur "non membre"
    
