@@ -30,7 +30,7 @@ Chaque personne a :
 :one: Créer une base de donnée : **invitation**  
 :two: Créer une table : **personne**  
 :three: Rajouter le prefixe <code>inv_</code> à votre table   
-<img src="../img/02/personne.svg" width="300">
+<img src="../../img/02/personne.svg" width="300">
 
 
 ## La correction  :heart_eyes: :
