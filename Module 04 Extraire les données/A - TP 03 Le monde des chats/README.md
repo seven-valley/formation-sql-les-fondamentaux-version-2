@@ -16,7 +16,7 @@
 :two: - Afficher le chat avec l'id :2  
 :three: - Trier les chats par nom et par age  
 :four: - Afficher les chats qui vive entre 11 et 19 ans  
-:five: - Afficher le ou les chats dont le nom contient 'sia'
+:five: - Afficher le ou les chats dont le nom contient 'sia'  
 :six: - Afficher le ou les chats dont le nom contient 'a'  
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
