@@ -7,7 +7,7 @@
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
-<img src="../../img/05/chat_couleur.svg" width="800">
+<img src="../../img/05/chat_couleur.svg" width="600">
 
 # objectif :
 :one: - Création de la base de données **spa**  
