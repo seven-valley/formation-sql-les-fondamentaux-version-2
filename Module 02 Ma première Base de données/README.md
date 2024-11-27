@@ -186,10 +186,10 @@ USE videotheque ;
 # creation table film;
 /* ceci est aussi des commentaires */
 CREATE TABLE film (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
-  PRIMARY KEY (id)
+  CONSTRAINT pk_film PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
 # Conclusion
@@ -202,9 +202,9 @@ CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE videotheque;
 # 4 -Création de la table
 CREATE TABLE film (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id INT NOT NULL AUTO_INCREMENT,
     titre VARCHAR(255) NOT NULL,
     sortie DATE NOT NULL
-
+    CONSTRAINT pk_film PRIMARY KEY(id)
 ) ENGINE=InnoDB; 
 ```

@@ -1,4 +1,4 @@
-# TP 05 le mondes des chats avec une table de jointure
+# TP 05 - Le mondes des chats avec une table de jointure
 
 <img src="../../img/05/chat_couleur.svg" width="600">
 
