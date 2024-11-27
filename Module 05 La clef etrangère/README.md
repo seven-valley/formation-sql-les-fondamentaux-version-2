@@ -13,8 +13,6 @@
   
 <img src="../img/05/fruit.svg" width="600">
   
-<br>
-<br>
 
 ![salade](/img/10/salade.png)
 
