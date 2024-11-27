@@ -6,7 +6,7 @@ Nou allons créer une liste d'invités pour des soirées VIP
   
 
 ## Partie 1 - Création de la table
-Chaque personne à :
+Chaque personne a :
   
 - un prénom
 - un nom  
