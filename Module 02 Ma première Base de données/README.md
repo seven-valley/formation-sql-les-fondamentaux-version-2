@@ -160,10 +160,11 @@ CREATE TABLE film (
 ) ENGINE=InnoDB;
 ```
 
-Il est aussi possible de définir la clef primaire à la fin : 
-**Bonne pratique** 
+Il est aussi possible de définir la clef primaire à la fin :   
+**Bonne pratique**   
 Avec <code>CONSTRAINT</code> je nomme la clef primaire <code>pk_film</code>    
-**pk** pour **p**rimary **k**ey  + le nom de la table  
+**pk** pour **p**rimary **k**ey  + <code>le nom de la table</code>   
+:warning: Dans ce cas là on enlève <code>PRIMARY KEY</code> de la premère ligne
 ```sql
 
 CREATE TABLE film (
