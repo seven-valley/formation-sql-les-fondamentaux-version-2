@@ -10,7 +10,7 @@
 <br><br>    
 
 ![film](../img/13/once.webp)
-![db](fight-club.webp)
+![db](../img/07/fight-club.webp)
 ## Le modèle relationnel
 <img src="../img/05/film_has_acteur.svg" width="800">
 

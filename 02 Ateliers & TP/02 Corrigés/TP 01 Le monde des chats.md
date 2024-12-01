@@ -1,6 +1,6 @@
 # TP 01 - Le monde des les chats
 ## :warning: La correction
-<img src="../../img/c.webp" width="100">    
+<img src="../../img/c.webp" width="100"> <img src="../../img/one.webp" width="100">    
   
 | id | nom | yeux | age |
 |---|---|---|---|

@@ -1,4 +1,5 @@
 # :cocktail: TP 04 VIP Cocktail - partie 2
+<img src="../../img/four.webp" width="100"> 
   
 | id | prenom | nom | age | inscription | etat | statut | cv | salaire |
 |---|---|---|---|---|---|---|---|---|

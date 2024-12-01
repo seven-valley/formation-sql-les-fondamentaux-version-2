@@ -1,4 +1,5 @@
 # TP 01 - Le monde des chats
+<img src="../../img/one.webp" width="100">
 
 ### Les données
 Voici les données qui seront ajoutées  

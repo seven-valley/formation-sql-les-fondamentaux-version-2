@@ -1,4 +1,6 @@
 # :cocktail: TP 02 - VIP Cocktail
+<img src="../../img/two.webp" width="100"> 
+ 
 Nou allons créer une liste d'invités pour des soirées VIP  
 ![brad](../../img/03/brad.webp)
 ![george](../../img/03/george.webp)

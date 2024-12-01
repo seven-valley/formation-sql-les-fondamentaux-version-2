@@ -1,6 +1,6 @@
 # :cocktail: TP 02 - VIP Cocktail
 ## :warning: La correction
-<img src="../../img/c.webp" width="100">  
+<img src="../../img/c.webp" width="100">  <img src="../../img/two.webp" width="100"> 
 
 Nou allons créer une liste d'invités pour des soirées VIP  
 ![brad](../../img/03/brad.webp)

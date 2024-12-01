@@ -1,4 +1,5 @@
 # TP 03 Le monde des chats - partie 2
+<img src="../../img/three.webp" width="100"> 
 
 | id | nom | yeux | age |
 |---|---|---|---|
