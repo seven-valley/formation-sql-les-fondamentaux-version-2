@@ -1,5 +1,5 @@
 # TP 8 - Location ski
-<img src="../../img/eight.webp" width="100">  <img src="../../img/jeanpaul.webp" width="200">
+<img src="../../img/eight.webp" width="100">  <img src="../../img/jeanpaul.webp" width="100">
 
 <img src="../../img/05/ski.svg" width="800">
 
