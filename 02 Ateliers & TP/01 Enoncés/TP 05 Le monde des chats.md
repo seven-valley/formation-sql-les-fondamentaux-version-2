@@ -2,10 +2,11 @@
 <img src="../../img/five.webp" width="100">
 <img src="../../img/05/chat-couleur.svg" width="600">
 Prise en main des commandes :  
-  
+    
 <code>INNER JOIN</code>    
 <code>LEFT JOIN</code>    
-
+  
+  
 <img src="../../img/06/tp-chat.png" width="800">
 
   
