@@ -1,6 +1,8 @@
 # :cocktail: TP 02 - VIP Cocktail
 <img src="../../img/two.webp" width="100"> 
+  
 Prise en main des commandes :  
+  
 - <code>CREATE DATA BASE</code>    
 - <code>CREATE TABLE</code>    
 - <code>DROP DATA BASE</code>    
