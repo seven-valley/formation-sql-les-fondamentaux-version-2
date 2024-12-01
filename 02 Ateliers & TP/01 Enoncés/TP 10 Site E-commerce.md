@@ -28,9 +28,10 @@
 
 
 <img src="../../img/15/c.png" width="400">
-:one: Créer la base de données      
-:two: Ajouter données      
-:three: Afficher la commande de Brad PITT      
+  
+:one: Créer la base de données  
+:two: Ajouter données  
+:three: Afficher la commande de Brad PITT  
 
 
 # Bonus : pseudo code pour db diagram
