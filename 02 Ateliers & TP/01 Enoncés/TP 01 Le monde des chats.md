@@ -1,4 +1,4 @@
-# TP 01 - Le monde des chats
+# TP 1 - Le monde des chats
 <img src="../../img/one.webp" width="100">
   
 Prise en main des commandes : 

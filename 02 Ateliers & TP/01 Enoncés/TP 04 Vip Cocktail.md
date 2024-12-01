@@ -1,4 +1,4 @@
-# :cocktail: TP 04 VIP Cocktail - partie 2
+# :cocktail: TP 4 VIP Cocktail - partie 2
 <img src="../../img/four.webp" width="100"> 
 Prise en main des commandes :  
   

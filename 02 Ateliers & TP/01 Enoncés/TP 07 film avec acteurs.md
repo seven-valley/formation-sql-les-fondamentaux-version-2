@@ -1,5 +1,5 @@
-# TP 9 - Film avec acteurs - table de jointure
-<img src="../../img/nine.webp" width="100">
+# TP 7 - Film avec acteurs - table de jointure
+<img src="../../img/seven.webp" width="100">
 
 ![db](../../img/13/titanic.webp)
 ## Le modèle relationnel

@@ -1,4 +1,4 @@
-# TP 03 Le monde des chats - partie 2
+# TP 3 Le monde des chats - partie 2
 <img src="../../img/three.webp" width="100"> 
 Prise en main des commandes :  
   

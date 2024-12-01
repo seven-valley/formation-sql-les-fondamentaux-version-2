@@ -1,6 +1,11 @@
-# TP 06 - Les films avec catégories
+# TP 6 - Les films avec catégories
 <img src="../../img/six.webp" width="100">
 <img src="../../img/05/film_categ.svg" width="600">
+  
+Prise en main des commandes :  
+  
+<code>INNER JOIN</code>    
+<code>LEFT JOIN</code> 
 
 | id | titre | sortie | categorie |
 |---|---|---|---|

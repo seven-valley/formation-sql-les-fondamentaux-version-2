@@ -1,4 +1,4 @@
-# :cocktail: TP 02 - VIP Cocktail
+# :cocktail: TP 2 - VIP Cocktail
 ## :warning: La correction
 <img src="../../img/c.webp" width="100">  <img src="../../img/two.webp" width="100"> 
 

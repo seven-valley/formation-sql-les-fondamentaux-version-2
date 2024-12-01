@@ -1,5 +1,5 @@
-# TP 10 - Location ski
-<img src="../../img/ten.webp" width="100">
+# TP 8 - Location ski
+<img src="../../img/eight.webp" width="100">
 
 <img src="../../img/05/ski.svg" width="800">
 

@@ -1,4 +1,4 @@
-# TP 03 - Le monde des les chats
+# TP 3 - Le monde des les chats
 ## :warning: La correction
 <img src="../../img/c.webp" width="100"> <img src="../../img/three.webp" width="100">  
 

@@ -1,7 +1,7 @@
-# TP 10 - Location ski
+# TP 8 - Location ski
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/ten.webp" width="100">
+<img src="../../img/c.webp" width="100">  <img src="../../img/eight.webp" width="100">
 
 
 # Partie 1
