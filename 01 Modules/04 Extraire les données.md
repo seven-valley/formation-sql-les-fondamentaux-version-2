@@ -127,5 +127,3 @@ Cette commande affiche :
 |---|
 | 3 | 
 
-
-## COUNT & GROUP BY
