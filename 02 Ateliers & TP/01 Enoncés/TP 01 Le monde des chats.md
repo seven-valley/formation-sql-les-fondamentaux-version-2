@@ -1,5 +1,12 @@
 # TP 01 - Le monde des chats
 <img src="../../img/one.webp" width="100">
+Prise en main des commandes :  
+- <code>CREATE DATA BASE</code>  
+- <code>CREATE TABLE</code>  
+- <code>DROP DATA BASE</code>  
+- <code>DROP TABLE</code>  
+- <code>IF EXISTS</code>  
+- <code>IF NOT EXISTS</code>  
 
 ### Les données
 Voici les données qui seront ajoutées  
