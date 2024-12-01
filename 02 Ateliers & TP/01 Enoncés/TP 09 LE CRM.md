@@ -32,12 +32,12 @@ Nous lui envoyons une facture
 ## Les factures
 |Facture|devis|info|total|Client|date|paiement|
 |---|---|---|---|---|---|---|
-|FA001|DEV2100A|Site internet partie 1|1500|Mairie de Rennes|01/09/2023|01/10/2023|
-|FA002|DEV2100A|Site internet partie 2|1500|Marie de Rennes|20/09/2023||
-|FA003|DEV2100C|Logiciel CRM|5000|Neo Soft|01/02/2024||
-|FA004|DEV2100D|Logiciel devis|3000|Sopra|03/03/2024|03/04/2024|
-|FA005|DEV2100E|Site internet ecommerce|5000|Accenture|01/03/2023||
-|FA006|DEV2100F|logiciel ERP |2000|Neo Soft|01/03/2023||
+|FA001|DEV2100A|Site internet partie 1|1 500 euros|Mairie de Rennes|01/09/2023|01/10/2023|
+|FA002|DEV2100A|Site internet partie 2|1 500  euros|Marie de Rennes|20/09/2023||
+|FA003|DEV2100C|Logiciel CRM|5 000 euros|Neo Soft|01/02/2024||
+|FA004|DEV2100D|Logiciel devis|3 000  euros|Sopra|03/03/2024|03/04/2024|
+|FA005|DEV2100E|Site internet ecommerce|5 000 euros|Accenture|01/03/2023||
+|FA006|DEV2100F|logiciel ERP |2 000 euros|Neo Soft|01/03/2023||
   
 
    
@@ -45,9 +45,7 @@ Nous lui envoyons une facture
 # Partie 1
 - Créer la base de données avec 4 tables 
 - Ajouter les données 
-  **[OPTIONEL]**  
-:shipit:Réaliser le modèle relationnel sur db diagram  et fournir le prompt
-<img src="../../img/dbdiagram.svg" width="200">    
+
  
 # Partie 2
 :one: Afficher toutes les factures avec le nom des clients  
