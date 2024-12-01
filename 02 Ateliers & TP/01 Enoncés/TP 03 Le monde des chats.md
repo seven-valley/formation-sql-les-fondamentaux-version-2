@@ -1,6 +1,10 @@
 # TP 03 Le monde des chats - partie 2
 <img src="../../img/three.webp" width="100"> 
-
+Prise en main des commandes :  
+  
+<code>INSERT INTO</code>    
+<code>SELECT</code>    
+   
 | id | nom | yeux | age |
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |

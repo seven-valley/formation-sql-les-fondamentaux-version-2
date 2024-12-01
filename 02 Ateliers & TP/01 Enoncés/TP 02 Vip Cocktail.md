@@ -3,12 +3,12 @@
   
 Prise en main des commandes :  
   
-- <code>CREATE DATA BASE</code>    
-- <code>CREATE TABLE</code>    
-- <code>DROP DATA BASE</code>    
-- <code>DROP TABLE</code>    
-- <code>IF EXISTS</code>    
-- <code>IF NOT EXISTS</code>   
+<code>CREATE DATA BASE</code>    
+<code>CREATE TABLE</code>    
+<code>DROP DATA BASE</code>    
+<code>DROP TABLE</code>    
+<code>IF EXISTS</code>    
+<code>IF NOT EXISTS</code>   
    
 Nou allons créer une liste d'invités pour des soirées VIP  
 ![brad](../../img/03/brad.webp)

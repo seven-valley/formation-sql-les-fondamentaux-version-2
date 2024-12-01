@@ -1,6 +1,10 @@
 # :cocktail: TP 04 VIP Cocktail - partie 2
 <img src="../../img/four.webp" width="100"> 
+Prise en main des commandes :  
   
+<code>INSERT INTO</code>    
+<code>SELECT</code>    
+   
 | id | prenom | nom | age | inscription | etat | statut | cv | salaire |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
