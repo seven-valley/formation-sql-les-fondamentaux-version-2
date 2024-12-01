@@ -18,7 +18,7 @@
 ```sql
 DROP DATABASE IF EXISTS my_crm;
 CREATE DATABASE my_crm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-use my_crm;
+USE my_crm;
 
 
 CREATE TABLE client (
@@ -201,6 +201,8 @@ GROUP BY(client.id)
 |Neo Soft| |
 
 ```sql
+USE my_crm;
+
 SELECT client.nom , SUM(facture.total)
 FROM client
 LEFT JOIN projet ON projet.client_id = client.id
@@ -211,23 +213,29 @@ GROUP BY (client.id);
 
 :four: Afficher le CA total  
 
- | ca_total |
+| ca_total |
 |--- |
 |18000|
 
 ```sql
+USE my_crm;
+
 SELECT SUM(total) FROM facture;
 ```  
 :five: Afficher  la somme des factures en attente de paiement 
- | total_factures |
+| total_factures |
 |--- |
 |13500|
 ```sql
+USE my_crm;
+
 SELECT SUM(total) FROM facture WHERE date_paiement IS NULL;
 ```
 - autre possibilité avec le nom client
 ```sql
 -- 5 - afficher la somme des factures en attente de paiement
+USE my_crm;
+
 SELECT 
 client.nom,
 facture.reference,
@@ -245,13 +253,15 @@ WHERE facture.date_paiement IS NULL;
 30 jours max  
 Avec le nombre de jours de retard    
 
- | facture | nb_jour |
+| facture | nb_jour |
 |--- |--- |
 |FA0002 |427|
 |FA0003 |293|
 |FA0005 |630|
 |FA0006 |630|  
 ```sql
+USE my_crm;
+
 SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours
 FROM facture 
 WHERE date_paiement IS NULL
@@ -260,12 +270,51 @@ AND DATEDIFF(CURDATE(),date_crea)  > 30;
 :seven: Ajouter une pénalité de 2 euros par jours de retard
 
  ```sql
+USE my_crm;
 SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours , (DATEDIFF(CURDATE(),date_crea)-30 *2) AS penalite
 FROM facture 
 WHERE date_paiement IS NULL
 AND DATEDIFF(CURDATE(),date_crea)  > 30;
 ```
+# Partie 3
+  **[OPTIONEL]**  
+:shipit:Réaliser le modèle relationnel sur db diagram  et fournir le prompt  
+[db Diagram](https://dbdiagram.io/home)    
+<img src="../../img/dbdiagram.svg" width="200"> 
+```
+Table "client" {
+  "id" INT [pk, not null, increment]
+  "nom" VARCHAR(255) [not null]
+}
 
+Table "projet" {
+  "id" INT [pk, not null, increment]
+  "nom" VARCHAR(255) [not null]
+  "client_id" INT [not null]
+}
+
+Table "devis" {
+  "id" INT [pk, not null, increment]
+  "version" INT [not null]
+  "reference" VARCHAR(10) [not null]
+  "prix" FLOAT [not null]
+  "projet_id" INT [not null]
+}
+
+Table "facture" {
+  "id" INT [pk, not null, increment]
+  "reference" VARCHAR(10) [not null]
+  "info" VARCHAR(255) [not null]
+  "total" FLOAT [not null]
+  "date_crea" DATE [not null]
+  "date_paiement" DATE
+  "devis_id" INT [not null]
+}
+
+Ref "fk_client":"client"."id" < "projet"."client_id"
+Ref "fk_projets":"projet"."id" < "devis"."projet_id"
+Ref "fk_devis":"devis"."id" < "facture"."devis_id"
+````
 
 
 
