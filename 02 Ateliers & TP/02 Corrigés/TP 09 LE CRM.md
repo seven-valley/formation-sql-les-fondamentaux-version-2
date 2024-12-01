@@ -1,191 +1,20 @@
-# TP 8 - CRM Customer  Relationship Management
-Gestion des devis et factures d'une entreprise
-  
-**echelle de Scoville 100 000**  :underage:  
-[Échelle de Scoville](https://fr.wikipedia.org/wiki/%C3%89chelle_de_Scoville)  
-3 piments :cactus::cactus::cactus:  
-  
+# TP 9 - CRM Customer  Relationship Management
+## :warning: La correction
 
-## Le pitch :
-Le client a un projet  
-En fonction du projet , nous lui proposons plusieurs devis  
-Il valide un devis  
-Nous lui envoyons une facture  
+<img src="../../img/c.webp" width="100">  <img src="../../img/nine.webp" width="100">
   
 
 ## Modele relationnel
-![crm](../img/11/crm.webp)
-## Les Clients
-![client](../img/11/client.png)
-## Les factures
-![facture](../img/11/facture.png)
-  
-**attention les dates des factures ont été modifiées !** 
-   
-# les data
+<img src="../../img/05/crm.svg" width="800">
 
-```sql
-DROP DATABASE IF EXISTS my_crm;
-CREATE DATABASE my_crm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-use my_crm;
 
-INSERT INTO client (nom) VALUES 
-	('Mairie de Rennes'),
-	('Neo Soft'),
-	('Sopra'),
-	('Accenture'),
-	('Amazon');
-INSERT INTO projet (nom, client_id) VALUES
-	('Création de site internet', 1),
-	('Logiciel CRM', 2),
-	('Logiciel de devis', 3),
-	('Site internet e-commerce', 4),
-	('Logiciel ERP', 2),
-	('Logiciel gestion de stock',5);
-
-INSERT INTO devis (version,reference, prix, projet_id) VALUES
-	('1','DEV2100A', 3000, 1),
-	('2','DEV2100B', 5000, 1),
-	('1','DEV2100C', 5000, 2),
-	('1','DEV2100D', 3000, 3),
-	('1','DEV2100E', 5000, 4),
-	('1','DEV2100F', 2000, 5),
-	('1','DEV2100G', 1000, 6);
-
-INSERT INTO facture (reference,info,total,devis_id,date_crea,date_paiement)	
-    VALUES
-	('FA001', 'site internet partie 1', 1500, 1, '2023-09-01','2023-10-01'),
-	('FA002', 'site internet partie 2', 1500, 1, '2023-09-20',null),
-	('FA003', 'logiciel CRM', 5000, 3, '2024-02-01',null),
-	('FA004', 'logiciel devis', 3000, 4, '2024-03-03','2024-04-03'),
-	('FA005', 'site ecommerce', 5000, 5, '2023-03-01',null),
-	('FA006', 'logiciel ERP', 2000, 6, '2023-03-01',null);
-```
 # Partie 1
 ##  Créer la base de données  en 4 étape  
   11 - Créer la table client & Ajouter les données de client  
   12 - Créer la table projet & Ajouter les données de projet  
   13 - Créer la table devis & Ajouter les données de devis    
   14 - Créer la table facture & Ajouter les données de facture  
-  
-2 - Ajouter les données  
-  
-# Partie 2
-:one: Afficher toutes les factures avec le nom des clients
-:two: Afficher le nombre de factures par client
-:three: Afficher le chiffre d'affaire par client
-:four: Afficher le CA total  
-:five: Afficher  la somme des factures en attente de paiement 
-:six: Afficher les factures en retard de paiment
-:seven: Ajouter une pénalité de 2 euros par jours de retard
 
-----------------------------------------------------------------
-
-:one: Afficher toutes les factures avec le nom des clients
-| ref | client | info | total | date | paiement | 
-|--- |--- |--- |--- |--- |--- |
-|FA001|Mairie de Rennes |site internet partie 1	|1500|2023-09-01|2023-10-01|
-|FA002|Mairie de Rennes |site internet partie 2	|1500|2023-09-20||	
-|FA003|Neo Soft |logiciel CRM|5000|2024-02-01||	
-|FA004|Sopra |logiciel devis|3000|2024-03-03|2024-04-03||
-|FA005|Accenture |site ecommerce|5000|2023-03-01| |	
-|FA006|Neo Soft|	logiciel ERP|2000|2023-03-01| |	   
- 
-:two: Afficher le nombre de factures par client 
-_Afficher 0 factures si il n'y a pas de factures_  
-    
- | client | nb_factures|
-|--- |--- |
-|Mairie de Rennes |2|
-|Neo Soft |2|
-|Sopra |1|
-|Accenture |1 |
-|Neo Soft|1|
-:three: Afficher le chiffre d'affaire par client   
-  
- | client | nb_factures|
-|--- |--- |
-|Mairie de Rennes |3000|
-|Neo Soft |7000|
-|Sopra |3000|
-|Accenture |5000 |
-|Neo Soft| |
-  
-:four: Afficher le CA total  
-
- | ca_total |
-|--- |
-|18000|  
-:five: Afficher  la somme des factures en attente de paiement 
- | total_factures |
-|--- |
-|13500|
-        
-:six: Afficher les factures en retard de paiment    
-30 jours max  
-Avec le nombre de jours de retard    
-
- | facture | nb_jour |
-|--- |--- |
-|FA0002 |427|
-|FA0003 |293|
-|FA0005 |630|
-|FA0006 |630|  
-
-:seven: Ajouter une pénalité de 2 euros par jours de retard
-
-# Partie 3 réaliser un modèle relationnel
-  **[OPTIONEL]**  
-:shipit:Réaliser le modèle relationnel sur db diagram  et fournir le prompt
-<img src="../../img/dbdiagram.svg" width="200">  
-
-[db Diagram](https://dbdiagram.io/home)   
-
-
-
-# Partie 1 
-## Etape 11 & 12
-```sql
-DROP DATABASE IF EXISTS my_crm;
-CREATE DATABASE my_crm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-use my_crm;
-
-
-CREATE TABLE client (
- id INT NOT NULL AUTO_INCREMENT,
- nom VARCHAR(255) NOT NULL,
- CONSTRAINT pk_client PRIMARY KEY (id)
-)ENGINE=INNODB;
-
-CREATE TABLE projet(
- id INT NOT NULL AUTO_INCREMENT,
- client_id INT NOT NULL,
- nom VARCHAR(255) NOT NULL,
- CONSTRAINT pk_projet PRIMARY KEY (id)
-)ENGINE=INNODB;
-
-ALTER TABLE projet 
-ADD CONSTRAINT fk_client 
-FOREIGN KEY projet(client_id) 
-REFERENCES client(id);
-
--- LES DATA
-INSERT INTO client (nom) VALUES 
-	('Mairie de Rennes'),
-	('Neo Soft'),
-	('Sopra'),
-	('Accenture'),
-	('Amazon');
-INSERT INTO projet (nom, client_id) VALUES
-	('Création de site internet', 1),
-	('Logiciel CRM', 2),
-	('Logiciel de devis', 3),
-	('Site internet e-commerce', 4),
-	('Logiciel ERP', 2),
-	('Logiciel gestion de stock',5);
-```
-# Partie 1 
-## Etape 13 & 14
 ```sql
 DROP DATABASE IF EXISTS my_crm;
 CREATE DATABASE my_crm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -242,7 +71,9 @@ ALTER TABLE facture
 ADD CONSTRAINT fk_devis 
 FOREIGN KEY facture(devis_id) 
 REFERENCES devis(id);
-
+```  
+## 2 - Ajouter les données  
+```sql
 -- LES DATA
 INSERT INTO client (nom) VALUES 
 	('Mairie de Rennes'),
@@ -275,14 +106,21 @@ INSERT INTO facture (reference,info,total,devis_id,date_crea,date_paiement)
 	('FA004', 'logiciel devis', 3000, 4, '2024-03-03','2024-04-03'),
 	('FA005', 'site ecommerce', 5000, 5, '2023-03-01',null),
 	('FA006', 'logiciel ERP', 2000, 6, '2023-03-01',null);
-```
+```  
+# Partie 2
 
-# Partie 2 
-## Question 1 
- Afficher toutes les factures avec le nom des clients  
- ![alt text](image-1.png) 
+
+:one: Afficher toutes les factures avec le nom des clients
+| ref | client | info | total | date | paiement | 
+|--- |--- |--- |--- |--- |--- |
+|FA001|Mairie de Rennes |site internet partie 1	|1500|2023-09-01|2023-10-01|
+|FA002|Mairie de Rennes |site internet partie 2	|1500|2023-09-20||	
+|FA003|Neo Soft |logiciel CRM|5000|2024-02-01||	
+|FA004|Sopra |logiciel devis|3000|2024-03-03|2024-04-03||
+|FA005|Accenture |site ecommerce|5000|2023-03-01| |	
+|FA006|Neo Soft|	logiciel ERP|2000|2023-03-01| |	  
+
 ```sql
-
 SELECT 
 client.nom,
 facture.reference,
@@ -314,10 +152,16 @@ INNER JOIN devis ON projet.id =devis.projet_id
 INNER JOIN facture ON devis.id =facture.devis_id;
 ```
 
-## Question 2
-2 - Afficher le nombre de factures par client    
-- afficher 0 factures si il n'y a pas de factures   
-![alt text](image.png)
+:two: Afficher le nombre de factures par client 
+_Afficher 0 factures si il n'y a pas de factures_  
+    
+ | client | nb_factures|
+|--- |--- |
+|Mairie de Rennes |2|
+|Neo Soft |2|
+|Sopra |1|
+|Accenture |1 |
+|Neo Soft|1|
 
 ```sql
 USE my_crm;
@@ -345,10 +189,18 @@ RIGHT JOIN projet ON devis.projet_id = projet.id
 RIGHT JOIN client ON projet.client_id =client.id
 GROUP BY(client.id)
 ```
-## Question 3
-3 - afficher le chiffre d'affaire par client  
-![alt text](image-2.png)
-```mysql
+
+:three: Afficher le chiffre d'affaire par client   
+  
+| client | nb_factures|
+|--- |--- |
+|Mairie de Rennes |3000|
+|Neo Soft |7000|
+|Sopra |3000|
+|Accenture |5000 |
+|Neo Soft| |
+
+```sql
 SELECT client.nom , SUM(facture.total)
 FROM client
 LEFT JOIN projet ON projet.client_id = client.id
@@ -356,16 +208,21 @@ LEFT JOIN devis ON devis.projet_id = projet.id
 LEFT JOIN facture ON facture.devis_id = devis.id
 GROUP BY (client.id);
 ```
-## Question 4
-4 - afficher le CA total  
-![alt text](image-4.png) 
-```mysql
+
+:four: Afficher le CA total  
+
+ | ca_total |
+|--- |
+|18000|
+
+```sql
 SELECT SUM(total) FROM facture;
-```
-## Question 5
-5 - afficher  la somme des factures en attente de paiement  
-![alt text  ](image-5.png)
-```mysql
+```  
+:five: Afficher  la somme des factures en attente de paiement 
+ | total_factures |
+|--- |
+|13500|
+```sql
 SELECT SUM(total) FROM facture WHERE date_paiement IS NULL;
 ```
 - autre possibilité avec le nom client
@@ -383,15 +240,34 @@ INNER JOIN projet ON devis.projet_id = projet.id
 INNER JOIN client ON projet.client_id =client.id
 WHERE facture.date_paiement IS NULL;
 ```
-## Question 6
-6 - afficher les factures en retard de paiment 30 jours max  
-avec le nombre de jours de retard  
-![alt text](image-6.png)  
-```mysql
+
+:six: Afficher les factures en retard de paiment    
+30 jours max  
+Avec le nombre de jours de retard    
+
+ | facture | nb_jour |
+|--- |--- |
+|FA0002 |427|
+|FA0003 |293|
+|FA0005 |630|
+|FA0006 |630|  
+```sql
 SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours
 FROM facture 
 WHERE date_paiement IS NULL
 AND DATEDIFF(CURDATE(),date_crea)  > 30;
 ```
+:seven: Ajouter une pénalité de 2 euros par jours de retard
 
-7 - ajouter 1 euros par jours de retard
+ ```sql
+SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours , (DATEDIFF(CURDATE(),date_crea)-30 *2) AS penalite
+FROM facture 
+WHERE date_paiement IS NULL
+AND DATEDIFF(CURDATE(),date_crea)  > 30;
+```
+
+
+
+
+
+

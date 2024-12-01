@@ -5,9 +5,7 @@ Prise en main des commandes :
     
 <code>INNER JOIN</code>    
 <code>LEFT JOIN</code>    
-  <br>
-  <br>
-  
+
 <img src="../../img/06/tp-chat.png" width="800">
 
   
