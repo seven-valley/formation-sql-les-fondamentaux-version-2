@@ -1,8 +1,6 @@
 # TP 10 - SITE E-commerce
 <img src="../../img/ten.webp" width="100">
 
-<img src="../../img/05/e-commerce.svg" width="800">
-
 <table>
 <tr>
 <td valign=top>
