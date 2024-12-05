@@ -6,3 +6,13 @@
 <a href="../00 Les fichiers PDF - Supports de cours/01 Présentation SQL.pdf">
 01 Présentation SQL
 </a>  
+
+
+
+https://laragon.org/
+
+https://www.heidisql.com/download.php
+<a href="https://www.heidisql.com/download.php">
+  <img src="../img/01/heidi.webp" width="600">
+  </a>
+ <a href="https://www.heidisql.com/download.php">https://www.heidisql.com/download.php</a>
