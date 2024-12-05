@@ -20,6 +20,7 @@
 ## Laragon
 Pour installer mysql 
 avec phpMyAdmin
+<br>
 <a href="https://laragon.org/">
   <img src="../img/01/laragon.webp" width="500">
   </a>
