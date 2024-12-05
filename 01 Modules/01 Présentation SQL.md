@@ -9,10 +9,15 @@
 
 
 
-https://laragon.org/
 
-https://www.heidisql.com/download.php
+## heidi SQL
 <a href="https://www.heidisql.com/download.php">
   <img src="../img/01/heidi.webp" width="600">
   </a>
  <a href="https://www.heidisql.com/download.php">https://www.heidisql.com/download.php</a>
+
+## Laragon
+<a href="https://laragon.org/">
+  <img src="../img/01/laragon.webp" width="600">
+  </a>
+ <a href="https://laragon.org/">https://laragon.org/</a>
