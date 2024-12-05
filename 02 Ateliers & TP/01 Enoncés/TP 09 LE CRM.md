@@ -76,7 +76,7 @@ _Afficher 0 factures si il n'y a pas de factures_
 |Neo Soft |2|
 |Sopra |1|
 |Accenture |1 |
-|Neo Soft|1|
+|Amazon |0|
   
 :three: Afficher le chiffre d'affaire par client     
 | client | nb_factures|

@@ -145,7 +145,6 @@ facture.total,
 facture.date_crea, 
 facture.date_paiement
 
--- amazon 0
 FROM client  
 INNER JOIN projet ON client.id = projet.client_id
 INNER JOIN devis ON projet.id =devis.projet_id
@@ -161,15 +160,13 @@ _Afficher 0 factures si il n'y a pas de factures_
 |Neo Soft |2|
 |Sopra |1|
 |Accenture |1 |
-|Neo Soft|1|
-
+|Amazon |0|
+  
 ```sql
-USE my_crm;
+SE my_crm;
 SELECT 
 client.nom,
-COUNT(facture.id)
-
--- amazon 0
+COUNT(facture.id) AS nb_factures
 FROM client  
 LEFT JOIN projet ON client.id = projet.client_id
 LEFT JOIN devis ON projet.id =devis.projet_id
