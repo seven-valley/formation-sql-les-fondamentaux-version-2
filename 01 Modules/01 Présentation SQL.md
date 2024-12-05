@@ -30,10 +30,10 @@ avec phpMyAdmin
 ## SQL Server & SSMS
 SQL Server & **S**erver **M**anagement **S**tudio (SSMS)
 <a href="https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads">
-  <img src="../img/01/sql-server.webp" width="500">
+  <img src="../img/01/sql-server.webp" width="400">
   </a>
   <br>
  <a href="https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads">https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads</a>
-
+<br>
 Cliquez sur le bouton Installer SSMS à la dernière étape de l'assistant d'installation de SQL Server
 Une page Web s'ouvre avec un lien pour télécharger SQL Server Management Studio.
