@@ -6,9 +6,9 @@ Le CRUD :
 - **R** comme **D**ELETE
   
 Nous allons utiliser :  
-- CREATE avec <code>CREATE</code>  
-- UPDATE avec <code>UPDATE</code>  
-- DELETE avec <code>DELETE</code> & <code>TRUNCATE</code>  
+- **CREATE** avec <code>INSERT</code>  
+- **UPDATE** avec <code>UPDATE</code>  
+- **DELETE** avec <code>DELETE</code> & <code>TRUNCATE</code>  
 
 <a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
   <img src="../img/03/m3.png" width="300">
@@ -29,16 +29,16 @@ Nous allons utiliser :
 | 2 | THE MATRIX | 1999/06/23 |
 | 3 | PULP FICTION | 1994/10/26 |
   
-Pour insérer les données dans une table :
+Pour insérer les données dans une table, voici la structure:
 ```sql
 INSERT INTO film (...) VALUES (...);
 ```
 
-Je précise les champs :
+:one: Je précise les champs :
 ```sql
 INSERT INTO film (id,titre,sortie) VALUES (...);
 ```
-Et puis je rentre les valeurs :
+:two: Et puis je rentre les valeurs :
 ```sql
 INSERT INTO film (id,titre,sortie) VALUES (1,'STAR WARS','1977/05/25');
 ```
@@ -63,7 +63,7 @@ INSERT INTO film (id,titre,sortie) VALUES
 (2,'THE MATRIX','1999/06/23'),
 (3,'PULP FICTION','1994/10/26');
 ```
-**ou bien sans les ID** :
+**Ou bien sans les ID** :
 ```sql
 INSERT INTO film (titre,sortie) VALUES
 ('STAR WARS','1977/05/25'),
