@@ -292,7 +292,7 @@ WHERE date_paiement IS NULL
 AND DATEDIFF(NOW(),date_crea)  > 30;
 ```
 
-:seven: Ajouter une pénalité de 2 euros par jours de retard
+:eight: Ajouter une pénalité de 2 euros par jours de retard
 |client| facture | nb_jour |penalite|
 |--- |--- |--- |--- |
 |Mairie de Rennes |FA002 |413 |826 euros|
