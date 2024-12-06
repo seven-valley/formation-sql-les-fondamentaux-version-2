@@ -22,8 +22,8 @@
 :six: - Afficher le ou les chats dont le nom contient 'a'  
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
-:nine: - Afficher le nombre de chat avec couleur d'yeux marron  
-10 - Afficher le nombre de chat par couleur d'yeux    
+:nine: - Afficher le nombre de chat avec la couleur des yeux marron  
+10 - Afficher le nombre de chat par couleur des yeux    
 [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # La correction :

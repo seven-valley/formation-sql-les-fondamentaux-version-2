@@ -17,6 +17,20 @@ Prise en main des commandes :
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
+```sql
+DROP DATABASE IF EXISTS zoo;
+CREATE DATABASE zoo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE zoo;
+
+CREATE TABLE IF NOT EXISTS chat(
+ id INT NOT NULL AUTO_INCREMENT,
+ nom VARCHAR(50) NOT NULL,
+ yeux VARCHAR(20) NOT NULL,
+ age INT NOT NULL,
+ CONSTRAINT pk_chat PRIMARY KEY (id)
+)ENGINE=INNODB;
+```
+
 :one: - Ajouter les données  
 :two: - Afficher le chat avec l'id :2  
 :three: - Trier les chats par nom et par age  
@@ -72,12 +86,12 @@ Prise en main des commandes :
 |---|
 | 4 |   
 
-:nine: - Afficher le nombre de chat avec couleur d'yeux marron
+:nine: - Afficher le nombre de chat avec la couleur des yeux marron
 | couleur | nb_chat |
 |---|---|
 | marron | 3 |
 
-10 - Afficher le nombre de chat par couleur d'yeux
+10 - Afficher le nombre de chat par couleur des yeux
 | couleur | nb_chat |
 |---|---|
 | marron | 3 |
