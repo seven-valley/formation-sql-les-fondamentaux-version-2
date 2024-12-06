@@ -252,26 +252,68 @@ Avec le nombre de jours de retard
 
 | facture | nb_jour |
 |--- |--- |
-|FA0002 |427|
-|FA0003 |293|
-|FA0005 |630|
-|FA0006 |630|  
+|FA0002 |413|
+|FA0003 |279|
+|FA0005 |616|
+|FA0006 |616|   
 ```sql
 USE my_crm;
 
-SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours
+SELECT 
+facture.reference,
+(DATEDIFF(NOW(),date_crea)-30) AS nb_jours
 FROM facture 
 WHERE date_paiement IS NULL
-AND DATEDIFF(CURDATE(),date_crea)  > 30;
+AND DATEDIFF(NOW(),date_crea)  > 30;
 ```
+
+:seven: Afficher les factures en retard de paiment **avec le nom du client**   
+30 jours max  
+Avec le nombre de jours de retard 
+|client| facture | nb_jour |
+|--- |--- |--- |
+|Mairie de Rennes|FA0002 |413|
+|Neo Soft|FA0003 |279|
+|Accenture|FA0005 |616|
+|Neo Soft|FA0006 |616|  
+
+```sql
+USE my_crm;
+
+SELECT 
+client.nom AS client,
+facture.reference,
+(DATEDIFF(NOW(),date_crea)-30) AS nb_jours
+FROM facture 
+INNER JOIN devis ON facture.devis_id =devis.id
+INNER JOIN projet ON devis.projet_id = projet.id
+INNER JOIN client ON projet.client_id =client.id
+WHERE date_paiement IS NULL
+AND DATEDIFF(NOW(),date_crea)  > 30;
+```
+
 :seven: Ajouter une pénalité de 2 euros par jours de retard
+|client| facture | nb_jour |penalite|
+|--- |--- |--- |--- |
+|Mairie de Rennes |FA002 |413 |826|
+|Neo Soft |FA003 |279 |558|
+|Accenture |FA005 |616 |1232|
+|Neo Soft |FA006 |616 |1232|
 
  ```sql
 USE my_crm;
-SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours , (DATEDIFF(CURDATE(),date_crea)-30 *2) AS penalite
+
+SELECT 
+client.nom AS client,
+facture.reference,
+DATEDIFF(NOW(),date_crea)-30 AS nb_jours,
+(DATEDIFF(NOW(),date_crea)-30)*2 AS penalite
 FROM facture 
+INNER JOIN devis ON facture.devis_id =devis.id
+INNER JOIN projet ON devis.projet_id = projet.id
+INNER JOIN client ON projet.client_id =client.id
 WHERE date_paiement IS NULL
-AND DATEDIFF(CURDATE(),date_crea)  > 30;
+AND DATEDIFF(NOW(),date_crea)  > 30;
 ```
 # Partie 3
   **[OPTIONEL]**  

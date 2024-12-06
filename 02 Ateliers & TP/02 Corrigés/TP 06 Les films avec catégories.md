@@ -40,6 +40,8 @@ CREATE TABLE categ (
  nom VARCHAR(50) NOT NULL,
  CONSTRAINT pk_categ PRIMARY KEY (id)
 )ENGINE=INNODB;
+
+ALTER TABLE film ADD CONSTRAINT fk_categ FOREIGN KEY (categ_id) REFERENCES categ(id);
 ```
 
 :four: Insérer  les données

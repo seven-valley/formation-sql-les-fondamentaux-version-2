@@ -102,10 +102,20 @@ _Afficher 0 factures si il n'y a pas de factures_
 Avec le nombre de jours de retard      
 | facture | nb_jour |
 |--- |--- |
-|FA0002 |427|
-|FA0003 |293|
-|FA0005 |630|
-|FA0006 |630|  
+|FA0002 |413|
+|FA0003 |279|
+|FA0005 |616|
+|FA0006 |616|
+
+:seven: Afficher les factures en retard de paiment **avec le nom du client**   
+30 jours max  
+Avec le nombre de jours de retard 
+|client| facture | nb_jour |
+|--- |--- |--- |
+|Mairie de Rennes|FA0002 |413|
+|Neo Soft|FA0003 |279|
+|Accenture|FA0005 |616|
+|Neo Soft|FA0006 |616|  
 
 :seven: Ajouter une pénalité de 2 euros par jours de retard  
   
