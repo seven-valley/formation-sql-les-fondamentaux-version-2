@@ -5,10 +5,10 @@ Le CRUD :
 - **R** comme **U**PDATE
 - **R** comme **D**ELETE
   
-Nous allons utiliser :
-CREATE avec <code>CREATE</code>  
-UPDATE avec <code>UPDATE</code>  
-DELETE avec <code>DELETE</code> & <code>TRUNCATE</code>  
+Nous allons utiliser :  
+- CREATE avec <code>CREATE</code>  
+- UPDATE avec <code>UPDATE</code>  
+- DELETE avec <code>DELETE</code> & <code>TRUNCATE</code>  
 
 <a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
   <img src="../img/03/m3.png" width="300">
