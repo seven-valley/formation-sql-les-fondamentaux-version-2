@@ -1,7 +1,7 @@
-# TP 9 - CRM Customer  Relationship Management
+# TP 8 - CRM Customer  Relationship Management
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/nine.webp" width="100">
+<img src="../../img/c.webp" width="100">  <img src="../../img/eight.webp" width="100">
   
 
 ## Modele relationnel
