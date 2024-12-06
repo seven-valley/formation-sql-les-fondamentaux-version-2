@@ -14,7 +14,7 @@ Prise en main des commandes :
 ![brad](../../img/03/brad.webp)
 ![george](../../img/03/george.webp)
 ![jean](../../img/03/jean.webp)
-## Pour rappel voici la scructure de la table
+## Pour rappel voici la structure de la table
 ```sql
 
 DROP DATABASE IF EXISTS invitation;

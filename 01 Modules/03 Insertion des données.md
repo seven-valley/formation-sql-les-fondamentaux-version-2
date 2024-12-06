@@ -66,10 +66,7 @@ INSERT INTO film (titre,sortie) VALUES
   
 
 Pour vider la table :  
-:warning: l'ID n'est pas remis à 1
-```sql
-DELETE FROM film;
-```
+
 Utiliser <code>DELETE</code> pour effacer un film  
 Effacer un film  
 Effacer un enregistrement

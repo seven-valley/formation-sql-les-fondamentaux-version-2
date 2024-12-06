@@ -7,7 +7,24 @@
 <a href="../00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
 04 Extraire les données
 </a> 
-  
+
+## Pour rappel voici la structure de la table et les données 
+```sql
+DROP DATABASE IF EXISTS videotheque;
+CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE videotheque;
+CREATE TABLE film (
+    id INT NOT NULL AUTO_INCREMENT,
+    titre VARCHAR(255) NOT NULL,
+    sortie DATE NOT NULL
+    CONSTRAINT pk_film PRIMARY KEY(id)
+) ENGINE=InnoDB; 
+# les données ou data
+INSERT INTO film (titre,sortie) VALUES
+('STAR WARS','1977/05/25'),
+('THE MATRIX','1999/06/23'),
+('PULP FICTION','1994/10/26');
+``` 
   
 ## SELECT
 La commande **SELECT** permet d'extraire tous les films avec <code>*</code>
