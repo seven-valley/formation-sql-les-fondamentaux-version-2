@@ -19,9 +19,9 @@ DELETE avec <code>DELETE</code> & <code>TRUNCATE</code>
 </a> 
 
 <br><br>  
-<img src="../img/04/star.webp" width="150">
-<img src="../img/04/matrix.webp" width="150">
-<img src="../img/04/pulp.webp" width="150">
+<img src="../img/04/star.webp" width="80">
+<img src="../img/04/matrix.webp" width="80">
+<img src="../img/04/pulp.webp" width="80">
 
   
 | id | titre | sortie |
