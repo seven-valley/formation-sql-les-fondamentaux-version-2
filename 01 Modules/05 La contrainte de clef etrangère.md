@@ -27,7 +27,7 @@
   - La clef étragère <code>couleur_id</code> de la table fruit doit correspondre à la clef primaire <code>id</code> de couleur  
 
 # relation clef étrangère :
-**Many to One** et **One To many**
+**Many to One** et **One To many**  
 Un fruit à une seule couleur : **Many to One**  
 Une couleur est posséder par plusieurs fruis **One to   Many** 
 

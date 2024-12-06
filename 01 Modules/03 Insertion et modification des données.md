@@ -90,7 +90,7 @@ Pour vider la table avec <code>TRUNCATE</code> et repartir à l'ID=1:
 TRUNCATE film;
 ```
 
-## Modifier un enregistrements
+## Modifier un enregistrement
 Je peux modifier 1 champs :  
 ```sql
 UPDATE  film SET 
