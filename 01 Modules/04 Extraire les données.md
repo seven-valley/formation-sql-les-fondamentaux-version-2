@@ -16,7 +16,7 @@ USE videotheque;
 CREATE TABLE film (
     id INT NOT NULL AUTO_INCREMENT,
     titre VARCHAR(255) NOT NULL,
-    sortie DATE NOT NULL
+    sortie DATE NOT NULL,
     CONSTRAINT pk_film PRIMARY KEY(id)
 ) ENGINE=InnoDB; 
 # les données ou data

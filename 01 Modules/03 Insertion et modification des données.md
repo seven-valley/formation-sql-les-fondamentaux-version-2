@@ -84,9 +84,24 @@ Effacer un enregistrement
 DELETE FROM film where id=1;
 ```
 
-**Bonne pratique**   :heart_eyes: :   
-Pour vider la table et repartir à l'ID=1:
+  
+Pour vider la table avec <code>TRUNCATE</code> et repartir à l'ID=1:
 ```sql
 TRUNCATE film;
 ```
 
+## Modifier un enregistrements
+Je peux modifier 1 champs :  
+```sql
+UPDATE  film SET 
+titre='STAR WARS 2'
+WHERE id = 1;
+```
+Je peux modifier plusieurs champs :  
+```sql
+UPDATE  film SET 
+titre='STAR WARS 2',
+annee = '1988'
+ WHERE id = 1;
+```
+Pensez à mettre une virgule <code>,</code> pour séparer chaque ligne
