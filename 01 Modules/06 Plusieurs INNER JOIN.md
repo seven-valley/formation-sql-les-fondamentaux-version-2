@@ -7,7 +7,7 @@ Avec Plusieurs <code>LEFT JOIN</code>
 
 ![data](/img/09/3-data.png)
 
-**La base de données & les data**
+**La base de données & les données**
 
 ```sql
 DROP DATABASE IF EXISTS le_village;

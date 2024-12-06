@@ -38,3 +38,8 @@ SQL Server & **S**erver **M**anagement **S**tudio (SSMS)
 <br>
 Cliquez sur le bouton Installer SSMS à la dernière étape de l'assistant d'installation de SQL Server  
 Une page Web s'ouvre avec un lien pour télécharger SQL Server Management Studio.
+
+
+# Les liens
+tutos sympa
+(Learn sql)[https://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/]
