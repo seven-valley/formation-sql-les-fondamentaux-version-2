@@ -17,6 +17,7 @@ Prise en main des commandes :
 ![bengal](/img/09/bengal.webp)
 ![scottish](/img/09/scottish.webp)
 
+## Pour rappel voici la scructure de la table
 ```sql
 DROP DATABASE IF EXISTS zoo;
 CREATE DATABASE zoo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
