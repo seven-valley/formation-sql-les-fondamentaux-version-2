@@ -118,6 +118,12 @@ Avec le nombre de jours de retard
 |Neo Soft|FA0006 |616|  
 
 :seven: Ajouter une pénalité de 2 euros par jours de retard  
+|client| facture | nb_jour |penalite|
+|--- |--- |--- |--- |
+|Mairie de Rennes |FA002 |413 |826 euros|
+|Neo Soft |FA003 |279 |558 euros|
+|Accenture |FA005 |616 |1232 euros|
+|Neo Soft |FA006 |616 |1232 euros|
   
 # Partie 3 réaliser un modèle relationnel
   **[OPTIONEL]**  

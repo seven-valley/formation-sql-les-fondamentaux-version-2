@@ -295,10 +295,10 @@ AND DATEDIFF(NOW(),date_crea)  > 30;
 :seven: Ajouter une pénalité de 2 euros par jours de retard
 |client| facture | nb_jour |penalite|
 |--- |--- |--- |--- |
-|Mairie de Rennes |FA002 |413 |826|
-|Neo Soft |FA003 |279 |558|
-|Accenture |FA005 |616 |1232|
-|Neo Soft |FA006 |616 |1232|
+|Mairie de Rennes |FA002 |413 |826 euros|
+|Neo Soft |FA003 |279 |558 euros|
+|Accenture |FA005 |616 |1232 euros|
+|Neo Soft |FA006 |616 |1232 euros|
 
  ```sql
 USE my_crm;
@@ -307,7 +307,7 @@ SELECT
 client.nom AS client,
 facture.reference,
 DATEDIFF(NOW(),date_crea)-30 AS nb_jours,
-(DATEDIFF(NOW(),date_crea)-30)*2 AS penalite
+CONCAT((DATEDIFF(NOW(),date_crea)-30)*2," euros") AS penalite
 FROM facture 
 INNER JOIN devis ON facture.devis_id =devis.id
 INNER JOIN projet ON devis.projet_id = projet.id
