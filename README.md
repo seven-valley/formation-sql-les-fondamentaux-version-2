@@ -6,9 +6,11 @@
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-Module 02 Ma première Base de données
+Le PDF : Module 02 Ma première Base de données
 </a>  
-  
+
+[Le module 02](./01%20Modules/02%20Ma%20première%20Base%20de%20données.md)  
+
 ### Création de la base données (data base)
 - Créer une base de données  
 - Effacer une base de données  
@@ -33,7 +35,7 @@ Module 02 Ma première Base de données
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-Module 03 Insertion des données
+Le PDF : Module 03 Insertion des données
 </a>  
 </td>
 <td>
@@ -42,7 +44,7 @@ Module 03 Insertion des données
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-Module 04 Extraire les données
+Le PDF : Module 04 Extraire les données
 </a>  
 </td>
 
@@ -74,7 +76,7 @@ Afficher les données avec **SELECT**
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
-Module 05 La clef étrangère
+Le PDF : Module 05 La clef étrangère
 </a>
 
 ### La clef étrangère
@@ -97,7 +99,7 @@ Afficher les chats avec leurs couleurs d'yeux
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-Module 06 Les jointures
+Le PDF : Module 06 Les jointures
 </a>
   
 ### TP 06 Films  avec clef étrangère 
