@@ -74,11 +74,24 @@ INSERT INTO ville (id, nom, region_id) VALUES
 
 :one: Je pars de la table <code>pays</code>  
 <img src="../img/tp/td8/etape1.webp" width="600">
+
+```sql
+SELECT
+pays.nom
+FROM pays
+
+```
+
+:two: Je cible la table region <code>pays</code>  
+
+<img src="../img/tp/td8/etape1.webp" width="600">
+
 ```sql
 
 SELECT
 pays.nom
 FROM pays
+INNER JOIN region
 
 ```
 
