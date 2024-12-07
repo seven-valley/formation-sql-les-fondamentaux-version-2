@@ -72,6 +72,7 @@ INSERT INTO ville (id, nom, region_id) VALUES
 | France | Rennes |
 | France | Brest |
 
+-----------------------------------------------------------
 :one: Je pars de la table <code>pays</code>  
 <img src="../img/tp/td8/etape1.webp" width="600">
 
@@ -82,6 +83,7 @@ FROM pays
 
 ```
 
+-----------------------------------------------------------
 :two: Je cible la table region <code>pays</code>  
 
 <img src="../img/tp/td8/etape2.webp" width="600">
@@ -95,6 +97,7 @@ INNER JOIN region
 
 ```
 
+-----------------------------------------------------------
 :three: Je regarde la jointure entre les 2 tables
 je prends le champ <code>id</code> qui pars de la table<code>pays</code> 
 
