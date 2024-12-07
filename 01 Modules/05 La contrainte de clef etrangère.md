@@ -11,9 +11,7 @@ Le PDF : 05 La clef étrangère
 <br>
 <br>
      
-  
-<img src="../img/db-svg/04-fruit.svg" width="600">
-  
+  <img src="../img/tp/td5/jointure.png" width="600">
   
 <img src="../img/xl/01-salade.png" width="600">
 

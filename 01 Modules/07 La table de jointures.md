@@ -4,7 +4,7 @@
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
-07 La table de jointure
+Le PDF : 08 La table de jointure
 </a> 
       
 <br><br>    
