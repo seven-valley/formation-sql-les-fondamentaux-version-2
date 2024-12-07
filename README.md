@@ -129,7 +129,7 @@ Le PDF : Module 02 Ma première Base de données
 ### Les Jointures :
 Comment relier plusieurs table avec <code>INNER JOIN</code> et <code>LEFT JOIN</code>
 
-$\color{blue}{\text{TP 05 Le CRM : Devis & Factures}}$  
+$\color{blue}{\text{TP 05 Le CRM : Devis et Factures}}$  
 Mise en place de plusieurs <code>INNER JOIN</code>    
 Extraire les données avec plusieurs jointures  
   
