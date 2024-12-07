@@ -98,8 +98,8 @@ INNER JOIN region
 ```
 
 -----------------------------------------------------------
-:three: Je regarde la jointure entre les 2 tables
-je prends le champ <code>id</code> qui pars de la table<code>pays</code> 
+:three: Je regarde la jointure entre les 2 tables  
+Je prends le champ <code>id</code> qui pars de la table<code>pays</code> 
 
 <img src="../img/tp/td8/etape3.webp" width="650">
 
