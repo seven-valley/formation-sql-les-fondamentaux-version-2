@@ -144,10 +144,11 @@ GROUP BY (yeux);
 | id | nom | yeux | age |
 |---|---|---|---|
 | 3 | Bengal | marron | 18 |
+  
 ```sql
 aa
 ```
-
+  
 **11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>      
 | id | nom | yeux | age |
 |---|---|---|---|
