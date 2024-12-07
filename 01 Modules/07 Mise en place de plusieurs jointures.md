@@ -112,6 +112,21 @@ INNER JOIN region ON pays.id
 
 ```
 
+-----------------------------------------------------------
+:four: Je regarde la jointure entre les 2 tables  
+Je prends le champ <code>pays_id</code>sur la table<code>region</code> 
+
+<img src="../img/tp/td8/etape3.webp" width="650">
+
+```sql
+
+SELECT
+pays.nom
+FROM pays
+INNER JOIN region ON pays.id = region.pays_id
+
+```
+
 
 
 ```sql
