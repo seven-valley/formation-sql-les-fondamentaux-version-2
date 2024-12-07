@@ -17,7 +17,7 @@
 :one: Créer la data base **zoo**  
 :two: Créer la table **chat**  
 ## Le modèle Relationnel
-<img src="../img/db-svg/chat.svg" width="200">
+<img src="../img/db-svg/02-chat.svg" width="200">
 
 # Correction structure de la table
 
