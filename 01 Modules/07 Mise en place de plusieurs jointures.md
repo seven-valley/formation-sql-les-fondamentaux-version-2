@@ -72,8 +72,12 @@ INSERT INTO ville (id, nom, region_id) VALUES
 | France | Rennes |
 | France | Brest |
 
+
+**__Créer la requête SQL en 7 étapes !__**
+
 -----------------------------------------------------------
-:one: Je pars de la table <code>pays</code>  
+:one: Je pars de la table <code>pays</code> 
+   
 <img src="../img/tp/td8/etape1.webp" width="600">
 
 ```sql
@@ -85,7 +89,7 @@ FROM pays
 
 -----------------------------------------------------------
 :two: Je cible la table region <code>pays</code>  
-
+  
 <img src="../img/tp/td8/etape2.webp" width="600">
 
 ```sql
@@ -100,7 +104,7 @@ INNER JOIN region
 -----------------------------------------------------------
 :three: Je regarde la jointure entre les 2 tables  
 Je prends le champ <code>id</code> qui pars de la table<code>pays</code> 
-
+  
 <img src="../img/tp/td8/etape3.webp" width="650">
 
 ```sql
@@ -115,7 +119,7 @@ INNER JOIN region ON pays.id
 -----------------------------------------------------------
 :four: Je regarde la jointure entre les 2 tables  
 Je prends le champ <code>pays_id</code>sur la table<code>region</code> 
-
+  
 <img src="../img/tp/td8/etape4.webp" width="600">
 
 ```sql
