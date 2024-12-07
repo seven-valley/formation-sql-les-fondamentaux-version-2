@@ -40,6 +40,8 @@ Cliquez sur le bouton Installer SSMS à la dernière étape de l'assistant d'ins
 Une page Web s'ouvre avec un lien pour télécharger SQL Server Management Studio.
 
 
-# Les liens
-tutos sympa
-(Learn sql)[https://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/]
+## Une documentation bien utile !
+https://www.w3schools.com/mysql/default.asp  
+https://sql.sh/  
+https://dev.mysql.com/doc/refman/8.4/en/select.html  
+[Tuto Learn sql](https://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/)  
