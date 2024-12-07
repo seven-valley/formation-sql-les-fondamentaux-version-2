@@ -119,6 +119,7 @@ Autres  :
 | ENUM ('vert','rouge') | choix prédéfini  |
 
 # Exemple : Création d'une table film
+## Voici le modèle relationnel  
 <img src="../img/db-svg/01-film.svg" width="300">
 
 ## Exemple de données que pourra contenir la table film   
@@ -143,6 +144,8 @@ Car je viole la contrainte de clef primaire
   
 Nous rajoutons aussi la **contrainte de nullité**    
 Car notre id ne peut être null
+
+Enfin <code>AUTO_INCREMENT</code> Permet de demander à MYSQL d'attribuer l'ID  
 
 ```sql
 CREATE TABLE film (
@@ -172,9 +175,10 @@ CREATE TABLE film (
 ```sql
 
 CREATE TABLE film (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT,
   titre VARCHAR(255) NOT NULL,
-  sortie DATE NOT NULL
+  sortie DATE NOT NULL,
+  CONSTRAINT pk_film PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 ```
 
