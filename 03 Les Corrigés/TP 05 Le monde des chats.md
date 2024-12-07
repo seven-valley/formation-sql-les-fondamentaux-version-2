@@ -1,16 +1,16 @@
-# TP 5 - Le mondes des chats avec une table de jointure
+# TP 5 - Le mondes des chats avec une clef étrangère
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100"> <img src="../../img/five.webp" width="100">  
+<img src="../img/c.webp" width="100"> <img src="../img/num/five.webp" width="100">  
 
-<img src="../../img/05/chat-couleur.svg" width="600">
+<img src="../img/db-svg/02-chat.svg" width="600">
 
-<img src="../../img/06/tp-chat.png" width="800">
+<img src="../img/xl/02-tp-chat.png" width="800">
 
-![maincoon](/img/09/maincoon.webp)
-![siamois](/img/09/siamois.webp)
-![bengal](/img/09/bengal.webp)
-![scottish](/img/09/scottish.webp)
+![maincoon](../img/tp/tp1/maincoon.webp)
+![siamois](../img/tp/tp1/siamois.webp)
+![bengal](../img/tp/tp1/bengal.webp)
+![scottish](../img/tp/tp1/scottish.webp)
 
 
 
