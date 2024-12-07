@@ -170,7 +170,8 @@ Je prends le champ <code>region_id</code> sur la table<code>ville</code>
 ```sql
 
 SELECT
-pays.nom
+pays.nom,
+ville.nom
 FROM pays
 INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id
@@ -183,8 +184,8 @@ Et voilà !  :smiley: :heart_eyes:
 USE le_village;
 # afficher les villes par pays
 SELECT
-pays.nom,
-ville.nom
+pays.nom AS pays,
+ville.nom AS nom
 FROM pays
 INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id;
