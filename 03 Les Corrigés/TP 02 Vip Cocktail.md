@@ -31,8 +31,8 @@ Chaque personne a :
 :two: Créer une table : **personne**  
 :three: Rajouter le prefixe <code>inv_</code> à votre table  
    
-## Le modèle Relationnel
-<img src="../img/db-svg/03-personne.svg" width="300">
+## Le modèle relationnel
+<img src="../img/db-svg/03-personne.svg" width="200">
 
 
 ## La correction  :heart_eyes: :
