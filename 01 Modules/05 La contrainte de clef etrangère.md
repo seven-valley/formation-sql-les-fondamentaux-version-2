@@ -17,7 +17,11 @@ Le PDF : 05 La clef étrangère
   
 <img src="../img/xl/01-salade.png" width="600">
 
-
+# Relation clef étrangère :
+**Many to One** et **One To many**
+    
+Un fruit à une seule couleur : <code>Many to One</code>  
+Une couleur est posséder par plusieurs fruis <code>One to   Many</code> 
 
 
 ## Une clef étrangère ?
@@ -26,10 +30,7 @@ Le PDF : 05 La clef étrangère
   - je viens vérifier que l'id ajouter est bien un id de clef primaire existant.  
   - La clef étragère <code>couleur_id</code> de la table fruit doit correspondre à la clef primaire <code>id</code> de couleur  
 
-# relation clef étrangère :
-**Many to One** et **One To many**  
-Un fruit à une seule couleur : **Many to One**  
-Une couleur est posséder par plusieurs fruis **One to   Many** 
+
 
 
 
