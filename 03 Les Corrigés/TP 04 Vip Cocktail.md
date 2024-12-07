@@ -1,6 +1,6 @@
 # :cocktail: TP 4 VIP Cocktail - partie 2
 ## :warning: La correction
-<img src="../../img/c.webp" width="100"> <img src="../../img/four.webp" width="100"> 
+<img src="../img/c.webp" width="100"> <img src="../img/num/four.webp" width="100"> 
 
   
 | id | prenom | nom | age | inscription | etat | statut | cv | salaire |
@@ -9,9 +9,9 @@
 | 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
     
-![brad](../../img/03/brad.webp)
-![george](../../img/03/george.webp)
-![jean](../../img/03/jean.webp)
+![brad](../../img/tp/tp2/brad.webp)
+![george](../../img/tp/tp2/george.webp)
+![jean](../../img/tp/tp2/jean.webp)
 
 
 # La correction :

@@ -1,5 +1,5 @@
 # :cocktail: TP 4 VIP Cocktail - partie 2
-<img src="../../img/four.webp" width="100"> 
+<img src="../img/num/four.webp" width="100"> 
 Prise en main des commandes :  
   
 <code>INSERT INTO</code>    
@@ -11,9 +11,9 @@ Prise en main des commandes :
 | 2 | George | CLONEY | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
     
-![brad](../../img/03/brad.webp)
-![george](../../img/03/george.webp)
-![jean](../../img/03/jean.webp)
+![brad](../../img/tp/tp2/brad.webp)
+![george](../../img/tp/tp2/george.webp)
+![jean](../../img/tp/tp2/jean.webp)
 ## Pour rappel voici la structure de la table
 ```sql
 
