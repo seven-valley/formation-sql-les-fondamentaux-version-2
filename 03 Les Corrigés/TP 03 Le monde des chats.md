@@ -1,6 +1,6 @@
 # TP 3 - Le monde des les chats
 ## :warning: La correction
-<img src="../../img/c.webp" width="100"> <img src="../../img/num/three.webp" width="100">  
+<img src="../img/c.webp" width="100"> <img src="../img/num/three.webp" width="100">  
 
 | id | nom | yeux | age |
 |---|---|---|---|
@@ -9,10 +9,10 @@
 | 3 | Bengal | marron | 18 |
 | 4 | Scottish Fold | marron | 10 |
   
-![maincoon](/img/tp/tp1/09/maincoon.webp)
-![siamois](/img/tp/tp1/09/siamois.webp)
-![bengal](/img/tp/tp1/09/bengal.webp)
-![scottish](/img/tp/tp1/09/scottish.webp)
+![maincoon](/img/tp/tp1/maincoon.webp)
+![siamois](/img/tp/tp1/siamois.webp)
+![bengal](/img/tp/tp1/bengal.webp)
+![scottish](/img/tp/tp1/scottish.webp)
 
 ## Pour rappel voici la structure de la table
 ```sql
