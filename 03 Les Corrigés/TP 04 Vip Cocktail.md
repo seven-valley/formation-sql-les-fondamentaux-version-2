@@ -9,9 +9,9 @@
 | 2 | George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
 | 3 | Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
     
-![brad](../../img/tp/tp2/brad.webp)
-![george](../../img/tp/tp2/george.webp)
-![jean](../../img/tp/tp2/jean.webp)
+![brad](../img/tp/tp2/brad.webp)
+![george](../img/tp/tp2/george.webp)
+![jean](../img/tp/tp2/jean.webp)
 
 
 # La correction :
