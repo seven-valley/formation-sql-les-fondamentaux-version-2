@@ -1,9 +1,9 @@
 # Module 07 - Mise en place de plusieurs jointures
-<a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
+<a href="../00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
   <img src="../img/07/m7.png" width="300">
 </a>  
 <br>
-<a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
+<a href="../00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
 LE PDF : 07 La table de jointure
 </a> 
 __Extraire les données de plusieurs tables relier par des jointures__
