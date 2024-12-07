@@ -12,7 +12,7 @@ Le PDF : 01 Présentation SQL
 
 ## heidi SQL
 <a href="https://www.heidisql.com/download.php">
-  <img src="../img/01/heidi.webp" width="500">
+  <img src="../img/screen/heidi.webp" width="500">
   </a>
   <br>
  <a href="https://www.heidisql.com/download.php">https://www.heidisql.com/download.php</a>
@@ -22,7 +22,7 @@ Pour installer mysql
 avec phpMyAdmin
 <br>
 <a href="https://laragon.org/">
-  <img src="../img/01/laragon.webp" width="500">
+  <img src="../img/screen/laragon.webp" width="500">
   </a>
   <br>
  <a href="https://laragon.org/">https://laragon.org/</a>
@@ -31,7 +31,7 @@ avec phpMyAdmin
 SQL Server & **S**erver **M**anagement **S**tudio (SSMS)
 <br>
 <a href="https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads">
-  <img src="../img/01/sql-server.webp" width="400">
+  <img src="../img/screen/sql-server.webp" width="400">
   </a>
 
  <a href="https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads">https://www.microsoft.com/fr-fr/sql-server/sql-server-downloads</a>
