@@ -1,10 +1,10 @@
 # Module 06 - Les jointures LEFT, RIGHT & INNER
 <a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-  <img src="../img/06/m6.png" width="300">
+  <img src="../img/mod/m6.png" width="300">
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-06 Les jointures
+Le PDF : 06 Les jointures
 </a> 
    <br> <br>  
      

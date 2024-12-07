@@ -5,7 +5,7 @@
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
-05 La clef étrangère
+Le PDF : 05 La clef étrangère
 </a> 
 
 <br>
