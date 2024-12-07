@@ -8,7 +8,7 @@ Le PDF : 02 Ma première Base de données.pdf
 </a>  
 
 
-## OU dans Workbench ouvrez le terminal SQL
+## Dans Workbench ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL    
 :two: Saisir le code SQL  
 :three:  Cliquez sur l'éclaire
@@ -33,7 +33,7 @@ Il est préférable de rajouter l'encodage **UTF8**:
 CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-SI je souhaite créer la base si elle n'existe pas 
+Si je souhaite créer la base **si elle n'existe pas** 
 <code>IF NOT EXISTS</code>
   
 ```mysql
