@@ -15,7 +15,7 @@ Avec Plusieurs <code>LEFT JOIN</code>
 
 <img src="../img/xl/04-village.png" width="800">
 
-**La base de données & les données**
+## La base de données & les données
 
 ```sql
 DROP DATABASE IF EXISTS le_village;
@@ -73,7 +73,7 @@ INSERT INTO ville (id, nom, region_id) VALUES
 | France | Brest |
 
 
-**__Créer la requête SQL en 7 étapes !__**
+__**Créer la requête SQL en 7 étapes !**__
 
 -----------------------------------------------------------
 :one: Je pars de la table <code>pays</code> 

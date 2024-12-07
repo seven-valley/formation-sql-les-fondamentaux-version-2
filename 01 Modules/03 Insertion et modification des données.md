@@ -48,7 +48,7 @@ INSERT INTO film (id,titre,sortie) VALUES (...);
 INSERT INTO film (id,titre,sortie) VALUES (1,'STAR WARS','1977/05/25');
 ```
 
-Je ne suis pas obligé de mettre l'ID car nous avons ajouter <code>AUTO_INCERMENT</code>
+Je ne suis pas obligé de mettre l'ID car nous avons ajouté <code>AUTO_INCERMENT</code> lors de la création de la table 
 ```sql
 INSERT INTO film (titre,sortie) VALUES ('STAR WARS','1977/05/25');
 ```
