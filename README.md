@@ -8,9 +8,8 @@
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
 Le PDF : Module 02 Ma première Base de données
 </a>  
-<br><br>
-
-
+<br>
+  
 ### Création de la base données (data base)
 - Créer une base de données  
 - Effacer une base de données  
@@ -22,10 +21,13 @@ Le PDF : Module 02 Ma première Base de données
 - Créer une contrainte de nullité  
 - Mettre des valeurs par défault  
 
+$\color{blue}{\text{**TP 01 Le monde des chats** Création d'une table chat}}$ 
+  
+$\color{blue}{\text{**TP 02 VIP Cocktail** Création d'une table personne}}$ 
 
-**TP 01 VIP Cocktail** Création d'une table personne  
+  
 
-**TP 02 Le monde des chats** Création d'une table chat
+
 ## JOUR 1 APRES MIDI
 <table>
 <tr>
