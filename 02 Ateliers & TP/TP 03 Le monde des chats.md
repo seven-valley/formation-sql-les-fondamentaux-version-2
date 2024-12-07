@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS chat(
 **10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>    
 | id | nom | yeux | age |
 |---|---|---|---|
-| 3 | Bengal | marron | 18 | 
+| 4 | Scottish Fold | marron | 10 |
     
 **11** - Afficher le chat avec la longue petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>      
 | id | nom | yeux | age |
