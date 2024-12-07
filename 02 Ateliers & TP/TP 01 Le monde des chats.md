@@ -1,5 +1,5 @@
 # TP 1 - Le monde des chats
-<img src="../img/number/one.webp" width="100">
+<img src="../img/num/one.webp" width="100">
   
 Prise en main des commandes : 
    
