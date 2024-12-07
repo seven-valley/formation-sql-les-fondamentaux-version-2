@@ -107,20 +107,33 @@ Mettre en place des jointures pour extraires les données :
 - INNER JOIN  
 - LEFT JOIN  
 - RIGHT JOIN  
+
+
+$\color{blue}{\text{TP 05 Le monde des chats partie 3}}$  
+Mise en place de <code>INNER JOIN</code>  
   
-**TP 05 le monde des chats partie 3 avec clef étrangère**
-Afficher les chats avec leurs couleurs d'yeux 
+$\color{blue}{\text{TP 06 Films avec catégories}}$  $\color{red}{\text{[BONUS]}}$   
+Mise en place de <code>INNER JOIN</code>  
+
 
 ## Jour 2 APRES MIDI
-
+<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
+  <img src="./img/mod/m2.webp" width="300">
+</a>  
+<br>
+<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
+Le PDF : Module 02 Ma première Base de données
+</a>  
+<br>
   
-### TP 06 Films  avec clef étrangère 
-- Afficher les films avec les catégories
+### Les Jointures :
+Comment relier plusieurs table avec <code>INNER JOIN</code> et <code>LEFT JOIN</code>
 
-### TP 07 CRM : Devis & Factures 
-- Création des Tables
-- mettre en place les left join sur 3 tables  
-- Extraire les données avec plusieurs jointures  
+$\color{blue}{\text{TP 05 Le CRM : Devis & Factures}}$  
+Mise en place de plusieurs <code>INNER JOIN</code>    
+Extraire les données avec plusieurs jointures  
+  
+
 
 ## Jour 3 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
