@@ -9,7 +9,7 @@ Gestion des devis et factures d'une entreprise
 3 piments :cactus::cactus::cactus:  
   
 
-## Modele relationnel
+## Modèle relationnel
 <img src="../img/db-svg/08-crm.svg" width="800">
 
 ## Le pitch :

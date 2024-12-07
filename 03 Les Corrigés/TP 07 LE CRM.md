@@ -4,7 +4,7 @@
 <img src="../img/c.webp" width="100">  <img src="../img/num/seven.webp" width="100">
   
 
-## Modele relationnel
+## Modèle relationnel
 <img src="../img/db-svg/08-crm.svg" width="800">
 
 
