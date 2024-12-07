@@ -24,7 +24,7 @@ Le PDF : 06 Les jointures
 _Relier 2 tables avec <code>INNER JOIN</code>_  
 
  
-<img src="../img/tp/td6/inner.png" width="800">  
+<img src="../img/tp/td6/inner0.png" width="800">  
 
 ### Mise en Place en 4 Etapes
 _Construction d'un <code>INNER JOIN</code> en 4 étapes_ 
