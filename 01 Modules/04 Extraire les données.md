@@ -5,10 +5,10 @@
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-04 Extraire les données
+Le PDF : 04 Extraire les données
 </a> 
 
-## Pour rappel voici la structure de la table et les données 
+## Pour rappel voici la structure de la table avec les données 
 ```sql
 DROP DATABASE IF EXISTS videotheque;
 CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
