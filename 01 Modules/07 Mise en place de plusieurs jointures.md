@@ -145,7 +145,21 @@ INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville 
 
 ```
+-----------------------------------------------------------
+:six: Je regarde la jointure entre les 2 tables  
+Je prends le champ <code>id</code> qui pars de la table<code>region</code> 
 
+<img src="../img/tp/td8/etape6.webp" width="600">
+
+```sql
+
+SELECT
+pays.nom
+FROM pays
+INNER JOIN region ON pays.id = region.pays_id
+INNER JOIN ville ON region.id
+
+```
 
 ```sql
 USE le_village;
