@@ -180,7 +180,7 @@ FROM inv_personne
 WHERE id=1;
 ```
 
-10 - Afficher les personnes dont le prenom contient 'bra'  
+**10** - Afficher les personnes dont le prenom contient 'bra'  
   
 | id | prenom | nom | salaire |
 |---|---|---|---|
@@ -192,7 +192,7 @@ FROM personne
 WHERE prenom LIKE '%bra%'
 ```   
 
-12 - Trier par age les membres 
+**11** - Trier par age les membres 
    
 | prenom | nom | age |
 |---|---|---|
@@ -206,7 +206,7 @@ FROM inv_personne
 WHERE type='membre'
 ORDER BY age,nom ASC; # du plus petit au plus grand
 ``` 
-13 - Afficher le nombre d'acteurs "membre" 
+**12** - Afficher le nombre d'acteurs "membre" 
   
 | nb_membres |
 |---|
@@ -222,7 +222,7 @@ GROUP BY statut
 ```
 
 
-14 - Afficher le nombre des membres et  d'acteur "non membre"
+**13** - Afficher le nombre des membres et  d'acteur "non membre"
    
 | membre | nb_acteur| 
 |---|---|

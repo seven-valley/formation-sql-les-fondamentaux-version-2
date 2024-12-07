@@ -43,10 +43,10 @@ CREATE TABLE inv_personne(
 :seven: - Afficher le nombre de personnes  
 :eight: - Afficher les acteurs avec un salaire entre 1 000 000 et 4 000 000 avec <code>BETWEEN</code>  
 :nine: Proposer une requete avec  <code>UPPER()</code> & <code>LOWER()</code>  
-10 - Afficher les personnes dont le prenom contient 'bra'  
-12 - Trier par age les membres  
-13 - Afficher le nombre d'acteurs "membre"   
-14 - Afficher le nombre des membres et  des non membres  
+**10** - Afficher les personnes dont le prenom contient 'bra'  
+**11** - Trier par age les membres  
+**12** - Afficher le nombre d'acteurs "membre"   
+**13** - Afficher le nombre des membres et  des non membres  
 
 # Résultats attendus
 
@@ -104,26 +104,26 @@ CREATE TABLE inv_personne(
 | 1 | BRAD | pitt | 
 
 
-10 - Afficher les personnes dont le prenom contient 'bra'  
+**10** - Afficher les personnes dont le prenom contient 'bra'  
   
 | id | prenom | nom | salaire |
 |---|---|---|---|
 | 1 | Brad | PITT | 2 000 000 |
    
-12 - Trier par age les membres 
+**11** - Trier par age les membres 
    
 | prenom | nom | age |
 |---|---|---|
 | Jean | DUJARDIN | 51 |
 | George | Cloney | 62 |
   
-13 - Afficher le nombre d'acteurs "membre" 
+**12** - Afficher le nombre d'acteurs "membre" 
   
 | nb_membres |
 |---|
 | 2 | 
   
-14 - Afficher le nombre des membres et  d'acteur "non membre"
+**13** - Afficher le nombre des membres et  d'acteur "non membre"
    
 | membre | nb_acteur| 
 |---|---|
