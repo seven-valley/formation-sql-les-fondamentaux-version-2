@@ -61,7 +61,7 @@ INSERT INTO chat (nom,couleur_id) VALUES
 ('scottish fold',1),
 ('domestique',null);
 ```
-#  - Je teste et j'affiche
+# Je teste et j'affiche
 ```sql
 USE spa;
 
