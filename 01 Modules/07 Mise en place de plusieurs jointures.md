@@ -73,7 +73,7 @@ INSERT INTO ville (id, nom, region_id) VALUES
 | France | Brest |
 
 :one: Je pars de la table <code>pays</code>
-
+<img src="../img/tp/td8/etape1.webp" width="600">
 ```sql
 
 SELECT
