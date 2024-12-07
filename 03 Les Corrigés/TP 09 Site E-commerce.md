@@ -4,9 +4,9 @@
 <img src="../img/c.webp" width="100">  <img src="../img/num/nine.webp" width="100">
 
 
-<img src="../img/db-svg/10-e-commerce.svg" width="800">
+<img src="../img/db-svg/10-e-commerce.svg" width="700">
 
-<img src="../img/tp/tp9/c.png" width="300">
+<img src="../img/tp/tp9/c.png" width="400">
 
 
 # La structure complète de la base & avec les données

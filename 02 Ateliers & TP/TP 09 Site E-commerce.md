@@ -29,9 +29,9 @@
   
 <br>  
 
-<img src="../img/db-svg/10-e-commerce.svg" width="600">
+<img src="../img/db-svg/10-e-commerce.svg" width="700">
 
-<img src="../img/tp/tp9/c.png" width="300">
+<img src="../img/tp/tp9/c.png" width="400">
   
 :one: Créer la base de données 
 :two: Créer les tables
