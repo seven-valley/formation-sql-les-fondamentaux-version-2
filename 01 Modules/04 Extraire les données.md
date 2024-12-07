@@ -1,7 +1,7 @@
 # Module 04 - Extraire les données
 
 <a href="../00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-  <img src="../img/04/m4.png" width="300">
+  <img src="../img/mod/m4.webp" width="300">
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
