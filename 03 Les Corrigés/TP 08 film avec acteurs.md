@@ -1,7 +1,7 @@
-# TP 09 - Film avec acteurs - table de jointure
+# TP 08 - Film avec acteurs - table de jointure
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/nine.webp" width="100">
+<img src="../../img/c.webp" width="100">  <img src="../../img/eight.webp" width="100">
 
 ![db](../../img/13/titanic.webp)
 ## Le modèle relationnel

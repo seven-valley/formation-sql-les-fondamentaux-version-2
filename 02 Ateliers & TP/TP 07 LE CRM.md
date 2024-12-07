@@ -1,7 +1,7 @@
-# TP 8 - CRM Customer  Relationship Management
+# TP 7 - CRM Customer  Relationship Management
 Gestion des devis et factures d'une entreprise
     
-<img src="../../img/eight.webp" width="100">
+<img src="../../img/seven.webp" width="100">
 
   
 **echelle de Scoville 100 000**  :underage:  
