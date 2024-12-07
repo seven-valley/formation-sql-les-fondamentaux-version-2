@@ -130,7 +130,7 @@ INNER JOIN region ON pays.id = region.pays_id
 -----------------------------------------------------------
 :five: Je cible la table <code>ville</code>
 
-<img src="../img/tp/td8/etape5.webp" width="60">
+<img src="../img/tp/td8/etape5.webp" width="600">
 
 ```sql
 
