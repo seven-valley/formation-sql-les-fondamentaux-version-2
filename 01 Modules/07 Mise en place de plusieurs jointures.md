@@ -178,7 +178,7 @@ INNER JOIN ville ON region.id = ville.region_id
 ```
 -----------------------------------------------------------
 -----------------------------------------------------------
-Et voilà ! 
+Et voilà !  :smiley: :heart_eyes:
 ```sql
 USE le_village;
 
