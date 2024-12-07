@@ -9,15 +9,15 @@
       
 <br><br>    
 
-![film](../img/13/once.webp)
-![db](../img/07/fight-club.webp)
+<img src="../img/tp/td7/once.webp" width="80"> <img src="../img/tp/td7/fight-club.webp" width="80"> 
+
 ## Le modèle relationnel
-<img src="../img/05/film_has_acteur.svg" width="800">
+<img src="../img/db-svg/09-film_has_acteur.svg" width="800">
 
 ## Les données
-![db2](../img/13/data.png)
+<img src="../img/xl/05-jointure.png"" width="800">
   
-![film](../img/13/once2.jpg)
+<img src="../img/tp/td7/once2.webp" width="80">
 
 
 ## La Base de données

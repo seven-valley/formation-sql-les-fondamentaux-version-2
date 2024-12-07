@@ -12,7 +12,7 @@ Avec Plusieurs <code>LEFT JOIN</code>
 ```sql
 DROP DATABASE IF EXISTS le_village;
 CREATE DATABASE le_village CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
+USE le_village;
 ######################################
 # Les tables
 ######################################
@@ -75,6 +75,29 @@ INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id;
 ```
 
+
+
+## Afficher Le nombre de villes par pays
+
+_Même les pays avec 0 ville_
+
+```sql
+USE le_village;
+
+SELECT
+pays.nom AS pays,
+CONT(ville.id)  AS nb_ville
+FROM pays
+LEFT JOIN region ON pays.id = region.pays_id
+LEFT JOIN ville ON region.id = ville.region_id;
+GROUP BY (pays.id)
+```
+| pays | nb_ville |
+|---|---|
+| France | 2 | 
+| Belgique | 0 | 
+
+
 ## Afficher les villes avec la region et le pays
 
 
@@ -94,26 +117,6 @@ INNER JOIN pays ON region.pays_id= pays.id
 | France | Bretagne | Rennes |
 | France | Bretagne | Brest |
 
-
-## Afficher Le nombre de villes par pays
-
-_Même les pays avec 0 ville_
-
-```sql
-USE le_village;
-
-SELECT
-pays.nom AS pays,
-CONT(ville.id)  AS nb_ville
-FROM pays
-INNER JOIN region ON pays.id = region.pays_id
-INNER JOIN ville ON region.id = ville.region_id;
-GROUP BY (pays.id)
-```
-| pays | nb_ville |
-|---|---|
-| France | 2 | 
-| Belgique | 0 | 
 
 # Bonus : pseudo code pour db diagram
 <img src="../img/dbdiagram.svg" width="200">  
