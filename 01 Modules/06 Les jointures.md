@@ -15,7 +15,7 @@ Le PDF : 06 Les jointures
 - Mise en place de <code>COUNT()</code> et <code>GROUP BY</code> avec <code>LEFT JOIN</code>
   <br> <br>
 **modèle relationnel**  
-<img src="../img/db-svg/04-fruit.svg" width="600">
+<img src="../img/db-svg/04-fruit.svg" width="400">
   
 <img src="../img/xl/01-salade.png" width="600">
 
