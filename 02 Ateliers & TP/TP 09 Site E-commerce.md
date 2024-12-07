@@ -158,7 +158,9 @@ INSERT INTO ligne (article_id,commande_id,nombre,prix) VALUES
 :four: Afficher la commande de Brad PITT  
 
 
-# Bonus : pseudo code pour db diagram
 
+
+# Bonus : pseudo code pour db diagram
+<img src="../img/dbdiagram.svg" width="200">  
 [db Diagram](https://dbdiagram.io/home) 
 **prompt db diagram :**
