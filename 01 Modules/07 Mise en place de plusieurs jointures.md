@@ -161,6 +161,24 @@ INNER JOIN ville ON region.id
 
 ```
 
+-----------------------------------------------------------
+:seven : Je regarde la jointure entre les 2 tables  
+Je prends le champ <code>region_id</code> sur la table<code>ville</code> 
+
+<img src="../img/tp/td8/etape7.webp" width="600">
+
+```sql
+
+SELECT
+pays.nom
+FROM pays
+INNER JOIN region ON pays.id = region.pays_id
+INNER JOIN ville ON region.id = ville.region_id
+
+```
+-----------------------------------------------------------
+-----------------------------------------------------------
+Et voilà ! 
 ```sql
 USE le_village;
 
@@ -171,12 +189,14 @@ FROM pays
 INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id;
 ```
-
+-----------------------------------------------------------
+-----------------------------------------------------------
 
 
 ## Afficher Le nombre de villes par pays
-
 _Même les pays avec 0 ville_
+
+On remplace les <code>INNER</code> par <code>LEFT</code>
 
 ```sql
 USE le_village;

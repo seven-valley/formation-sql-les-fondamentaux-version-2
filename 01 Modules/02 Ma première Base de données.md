@@ -120,7 +120,7 @@ Autres  :
 
 # Exemple : Création d'une table film
 ## Voici le modèle relationnel  
-<img src="../img/db-svg/01-film.svg" width="300">
+<img src="../img/db-svg/01-film.svg" width="200">
 
 ## Exemple de données que pourra contenir la table film   
 <img src="../img/tp/td2/star.webp" width="80"> <img src="../img/tp/td2/matrix.webp" width="80"> <img src="../img/tp/td2/pulp.webp" width="80">
