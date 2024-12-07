@@ -153,6 +153,9 @@ $\color{blue}{\text{TP 08 Les films et Acteurs}}$
 Extraire les données  
 
 ## Jour 3 APRES MIDI
-$\color{blue}{\text{TP 09 Site E-commerce}}$  
+$\color{blue}{\text{TP 09 Site E-commerce}}$  $\color{red}{\text{[BONUS]}}$   
 Extraire les données  
+
+$\color{blue}{\text{TP 10 Location ski}}$  $\color{red}{\text{[SUPER BONUS]}}$   __difficulté : bucheron canadien__ :cactus::cactus::cactus::cactus:  
+Extraire les données 
 
