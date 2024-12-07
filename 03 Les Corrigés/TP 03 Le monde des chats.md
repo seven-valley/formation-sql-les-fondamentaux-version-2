@@ -22,8 +22,10 @@
 :six: - Afficher le ou les chats dont le nom contient 'a'  
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
-:nine: - Afficher le nombre de chat avec la couleur des yeux marron  
-10 - Afficher le nombre de chat par couleur des yeux    
+:nine: - Afficher le nombre de chat avec la couleur des yeux marron 
+**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>  
+**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>    
+**12** - Afficher le nombre de chat par couleur des yeux    
 [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # La correction :
@@ -138,7 +140,23 @@ FROM chat
 WHERE yeux ='marron'
 GROUP BY (yeux);
 ```
-10 - Afficher le nombre de chat par couleur d'yeux
+**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>  
+| id | nom | yeux | age |
+|---|---|---|---|
+| 3 | Bengal | marron | 18 |
+```sql
+aa
+```
+
+**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>    
+| id | nom | yeux | age |
+|---|---|---|---|
+| 1 | Maine coon | marron | 20 |
+```sql
+aa
+```
+
+12 - Afficher le nombre de chat par couleur d'yeux
 | couleur | nb_chat |
 |---|---|
 | marron | 3 |

@@ -41,9 +41,9 @@ CREATE TABLE IF NOT EXISTS chat(
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron  
-10 - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
-11 - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>     
-12 - Afficher le nombre de chat par couleur d'yeux    
+**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
+**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>     
+**12** - Afficher le nombre de chat par couleur d'yeux    
 [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # Résultats attendus
@@ -94,7 +94,17 @@ CREATE TABLE IF NOT EXISTS chat(
 |---|---|
 | marron | 3 |
 
-10 - Afficher le nombre de chat par couleur des yeux
+**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>  
+| id | nom | yeux | age |
+|---|---|---|---|
+| 3 | Bengal | marron | 18 |   
+**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>    
+| id | nom | yeux | age |
+|---|---|---|---|
+| 1 | Maine coon | marron | 20 |
+
+
+**12** - Afficher le nombre de chat par couleur des yeux
 | couleur | nb_chat |
 |---|---|
 | marron | 3 |
