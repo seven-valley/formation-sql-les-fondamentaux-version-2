@@ -1,5 +1,5 @@
 # :cocktail: TP 2 - VIP Cocktail
-<img src="../img/number/two.webp" width="100"> 
+<img src="../img/num/two.webp" width="100"> 
   
 Prise en main des commandes :  
   
