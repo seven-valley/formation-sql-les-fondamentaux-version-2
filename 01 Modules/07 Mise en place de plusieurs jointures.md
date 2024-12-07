@@ -170,8 +170,7 @@ Je prends le champ <code>region_id</code> sur la table<code>ville</code>
 ```sql
 
 SELECT
-pays.nom,
-ville.nom
+pays.nom,ville.nom
 FROM pays
 INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id
