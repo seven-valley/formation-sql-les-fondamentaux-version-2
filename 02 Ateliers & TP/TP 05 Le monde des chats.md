@@ -1,6 +1,6 @@
 # TP 5 - Le mondes des chats avec une clef étrangère
 <img src="../img/num/five.webp" width="100">
-<img src="../img/db-svg/02-chat.svg" width="600">
+<img src="../img/db-svg/05-chat-couleur.svg" width="600">
 Prise en main des commandes :  
     
 <code>INNER JOIN</code>    
