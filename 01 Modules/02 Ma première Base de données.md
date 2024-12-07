@@ -123,7 +123,7 @@ Autres  :
 <img src="../img/db-svg/01-film.svg" width="300">
 
 ## Exemple de données que pourra contenir la table film   
-<img src="../img/04/star.webp" width="80"> <img src="../img/04/matrix.webp" width="80"> <img src="../img/04/pulp.webp" width="80">
+<img src="../img/tp/td2/star.webp" width="80"> <img src="../img/tp/td2/matrix.webp" width="80"> <img src="../img/tp/td2/pulp.webp" width="80">
 
 | id | titre | sortie |
 |---|---|---|
