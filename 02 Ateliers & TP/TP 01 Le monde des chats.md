@@ -28,6 +28,6 @@ Afin de vous aider  à choisir les types de champs
 :one: Créer la data base **zoo**  
 :two: Créer la table **chat**  
 
-## Le modèle Relationnel
+## Le modèle relationnel
 <img src="../img/db-svg/02-chat.svg" width="200">
 
