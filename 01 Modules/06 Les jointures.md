@@ -149,6 +149,8 @@ GROUP BY (c.id);
 | rouge | 1 |
 | verte | 1 |
 
+----------------------------------------------
+----------------------------------------------
 
 # Compter des occurences avec LEFT JOIN
 Nous remplacons <code>INNER</code> par <code>LEFT</code>

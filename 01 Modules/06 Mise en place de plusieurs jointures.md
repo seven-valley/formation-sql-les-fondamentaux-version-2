@@ -1,4 +1,12 @@
-# Les jointures sur 3 tables
+# 06 Mise en place de plusieurs jointures
+<a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
+  <img src="../img/07/m7.png" width="300">
+</a>  
+<br>
+<a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
+LE PDF : 07 La table de jointure
+</a> 
+__Extraire les données de plusieurs tables relier par des jointures__
 
 Avec plusieurs <code>INNER JOIN</code>  
 Avec Plusieurs <code>LEFT JOIN</code>

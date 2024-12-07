@@ -21,7 +21,7 @@ Le PDF : 05 La clef étrangère
 **Many to One** et **One To many**
     
 Un fruit à une seule couleur : <code>Many to One</code>  
-Une couleur est posséder par plusieurs fruis <code>One to   Many</code> 
+Une couleur est posséder par plusieurs fruits <code>One to Many</code> 
 
 
 ## Une clef étrangère ?
