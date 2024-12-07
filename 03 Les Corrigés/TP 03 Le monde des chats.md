@@ -25,8 +25,8 @@
 :nine: - Afficher le nombre de chat avec la couleur des yeux marron 
 **10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>  
 **11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>    
-**12** - Afficher le nombre de chat par couleur des yeux    
-[BONUS] - Ajouter les données à partir d'un fichier excel  
+**12** - Afficher le nombre de chat par couleur d'yeux    $\color{red}{\text{[BONUS]}}$    
+**13** - Ajouter les données à partir d'un fichier excel   $\color{red}{\text{[BONUS]}}$   
 
 # La correction :
 :one: - Ajouter les données  
@@ -140,7 +140,7 @@ FROM chat
 WHERE yeux ='marron'
 GROUP BY (yeux);
 ```
-**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>  
+**10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>    
 | id | nom | yeux | age |
 |---|---|---|---|
 | 3 | Bengal | marron | 18 |
@@ -148,7 +148,7 @@ GROUP BY (yeux);
 aa
 ```
 
-**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>    
+**11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>      
 | id | nom | yeux | age |
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |
