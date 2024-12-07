@@ -80,7 +80,7 @@ INSERT INTO film (titre,sortie) VALUES
 :warning: **Penser à vider la table** :scream:  
   
 
-Pour vider la table :  
+Pour vider **toute** la table (tous les enregistrements):  
 
 Utiliser <code>DELETE</code> pour effacer un film  
 Effacer un film  
