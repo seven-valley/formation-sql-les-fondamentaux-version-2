@@ -2,7 +2,7 @@
 
 ## JOUR 1 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-  <img src="./img/mod/m2.webp" width="300">
+  <img src="./img/mod/m2.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
@@ -34,7 +34,7 @@ Création d'une table personne
 <tr>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion et modification des données.pdf">
-  <img src="./img/mod/m3.webp" width="300">
+  <img src="./img/mod/m3.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion et modification des données.pdf">
@@ -43,7 +43,7 @@ Le PDF : Module 03 Insertion et modification des données
 </td>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-  <img src="./img/mod/m4.webp" width="300">
+  <img src="./img/mod/m4.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
@@ -78,7 +78,7 @@ Afficher les données avec <code>SELECT</code>
 <tr>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/05 La contrainte de clef étrangère.pdf">
-  <img src="./img/mod/m5.webp" width="300">
+  <img src="./img/mod/m5.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/05 La contrainte de clef étrangère.pdf">
@@ -87,7 +87,7 @@ Le PDF : Module 05 La contrainte de clef étrangère
 </td>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-  <img src="./img/mod/m6.webp" width="300">
+  <img src="./img/mod/m6.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
@@ -118,7 +118,7 @@ Mise en place de <code>INNER JOIN</code>
 
 ## Jour 2 APRES MIDI
 <a href="./00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
-  <img src="./img/mod/m7.webp" width="300">
+  <img src="./img/mod/m7.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
@@ -137,7 +137,7 @@ Extraire les données avec plusieurs jointures
 
 ## Jour 3 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/08 La table de jointures.pdf">
-  <img src="./img/mod/m8.webp" width="300">
+  <img src="./img/mod/m8.webp" width="200">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/08 La table de jointures.pdf">
