@@ -3,8 +3,6 @@
 
 <img src="../img/db-svg/06-film_categ.svg" width="600">
   
-<img src="../img/xl/03-film-categ.png" width="600">
-
 
 Prise en main des commandes :  
   
