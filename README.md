@@ -149,7 +149,7 @@ Extraire les données avec plusieurs jointures
 - Mettre enplace une clef primaire sur 2 ID
 - Extraire les données  
 
-$\color{blue}{\text{TP 08 Les films & Acteurs}}$  
+$\color{blue}{\text{TP 08 Les films et Acteurs}}$  
 Extraire les données  
 
 ## Jour 3 APRES MIDI
