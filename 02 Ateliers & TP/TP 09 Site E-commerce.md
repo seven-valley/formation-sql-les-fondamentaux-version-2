@@ -33,9 +33,9 @@
 
 <img src="../img/tp/tp9/c.png" width="400">
   
-:one: Créer la base de données 
-:two: Créer les tables
-:three: Ajouter les données
+:one: Créer la base de données   
+:two: Créer les tables  
+:three: Ajouter les données  
 
 ```sql
 DROP DATABASE IF EXISTS e_commerce;

@@ -9,7 +9,10 @@
 <img src="../img/tp/tp9/c.png" width="400">
 
 
-# La structure complète de la base & avec les données
+:one: Créer la base de données   
+:two: Créer les tables  
+:three: Ajouter les données  
+
 ```sql
 DROP DATABASE IF EXISTS e_commerce;
 CREATE DATABASE e_commerce CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
