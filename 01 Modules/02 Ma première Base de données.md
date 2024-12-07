@@ -6,13 +6,7 @@
 <a href="../00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
 02 Ma première Base de données.pdf
 </a>  
-  
-## Dans PhpMyAdmin ouvrez le terminal SQL
-:one: Cliquez sur l'onglet SQL  
-:two: Saisir le code SQL   
-:three: Cliquez sur GO 
-   
-<img src="../img/02/terminal.webp" width="500"> 
+
 
 ## OU dans Workbench ouvrez le terminal SQL
 :one: Cliquez sur l'onglet SQL    
@@ -125,7 +119,7 @@ Autres  :
 | ENUM ('vert','rouge') | choix prédéfini  |
 
 # Exemple : Création d'une table film
-<img src="../img/02/film.svg" width="300">
+<img src="../db-svg/01-film.svg" width="300">
     
   
   
