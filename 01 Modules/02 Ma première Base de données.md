@@ -4,7 +4,7 @@
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-le PDF : 02 Ma première Base de données.pdf
+Le PDF : 02 Ma première Base de données.pdf
 </a>  
 
 
@@ -20,7 +20,7 @@ le PDF : 02 Ma première Base de données.pdf
 https://www.w3schools.com/mysql/default.asp  
 https://sql.sh/  
 https://dev.mysql.com/doc/refman/8.4/en/select.html  
-[Tuto Learn sql](ttps://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/)  
+[Tuto Learn sql](https://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/)  
 
 ## Création d'une base de données &#x1F600;
 Commande pour créer une base de données
