@@ -84,7 +84,7 @@ Afficher les données avec <code>SELECT</code>
 ## JOUR 2 MATIN
 <table>
 <tr>
-<td>
+<td width="50%">
 <a href="./00 Les fichiers PDF - Supports de cours/05 La contrainte de clef étrangère.pdf">
   <img src="./img/mod/m5.webp" width="200">
 </a>  
@@ -93,7 +93,7 @@ Afficher les données avec <code>SELECT</code>
 Le PDF : Module 05 La contrainte de clef étrangère
 </a>
 </td>
-<td>
+<td width="50%">
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
   <img src="./img/mod/m6.webp" width="200">
 </a>  
