@@ -12,10 +12,10 @@
 <br>
      
   
-<img src="../img/05/fruit.svg" width="600">
+<img src="../img/db-svg/04-fruit.svg" width="600">
   
   
-<img src="../img/10/salade.png" width="600">
+<img src="../img/xl/01-salade.png" width="600">
 
 
 
@@ -59,7 +59,7 @@ CREATE TABLE fruit (
     CONSTRAINT fk_couleur FOREIGN KEY (couleur_id) REFERENCES couleur(id)
 )ENGINE=InnoDB;
 ```
-<img src="../img/05/fk.png" width="800">
+<img src="../img/tp/td5/fk.png" width="800">
   
 
 ## Création des tables Version 2 (bonne pratique) :heart_eyes: :
@@ -90,7 +90,7 @@ CREATE TABLE fruit (
 ALTER TABLE fruit ADD CONSTRAINT fk_couleur FOREIGN KEY fruit(couleur_id) REFERENCES couleur(id);
 
 ```
-<img src="../img/05/alter.png" width="800">
+<img src="../img/tp/td5/alter.png" width="800">
   
 
 ## Pour plus de clareté écrivez sur plusieur lignes

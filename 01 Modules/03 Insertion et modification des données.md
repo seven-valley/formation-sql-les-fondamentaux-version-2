@@ -1,4 +1,4 @@
-# Module 03 - Insertion et modification des données :outbox_tray:
+# Module 03 - Insertion et modification des données 
 
 
 <a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
