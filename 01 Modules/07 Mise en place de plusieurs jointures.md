@@ -189,6 +189,11 @@ FROM pays
 INNER JOIN region ON pays.id = region.pays_id
 INNER JOIN ville ON region.id = ville.region_id;
 ```
+| pays | ville |
+|---|---|
+| France | Rennes |
+| France | Brest |
+
 -----------------------------------------------------------
 -----------------------------------------------------------
 
