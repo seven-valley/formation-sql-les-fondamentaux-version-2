@@ -1,10 +1,11 @@
 # TP 9 - SITE E-commerce
-<img src="../../img/num/nine.webp" width="100">
+<img src="../img/num/nine.webp" width="100">
 
 <table>
 <tr>
 <td valign=top>
 
+  
 ### la table article
 | id | nom | prix | 
 |----|---|---|
@@ -25,7 +26,8 @@
 
 
 </td></tr></table>
-
+  
+<br>  
 
 <img src="../img/db-svg/10-e-commerce.svg" width="800">
 
