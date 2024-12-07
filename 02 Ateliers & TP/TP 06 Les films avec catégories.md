@@ -48,6 +48,7 @@ ALTER TABLE film ADD CONSTRAINT fk_categ FOREIGN KEY (categ_id) REFERENCES categ
 
 :four: Insérer  les données
 ```sql
+USE netflix;
 INSERT INTO categ (nom) VALUES
 ('SF'),
 ('Thriller');
