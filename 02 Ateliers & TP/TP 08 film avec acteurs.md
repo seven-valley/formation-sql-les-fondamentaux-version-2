@@ -78,6 +78,11 @@ VALUES
 |--- |
 |  TITANIC |
 
+:five: Ajouter un acteur TOM CRUISE
 
-
-
+:six: Afficher le nombre de films par acteur en incluant TOM CRUISE
+| acteur_prenom | acteur_nom |  nb_films | 
+|--- |--- |--- |
+|  Leonardo | DICAPRIO | 1|
+| Brad | PITT | 2 |
+| TOM | CRUISE | 0 |

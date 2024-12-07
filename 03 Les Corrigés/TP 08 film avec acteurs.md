@@ -113,4 +113,15 @@ LEFT JOIN film_has_acteur on film.id=film_has_acteur.film_id
 WHERE acteur_id IS NULL
 ```
 
+:five: Ajouter un acteur TOM CRUISE
+```sql
+INSERT INTO acter (prenom,nom) VALUES ('Brad','PITT');
+```
+
+:six: Afficher le nombre de films par acteur en incluant TOM CRUISE
+| acteur_prenom | acteur_nom |  nb_films | 
+|--- |--- |--- |
+|  Leonardo | DICAPRIO | 1|
+| Brad | PITT | 2 |
+| TOM | CRUISE | 0 |
 
