@@ -162,7 +162,7 @@ INNER JOIN ville ON region.id
 ```
 
 -----------------------------------------------------------
-:seven : Je regarde la jointure entre les 2 tables  
+:seven: Je regarde la jointure entre les 2 tables  
 Je prends le champ <code>region_id</code> sur la table<code>ville</code> 
 
 <img src="../img/tp/td8/etape7.webp" width="600">
