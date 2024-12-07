@@ -29,5 +29,5 @@ Afin de vous aider  à choisir les types de champs
 :two: Créer la table **chat**  
 
 ## Le modèle Relationnel
-<img src="../img/db-svg/02-chat.svg" width="150">
+<img src="../img/db-svg/02-chat.svg" width="200">
 
