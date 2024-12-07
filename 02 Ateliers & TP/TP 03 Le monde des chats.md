@@ -43,8 +43,8 @@ CREATE TABLE IF NOT EXISTS chat(
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron  
 **10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
 **11** - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>     
-**12** - Afficher le nombre de chat par couleur d'yeux    
-[BONUS] - Ajouter les données à partir d'un fichier excel  
+**12** - Afficher le nombre de chat par couleur d'yeux    $\color{red}{\text{[BONUS]}}$    
+**13** - Ajouter les données à partir d'un fichier excel   $\color{red}{\text{[BONUS]}}$    
 
 # Résultats attendus
 :two: - Afficher le chat avec l'id :2 
