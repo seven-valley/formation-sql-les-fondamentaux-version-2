@@ -78,7 +78,12 @@ INSERT INTO ligne (article_id,commande_id,nombre,prix) VALUES
 
 
 
-:one: Afficher la commande de Brad
+:four: Afficher la commande de Brad
+|prenom|nom|date_achat|nom|prix|nb|total|
+|---|---|---|---|---|---|---|
+|PITT|Brad|2024-09-08 10:15:00|X box|350|1|350|
+|PITT|Brad|2024-09-08 10:15:00|Machine à café|300|1|300|
+|PITT|Brad|2024-09-08 10:15:00|PlayStation 3|100|2|200|
 ```sql
 USE e_commerce;
 SELECT 
@@ -95,7 +100,13 @@ INNER JOIN ligne ON commande.id = ligne.commande_id
 INNER JOIN article ON article_id= article.id
 INNER JOIN client ON client.id = commande.client_id
 WHERE commande_id=1;
+```
+|total_ht|total_tva|total_ttc|
+|---|---|---|
+|850|170|1020|
 
+```sql
+USE e_commerce;
 -- le TOTAL
 SELECT 
  SUM(ligne.prix*ligne.nombre) AS total_ht,
