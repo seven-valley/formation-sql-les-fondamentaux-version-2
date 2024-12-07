@@ -28,7 +28,7 @@ Le PDF : Module 02 Ma première Base de données
 
 **TP 02 Le monde des chats** Création d'une table chat
 ## JOUR 1 APRES MIDI
-<table border=0>
+<table>
 <tr>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
@@ -72,6 +72,9 @@ Ajouter les données avec **INSERT**
 Afficher les données avec **SELECT**
 
 ## JOUR 2 MATIN
+<table>
+<tr>
+<td>
 <a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
   <img src="./img/mod/m5.webp" width="300">
 </a>  
@@ -79,6 +82,18 @@ Afficher les données avec **SELECT**
 <a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
 Le PDF : Module 05 La clef étrangère
 </a>
+</td>
+<td>
+<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+  <img src="./img/mod/m6.webp" width="300">
+</a>  
+<br>
+<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
+Le PDF : Module 06 Les jointures
+</a>
+</td>
+</tr>
+</table>
 
 ### La clef étrangère
 - Créer une clef étrangère  
@@ -95,13 +110,7 @@ Mettre en place des jointures pour extraires les données :
 Afficher les chats avec leurs couleurs d'yeux 
 
 ## Jour 2 APRES MIDI
-<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-  <img src="./img/mod/m6.webp" width="300">
-</a>  
-<br>
-<a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-Le PDF : Module 06 Les jointures
-</a>
+
   
 ### TP 06 Films  avec clef étrangère 
 - Afficher les films avec les catégories
