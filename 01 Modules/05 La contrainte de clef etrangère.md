@@ -1,7 +1,7 @@
 # Module 05 - Mise en place de la contrainte de clef etrangère
 
 <a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
-  <img src="../img/05/m5.webp" width="300">
+  <img src="../img/mod/m5.webp" width="300">
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
