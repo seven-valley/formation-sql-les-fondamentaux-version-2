@@ -8,9 +8,7 @@
 <a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
 Le PDF : 03 Insertion des données
 </a> 
-
 <br><br>
-
 ------------------------------------------
 Le CRUD :
 - **C** comme **C**REATE
