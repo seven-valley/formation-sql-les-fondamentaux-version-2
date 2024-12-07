@@ -1,4 +1,4 @@
-# Module 06 - Les jointures LEFT, RIGHT & INNER
+# Module 06 - Les jointures 
 <a href="../00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
   <img src="../img/mod/m6.png" width="300">
 </a>  
@@ -15,36 +15,36 @@ Le PDF : 06 Les jointures
 - Mise en place de <code>COUNT()</code> et <code>GROUP BY</code> avec <code>LEFT JOIN</code>
   <br> <br>
 **modèle relationnel**  
-<img src="../img/05/fruit.svg" width="600">
+<img src="../img/db-svg/04-fruit.svg" width="600">
   
-<img src="../img/10/salade.png" width="600">
+<img src="../img/xl/01-salade.png" width="600">
 
   
 ## Mise en Place d'un INNER JOIN
 _Relier 2 tables avec <code>INNER JOIN</code>_  
 
  
-<img src="../img/06/inner.png" width="800">  
+<img src="../img/tp/td6/inner.png" width="800">  
 
 ### Mise en Place en 4 Etapes
 _Construction d'un <code>INNER JOIN</code> en 4 étapes_ 
    
 :one: Je sélectionne la table d'où je pars avec le <code>FROM</code>.  
-<img src="../img/06/inner1.png" width="800">  
+<img src="../img/tp/td6/inner1.png" width="800">  
 
 :two: Je sélectionne la table 2 que je vise. la table où je veux aller.  
-<img src="../img/06/inner2.png" width="800">  
+<img src="../img/tp/td6/inner2.png" width="800">  
 
 :three: Je sélectionne le  champ de la table 1 (par exemple)  
 _Je visualise la jointure et les champs reliés entre eux_  
-<img src="../img/06/inner3.png" width="800">  
+<img src="../img/tp/td6/inner3.png" width="800">  
 
 :four: - Je sélectionne le  champ relié de la table 2 
-<img src="../img/06/inner4.png" width="800">  
+<img src="../img/tp/td6/inner4.png" width="800">  
 
 ----------------------------------------------
 
-<img src="../img/08/inner.png" width="200"> <img src="../img/10/salade.png" width="600">
+<img src="../img/tp/td6/inner.png" width="200"> <img src="../img/xl/01-salade.png" width="600">
   
 [Documentation INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp)
 
@@ -85,7 +85,7 @@ INNER JOIN couleur AS c on f.couleur_id = c.id;
 ## Mise en place du LEFT JOIN
 Nous pouvons remplacer simplement les <code>INNER</code> par <code>LEFT</code>
   
-<img src="../img/08/left.png" width="200">   <img src="../img/10/salade.png" width="600"> 
+<img src="../img/tp/td6/left.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 [Documentation LEFT JOIN](https://www.w3schools.com/sql/sql_join_left.asp)
 
@@ -106,7 +106,7 @@ LEFT JOIN couleur ON fruit.couleur_id = couleur.id;
 | cerise | null |
 
 ## Mise en place du  RIGHT JOIN 
-<img src="../img/08/right.png" width="200">   <img src="../img/10/salade.png" width="600"> 
+<img src="../img/tp/td6/right.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 [Documentation LEFT JOIN](https://www.w3schools.com/sql/sql_join_right.asp)
 
@@ -133,7 +133,7 @@ On souhaite savoir chaque couleur est associée à combien de fruits
  - on compte (avec <code>COUNT()</code>) les fruits  donc les ID de fruit <code>f.id</code> OU <code>fruit.id</code>  
  - On regoupe(avec <code>GROUP BY</code>) par couleur donc Les ID de couleur <code>c.id</code> OU <code>couleur.id</code>  
 
-<img src="../img/08/right.png" width="200">   <img src="../img/10/salade.png" width="600"> 
+<img src="../img/tp/td6/right.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 ```sql
 USE salade_de_fruits;
@@ -154,7 +154,7 @@ GROUP BY (c.id);
 Nous remplacons <code>INNER</code> par <code>LEFT</code>
 Ainsi nous avons toutes les couleurs
 
-<img src="../img/08/right.png" width="200">   <img src="../img/10/salade.png" width="600"> 
+<img src="../img/tp/td6/right.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 ```sql
 USE salade_de_fruits;
