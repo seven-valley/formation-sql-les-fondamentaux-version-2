@@ -1,4 +1,4 @@
-# 06 Mise en place de plusieurs jointures
+# Module 07 - Mise en place de plusieurs jointures
 <a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
   <img src="../img/07/m7.png" width="300">
 </a>  
@@ -71,6 +71,17 @@ INSERT INTO ville (id, nom, region_id) VALUES
 |---|---|
 | France | Rennes |
 | France | Brest |
+
+:one: Je pars de la table <code>pays</code>
+
+```sql
+
+SELECT
+pays.nom
+FROM pays
+
+```
+
 
 ```sql
 USE le_village;

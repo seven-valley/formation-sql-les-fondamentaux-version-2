@@ -1,10 +1,10 @@
-# Module 07 - La table de jointure
+# Module 08 - La table de jointures
 <a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
   <img src="../img/07/m7.png" width="300">
 </a>  
 <br>
 <a href="../00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
-Le PDF : 08 La table de jointure
+Le PDF : 08 La table de jointures
 </a> 
       
 <br><br>    
