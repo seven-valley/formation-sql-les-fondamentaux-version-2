@@ -127,13 +127,16 @@ RIGHT JOIN couleur ON fruit.couleur_id = couleur.id;
 | null | bleu |
 
 
+----------------------------------------------
+----------------------------------------------
+
 # Compter des occurences avec INNER JOIN
 _Mise en place de <code>COUNT()</code> et <code>GROUP BY</code> avec <code>INNER JOIN</code>_
 On souhaite savoir chaque couleur est associée à combien de fruits
  - on compte (avec <code>COUNT()</code>) les fruits  donc les ID de fruit <code>f.id</code> OU <code>fruit.id</code>  
  - On regoupe(avec <code>GROUP BY</code>) par couleur donc Les ID de couleur <code>c.id</code> OU <code>couleur.id</code>  
 
-<img src="../img/tp/td6/right.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
+<img src="../img/tp/td6/inner.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 ```sql
 USE salade_de_fruits;
@@ -150,13 +153,12 @@ GROUP BY (c.id);
 | verte | 1 |
 
 ----------------------------------------------
-----------------------------------------------
 
 # Compter des occurences avec LEFT JOIN
 Nous remplacons <code>INNER</code> par <code>LEFT</code>
 Ainsi nous avons toutes les couleurs
 
-<img src="../img/tp/td6/right.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
+<img src="../img/tp/td6/left.png" width="200">   <img src="../img/xl/01-salade.png" width="600"> 
 
 ```sql
 USE salade_de_fruits;
