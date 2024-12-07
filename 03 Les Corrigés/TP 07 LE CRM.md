@@ -1,11 +1,11 @@
 # TP 7 - CRM Customer  Relationship Management
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/seven.webp" width="100">
+<img src="../img/c.webp" width="100">  <img src="../img/num/seven.webp" width="100">
   
 
 ## Modele relationnel
-<img src="../../img/05/crm.svg" width="800">
+<img src="../img/db-svg/08-crm.svg" width="800">
 
 
 # Partie 1
