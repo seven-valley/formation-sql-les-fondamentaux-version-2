@@ -1,5 +1,5 @@
 # TP 5 - Le mondes des chats avec une clef étrangère
-<img src="../img/num/five.webp" width="100">
+<img src="../img/img/num/five.webp" width="100">
 <img src="../img/db-svg/05-chat-couleur.svg" width="400">
 Prise en main des commandes :  
     
@@ -9,10 +9,10 @@ Prise en main des commandes :
 <img src="../img/xl/02-tp-chat.png" width="600">
 
   
-![maincoon](../tp/tp1/maincoon.webp)
-![siamois](../tp/tp1/siamois.webp)
-![bengal](../tp/tp1/bengal.webp)
-![scottish](../tp/tp1/scottish.webp)
+![maincoon](../img/tp/tp1/maincoon.webp)
+![siamois](../img/tp/tp1/siamois.webp)
+![bengal](../img/tp/tp1/bengal.webp)
+![scottish](../img/tp/tp1/scottish.webp)
 
 
 
