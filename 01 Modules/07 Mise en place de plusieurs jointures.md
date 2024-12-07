@@ -181,7 +181,7 @@ INNER JOIN ville ON region.id = ville.region_id
 Et voilà !  :smiley: :heart_eyes:
 ```sql
 USE le_village;
-
+# afficher les villes par pays
 SELECT
 pays.nom,
 ville.nom
