@@ -35,13 +35,12 @@ Création d'une table personne
 
 ## JOUR 1 APRES MIDI
 
-<div style="float:left"><img src="./img/mod/m3.webp" width="200"></div><div  style="float:right">><img src="./img/mod/m3.webp" width="200"></div>
 
 
 
 <table>
 <tr>
-<td>
+<td width="50%">
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion et modification des données.pdf">
   <img src="./img/mod/m3.webp" width="200">
 </a>  
@@ -50,7 +49,7 @@ Création d'une table personne
 Le PDF : Module 03 Insertion et modification des données
 </a>  
 </td>
-<td>
+<td width="50%">
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
   <img src="./img/mod/m4.webp" width="200">
 </a>  
