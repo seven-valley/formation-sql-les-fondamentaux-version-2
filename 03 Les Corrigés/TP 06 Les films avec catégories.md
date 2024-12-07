@@ -1,10 +1,12 @@
 # TP 6 - Les films avec catégories
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100"> <img src="../../img/six
+<img src="../img/c.webp" width="100"> <img src="../img/num/six
 .webp" width="100">
 
-<img src="../../img/05/film_categ.svg" width="600">
+<img src="../img/db-svg/06-film_categ.svg" width="600">
+  
+
 
 | id | titre | sortie | categorie |
 |---|---|---|---|
