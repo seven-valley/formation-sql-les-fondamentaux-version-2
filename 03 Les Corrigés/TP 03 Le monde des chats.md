@@ -157,10 +157,18 @@ GROUP BY (yeux);
 **10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>    
 | id | nom | yeux | age |
 |---|---|---|---|
-| 3 | Bengal | marron | 18 |
+| 4 | Scottish Fold | marron | 10 |
   
 ```sql
-aa
+USE zoo;
+SELECT
+id,
+nom,
+yeux,
+age
+FROM chat
+ORDER BY AGE ASC
+LIMIT 1;
 ```
   
 **11** - Afficher le chat avec la longue petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>      
@@ -168,7 +176,15 @@ aa
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |
 ```sql
-aa
+USE zoo;
+SELECT
+id,
+nom,
+yeux,
+age
+FROM chat
+ORDER BY AGE DESC
+LIMIT 1;
 ```
 
 12 - Afficher le nombre de chat par couleur des yeux
