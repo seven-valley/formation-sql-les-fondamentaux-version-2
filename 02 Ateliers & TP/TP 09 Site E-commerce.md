@@ -29,7 +29,7 @@
   
 <br>  
 
-<img src="../img/db-svg/10-e-commerce.svg" width="800">
+<img src="../img/db-svg/10-e-commerce.svg" width="600">
 
 <img src="../img/tp/tp9/c.png" width="300">
   
