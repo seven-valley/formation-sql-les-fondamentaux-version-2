@@ -65,13 +65,13 @@ Le PDF : Module 04 Extraire les données
 - Filtrer avec **LIMIT**
 - Classer avec **ORDER BY**
 
- **TP 03 VIP Cocktail partie 2**
-Ajouter les données avec **INSERT**
-Afficher les données avec **SELECT**
-
- **TP 04 Le monde des chats partie 2** 
-Ajouter les données avec **INSERT**
-Afficher les données avec **SELECT**
+$\color{blue}{\text{TP 03 Le monde des chats partie 2}}$  
+Ajouter les données avec <code>INSERT</code>  
+Afficher les données avec <code>SELECT</code>  
+  
+$\color{blue}{\text{TP 04 VIP Cocktail partie 2}}$  $\color{red}{\text{[BONUS]}}$   
+Ajouter les données avec <code>INSERT</code>  
+Afficher les données avec <code>SELECT</code>  
 
 ## JOUR 2 MATIN
 <table>
