@@ -6,13 +6,13 @@ Prise en main des commandes :
 <code>INNER JOIN</code>    
 <code>LEFT JOIN</code>    
 
-<img src="../img/xl/02-tp-chat.png" width="800">
+<img src="../img/xl/02-tp-chat.png" width="600">
 
   
-![maincoon](/img/09/maincoon.webp)
-![siamois](/img/09/siamois.webp)
-![bengal](/img/09/bengal.webp)
-![scottish](/img/09/scottish.webp)
+![maincoon](../tp/tp1/maincoon.webp)
+![siamois](../tp/tp1/siamois.webp)
+![bengal](../tp/tp1/bengal.webp)
+![scottish](../tp/tp1/scottish.webp)
 
 
 

@@ -3,9 +3,9 @@
 
 <img src="../img/c.webp" width="100"> <img src="../img/num/five.webp" width="100">  
 
-<img src="../img/db-svg/02-chat.svg" width="600">
+<img src="../img/db-svg/05-chat-couleur.svg" width="400">
 
-<img src="../img/xl/02-tp-chat.png" width="800">
+<img src="../img/xl/02-tp-chat.png" width="600">
 
 ![maincoon](../img/tp/tp1/maincoon.webp)
 ![siamois](../img/tp/tp1/siamois.webp)
