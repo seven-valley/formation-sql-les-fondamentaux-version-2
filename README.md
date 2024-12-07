@@ -4,13 +4,13 @@
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
   <img src="./img/mod/m2.webp" width="300">
 </a>  
-<br>
+<br>:one: 
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-:one:Le PDF : Module 02 Ma première Base de données
+Le PDF : Module 02 Ma première Base de données
 </a>  
-<br>
+<br><br>
 
-[:two: Le module 02 en ligne](./01%20Modules/02%20Ma%20première%20Base%20de%20données.md)  
+:two: [ Le module 02 en ligne](./01%20Modules/02%20Ma%20première%20Base%20de%20données.md)  
 
 ### Création de la base données (data base)
 - Créer une base de données  
