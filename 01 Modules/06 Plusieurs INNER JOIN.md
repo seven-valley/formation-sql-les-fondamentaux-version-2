@@ -5,7 +5,7 @@ Avec Plusieurs <code>LEFT JOIN</code>
 
 <img src="../img/db-svg/07-le_village.svg" width="600">
 
-<img src="../img/xl/04-village.png" width="600">
+<img src="../img/xl/04-village.png" width="700">
 
 **La base de données & les données**
 
