@@ -1,16 +1,20 @@
 # TP 9 - SITE E-commerce
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/nine.webp" width="100">
+<img src="../img/c.webp" width="100">  <img src="../img/num/nine.webp" width="100">
 
 
-<img src="../../img/05/e-commerce.svg" width="800">
+<img src="../img/db-svg/10-e-commerce.svg" width="800">
 
-<img src="../../img/15/c.png" width="300">
+<img src="../img/tp/tp9/c.png" width="300">
 
 
 # La structure complète de la base & avec les données
 ```sql
+DROP DATABASE IF EXISTS e_commerce;
+CREATE DATABASE e_commerce CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE e_commerce;
+
 CREATE TABLE client (
   id INT NOT NULL AUTO_INCREMENT,
   nom VARCHAR(100) NOT NULL,
@@ -69,8 +73,39 @@ INSERT INTO ligne (article_id,commande_id,nombre,prix) VALUES
 ```
 
 
+
+
+:one: Afficher la commande de Brad
+```sql
+USE e_commerce;
+SELECT 
+client.prenom AS prenom,
+client.nom AS nom,
+commande.date_achat as date_achat,
+article.nom AS nom,
+ligne.prix AS prix,
+ligne.nombre AS nb,
+ligne.prix*ligne.nombre AS total
+FROM
+commande
+INNER JOIN ligne ON commande.id = ligne.commande_id
+INNER JOIN article ON article_id= article.id
+INNER JOIN client ON client.id = commande.client_id
+WHERE commande_id=1;
+
+-- le TOTAL
+SELECT 
+ SUM(ligne.prix*ligne.nombre) AS total_ht,
+ SUM(ligne.prix*ligne.nombre*0.2) AS total_tva,
+ SUM(ligne.prix*ligne.nombre*1.2) AS total_ttc
+FROM
+commande
+INNER JOIN ligne ON commande.id = ligne.commande_id
+WHERE commande_id=1;
+```
+
 # Bonus : pseudo code pour db diagram
-<img src="../../img/dbdiagram.svg" width="200">  
+<img src="../img/dbdiagram.svg" width="200">  
 
 [db Diagram](https://dbdiagram.io/home) 
 **prompt db diagram :**
@@ -100,32 +135,4 @@ Table ligne {
 Ref: "article"."id" < "ligne"."article_id"
 Ref: "commande"."id" < "ligne"."commande_id"
 Ref: "client"."id" < "commande"."client_id"
-```
-
-:one: Afficher la commande de Brad
-```sql
-SELECT 
-client.prenom AS prenom,
-client.nom AS nom,
-commande.date_achat as date_achat,
-article.nom AS nom,
-ligne.prix AS prix,
-ligne.nombre AS nb,
-ligne.prix*ligne.nombre AS total
-FROM
-commande
-INNER JOIN ligne ON commande.id = ligne.commande_id
-INNER JOIN article ON article_id= article.id
-INNER JOIN client ON client.id = commande.client_id
-WHERE commande_id=1;
-
--- le TOTAL
-SELECT 
- SUM(ligne.prix*ligne.nombre) AS total_ht,
- SUM(ligne.prix*ligne.nombre*0.2) AS total_tva,
- SUM(ligne.prix*ligne.nombre*1.2) AS total_ttc
-FROM
-commande
-INNER JOIN ligne ON commande.id = ligne.commande_id
-WHERE commande_id=1;
 ```
