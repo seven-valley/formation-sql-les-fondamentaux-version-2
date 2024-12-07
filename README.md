@@ -2,7 +2,7 @@
 
 ## JOUR 1 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-  <img src="./img/02/m2.png" width="300">
+  <img src="./img/mod/m2.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
@@ -29,7 +29,7 @@ Module 02 Ma première Base de données
 <tr>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-  <img src="./img/03/m3.png" width="300">
+  <img src="./img/mod/m3.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
@@ -38,7 +38,7 @@ Module 03 Insertion des données
 </td>
 <td>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
-  <img src="./img/04/m4.png" width="300">
+  <img src="./img/mod/m4.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/04 Extraire les données.pdf">
@@ -70,7 +70,7 @@ Afficher les données avec **SELECT**
 
 ## JOUR 2 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
-  <img src="./img/05/m5.png" width="300">
+  <img src="./img/mod/m5.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
@@ -93,7 +93,7 @@ Afficher les chats avec leurs couleurs d'yeux
 
 ## Jour 2 APRES MIDI
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
-  <img src="./img/06/m6.png" width="300">
+  <img src="./img/mod/m6.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/06 Les jointures.pdf">
@@ -110,7 +110,7 @@ Module 06 Les jointures
 
 ## Jour 3 MATIN
 <a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
-  <img src="./img/07/m7.png" width="300">
+  <img src="./img/mod/m7.png" width="300">
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">  
