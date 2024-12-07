@@ -21,10 +21,11 @@ Le PDF : Module 02 Ma première Base de données
 - Créer une contrainte de nullité  
 - Mettre des valeurs par défault  
 
-$\color{blue}{\text{aa}}$ 
+$\color{blue}{\text{TP 01 Le monde des chats}}$
+Création d'une table chat 
   
-$\color{blue}{\text{**TP 02 VIP Cocktail** Création d'une table personne}}$ 
-
+[BONUS] $\color{blue}{\text{TP 02 VIP Cocktail}}$ 
+Création d'une table personne
   
 
 
