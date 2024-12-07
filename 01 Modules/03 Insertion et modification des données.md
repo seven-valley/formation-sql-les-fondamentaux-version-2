@@ -61,7 +61,7 @@ INSERT INTO film (...) VALUES
 (...),
 (...);
 ```
-
+**Cela donne** :
 ```sql
 INSERT INTO film (id,titre,sortie) VALUES
 (1,'STAR WARS','1977/05/25'),
