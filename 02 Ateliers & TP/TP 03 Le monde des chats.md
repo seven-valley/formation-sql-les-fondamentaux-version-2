@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS chat(
 :eight: - Afficher le nombre de chats dans la table   
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron  
 **10** - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
-**11** - Afficher le chat avec la longue petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
+**11** - Afficher le chat avec la plus longue durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
 **12** - Afficher le nombre de chat par couleur des yeux    $\color{red}{\text{[BONUS]}}$    :cactus::cactus:   
 **13** - Ajouter les données à partir d'un fichier excel   $\color{red}{\text{[BONUS]}}$ :cactus::cactus::cactus:   
 
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS chat(
 |---|---|---|---|
 | 4 | Scottish Fold | marron | 10 |
     
-**11** - Afficher le chat avec la longue petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>      
+**11** - Afficher le chat avec la plus longue durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>      
 | id | nom | yeux | age |
 |---|---|---|---|
 | 1 | Maine coon | marron | 20 |

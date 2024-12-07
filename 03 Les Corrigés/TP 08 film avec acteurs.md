@@ -1,14 +1,16 @@
-# TP 08 - Film avec acteurs - table de jointure
+# TP 08 - Film avec acteurs - table de jointures
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/eight.webp" width="100">
+<img src="../img/c.webp" width="100">  <img src="../img/num/eight.webp" width="100">
 
-![db](../../img/13/titanic.webp)
+
+<img src="../img/tp/td7/titanic.webp" width="80">
+
 ## Le modèle relationnel
-<img src="../../img/05/film_has_acteur.svg" width="800">
+<img src="../img/db-svg/09-film_has_acteur.svg" width="600">
 
 ## Les données
-![db2](../../img/13/data.png)
+<img src="../img/xl/05-jointure.png" width="600">
 
 
 
