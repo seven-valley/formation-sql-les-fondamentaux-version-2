@@ -1,5 +1,5 @@
 # TP 8 - Film avec acteurs - table de jointures
-<img src="../img/eight.webp" width="100">
+<img src="../img/num/eight.webp" width="100">
 
 <img src="../img/tp/td7/titanic.webp" width="80">
 ## Le modèle relationnel
