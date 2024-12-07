@@ -149,7 +149,7 @@ Extraire les données avec plusieurs jointures
 </a>  
 <br>
 <a href="./00 Les fichiers PDF - Supports de cours/08 La table de jointures.pdf">
-08 La table de jointure
+Le PDF : Module 08 La table de jointure
 </a>
 
 ### Les Tables de jointures :
