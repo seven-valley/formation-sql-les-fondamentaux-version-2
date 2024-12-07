@@ -1,11 +1,11 @@
 # :cocktail: TP 2 - VIP Cocktail
 ## :warning: La correction
-<img src="../img/c.webp" width="100">  <img src="../img/number/two.webp" width="100"> 
+<img src="../img/c.webp" width="100">  <img src="../img/num/two.webp" width="100"> 
 
 Nou allons créer une liste d'invités pour des soirées VIP  
-![brad](../img/tp2/brad.webp)
-![george](../img/tp2/george.webp)
-![jean](../img/tp2/jean.webp)
+![brad](../img/tp/tp2/brad.webp)
+![george](../img/tp/tp2/george.webp)
+![jean](../img/tp/tp2/jean.webp)
   
 
 ## Partie 1 - Création de la table
@@ -32,7 +32,7 @@ Chaque personne a :
 :three: Rajouter le prefixe <code>inv_</code> à votre table  
    
 ## Le modèle Relationnel
-<img src="../../img/02/personne.svg" width="300">
+<img src="../img/db-svg/03-personne.svg" width="300">
 
 
 ## La correction  :heart_eyes: :
