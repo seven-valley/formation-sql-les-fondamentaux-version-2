@@ -33,12 +33,12 @@ Création d'une table personne
 <table>
 <tr>
 <td>
-<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
+<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion et modification des données.pdf">
   <img src="./img/mod/m3.webp" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-Le PDF : Module 03 Insertion des données
+<a href="./00 Les fichiers PDF - Supports de cours/03 Insertion et modification des données.pdf">
+Le PDF : Module 03 Insertion et modification des données
 </a>  
 </td>
 <td>
