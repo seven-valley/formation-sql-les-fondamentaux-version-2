@@ -1,6 +1,6 @@
 # TP 3 - Le monde des les chats
 ## :warning: La correction
-<img src="../../img/c.webp" width="100"> <img src="../../img/three.webp" width="100">  
+<img src="../../img/c.webp" width="100"> <img src="../../img/num/three.webp" width="100">  
 
 | id | nom | yeux | age |
 |---|---|---|---|
@@ -9,11 +9,25 @@
 | 3 | Bengal | marron | 18 |
 | 4 | Scottish Fold | marron | 10 |
   
-![maincoon](/img/09/maincoon.webp)
-![siamois](/img/09/siamois.webp)
-![bengal](/img/09/bengal.webp)
-![scottish](/img/09/scottish.webp)
+![maincoon](/img/tp/tp1/09/maincoon.webp)
+![siamois](/img/tp/tp1/09/siamois.webp)
+![bengal](/img/tp/tp1/09/bengal.webp)
+![scottish](/img/tp/tp1/09/scottish.webp)
 
+## Pour rappel voici la structure de la table
+```sql
+DROP DATABASE IF EXISTS zoo;
+CREATE DATABASE zoo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE zoo;
+
+CREATE TABLE IF NOT EXISTS chat(
+ id INT NOT NULL AUTO_INCREMENT,
+ nom VARCHAR(50) NOT NULL,
+ yeux VARCHAR(20) NOT NULL,
+ age INT NOT NULL,
+ CONSTRAINT pk_chat PRIMARY KEY (id)
+)ENGINE=INNODB;
+```
 :one: - Ajouter les données  
 :two: - Afficher le chat avec l'id :2  
 :three: - Trier les chats par nom et par age  
