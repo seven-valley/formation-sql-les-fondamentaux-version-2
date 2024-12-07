@@ -68,6 +68,8 @@ VALUES
 |Fight Club |  Leonardo | DICAPRIO |
 
 ```sql
+USE prime_vdo;
+
 SELECT 
 film.nom AS film,
 acteur.prenom,
@@ -84,6 +86,8 @@ WHERE acteur_id=2
 | Brad | PITT | 2 |
 
 ```sql
+USE prime_vdo;
+
 SELECT 
 COUNT(film.id) AS nb_films,
 acteur.prenom,
@@ -96,6 +100,7 @@ GROUP BY (acteur.id);
 
 :three: Ajouter un film TITANIC
 ```sql
+USE prime_vdo;
 INSERT INTO film (nom) VALUES ('TITANIC');
 ```
 :four: - Trouver le film qui n'a pas d'acteur
@@ -105,6 +110,8 @@ INSERT INTO film (nom) VALUES ('TITANIC');
 
 
 ```sql
+USE prime_vdo;
+
 SELECT 
 film.nom, 
 acteur_id
@@ -115,13 +122,41 @@ WHERE acteur_id IS NULL
 
 :five: Ajouter un acteur TOM CRUISE
 ```sql
-INSERT INTO acter (prenom,nom) VALUES ('Brad','PITT');
+USE prime_vdo;
+INSERT INTO acteur (prenom,nom) VALUES ('Brad','PITT');
 ```
 
 :six: Afficher le nombre de films par acteur en incluant TOM CRUISE
 | acteur_prenom | acteur_nom |  nb_films | 
 |--- |--- |--- |
-|  Leonardo | DICAPRIO | 1|
 | Brad | PITT | 2 |
+|  Leonardo | DICAPRIO | 1|
 | TOM | CRUISE | 0 |
+
+```sql
+USE prime_vdo;
+SELECT 
+acteur.prenom,
+acteur.nom,
+COUNT(film.id) AS nb_films
+FROM acteur
+LEFT JOIN film_has_acteur  ON acteur.id = film_has_acteur.acteur_id
+LEFT JOIN film ON film.id = film_has_acteur.film_id
+GROUP BY (acteur.id);
+```
+
+
+**Autre possiblité**
+
+```sql
+USE prime_vdo;
+SELECT 
+acteur.prenom,
+acteur.nom,
+COUNT(film.id) AS nb_films
+FROM film
+INNER JOIN film_has_acteur  ON film.id = film_has_acteur.film_id
+RIGHT JOIN acteur ON acteur.id = film_has_acteur.acteur_id
+GROUP BY (acteur.id);
+```
 
