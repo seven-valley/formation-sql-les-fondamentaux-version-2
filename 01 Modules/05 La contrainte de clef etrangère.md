@@ -109,7 +109,7 @@ REFERENCES couleur(id)
 
 
 # Ajouter les données
-<img src="../img/10/salade.png" width="600">
+<img src="../img/xl/01-salade.png" width="600">
 
 ```sql
 USE salade_de_fruits; 
