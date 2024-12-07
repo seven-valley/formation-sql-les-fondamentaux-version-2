@@ -23,7 +23,7 @@ Nous allons utiliser :
 - **DELETE** avec <code>DELETE</code> & <code>TRUNCATE</code>  
 ------------------------------------------
 
-<img src="../img/04/star.webp" width="80"> <img src="../img/04/matrix.webp" width="80"> <img src="../img/04/pulp.webp" width="80">
+<img src="../img/tp/td2/star.webp" width="80"> <img src="../img/tp/td2/matrix.webp" width="80"> <img src="../img/tp/td2/pulp.webp" width="80">
 
   
 | id | titre | sortie |
