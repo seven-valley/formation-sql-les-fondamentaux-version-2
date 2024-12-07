@@ -1,4 +1,15 @@
 # Module 03 - Insertion et modification des données :outbox_tray:
+
+
+<a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
+  <img src="../img/mod/m3.webp" width="300">
+</a>  
+<br>
+<a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
+03 Insertion des données
+</a> 
+
+<br><br>
 Le CRUD :
 - **C** comme **C**REATE
 - **R** comme **R**EAD
@@ -9,16 +20,6 @@ Nous allons utiliser :
 - **CREATE** avec <code>INSERT</code>  
 - **UPDATE** avec <code>UPDATE</code>  
 - **DELETE** avec <code>DELETE</code> & <code>TRUNCATE</code>  
-
-<a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-  <img src="../img/03/m3.png" width="300">
-</a>  
-<br>
-<a href="../00 Les fichiers PDF - Supports de cours/03 Insertion des données.pdf">
-03 Insertion des données
-</a> 
-
-<br><br>
   
 <img src="../img/04/star.webp" width="80"> <img src="../img/04/matrix.webp" width="80"> <img src="../img/04/pulp.webp" width="80">
 
