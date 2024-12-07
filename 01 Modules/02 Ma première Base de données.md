@@ -123,7 +123,7 @@ Autres  :
 
 ## Exemple de données que pourra contenir la table film   
 <img src="../img/04/star.webp" width="80"> <img src="../img/04/matrix.webp" width="80"> <img src="../img/04/pulp.webp" width="80">
-  
+
 | id | titre | sortie |
 |---|---|---|
 | 1 | STAR WARS | 1977/05/25 |
@@ -137,8 +137,8 @@ Afin d'identifier une ligne de façon précise on définit une clef primaire
 La clef primaire peut être définit par MySQL **AI** ou **AUTO_INCREMENT**  
    
 :lock: La contrainte de clef primaire impose d'avoir qu'un seul ID  
-c'est à dire si je rentre le même ID  :MySQL me bloque 
-(violation de clef de contrainte de clef primaire)  
+c'est à dire si je rentre le même ID  : MySQL me bloque  
+**__Violation de clef de contrainte de clef primaire__**  
 Car je viole la contrainte de clef primaire  
   
 Nous rajoutons aussi la **contrainte de nullité**    
@@ -161,7 +161,7 @@ CREATE TABLE film (
   id INT NOT NULL AUTO_INCREMENT,
   titre VARCHAR(255) NOT NULL,
   sortie DATE NOT NULL,
-  CONSTRAINT pk_film PRIMARY KEY (id)
+  CONSTRAINT pk_film PRIMARY KEY (id) # A la fin nous ajoutons un nom à la contrainte
 ) ENGINE=InnoDB;
 ```
 
