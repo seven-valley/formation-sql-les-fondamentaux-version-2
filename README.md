@@ -77,12 +77,12 @@ Afficher les données avec <code>SELECT</code>
 <table>
 <tr>
 <td>
-<a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
+<a href="./00 Les fichiers PDF - Supports de cours/05 La contrainte de clef étrangère.pdf">
   <img src="./img/mod/m5.webp" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/05 La clef étrangère.pdf">
-Le PDF : Module 05 La clef étrangère
+<a href="./00 Les fichiers PDF - Supports de cours/05 La contrainte de clef étrangère.pdf">
+Le PDF : Module 05 La contrainte de clef étrangère
 </a>
 </td>
 <td>
@@ -117,12 +117,12 @@ Mise en place de <code>INNER JOIN</code>
 
 
 ## Jour 2 APRES MIDI
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-  <img src="./img/mod/m2.webp" width="300">
+<a href="./00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
+  <img src="./img/mod/m7.webp" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/02 Ma première Base de données.pdf">
-Le PDF : Module 02 Ma première Base de données
+<a href="./00 Les fichiers PDF - Supports de cours/07 Mise en place de plusieurs jointures.pdf">
+Le PDF : Module 07 Mise en place de plusieurs jointures
 </a>  
 <br>
   
@@ -148,10 +148,11 @@ Extraire les données avec plusieurs jointures
 - Créations d'une table de jointures
 - Mettre enplace une clef primaire sur 2 ID
 - Extraire les données  
-  
-**TP 08 Les films & Acteurs** Extraire les données  
-## Jour 3 APRES MIDI
 
-**TP 09 Site E-commerce**
-Insérer les données  
+$\color{blue}{\text{TP 08 Les films & Acteurs}}$  
 Extraire les données  
+
+## Jour 3 APRES MIDI
+$\color{blue}{\text{TP 09 Site E-commerce}}$  
+Extraire les données  
+
