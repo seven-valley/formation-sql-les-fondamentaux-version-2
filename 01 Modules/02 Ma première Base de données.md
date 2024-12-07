@@ -119,9 +119,16 @@ Autres  :
 | ENUM ('vert','rouge') | choix prédéfini  |
 
 # Exemple : Création d'une table film
-<img src="../db-svg/01-film.svg" width="300">
-    
+<img src="../img/db-svg/01-film.svg" width="300">
+
+## Exemple de données que pourra contenir la table film   
+<img src="../img/04/star.webp" width="80"> <img src="../img/04/matrix.webp" width="80"> <img src="../img/04/pulp.webp" width="80">
   
+| id | titre | sortie |
+|---|---|---|
+| 1 | STAR WARS | 1977/05/25 |
+| 2 | THE MATRIX | 1999/06/23 |
+| 3 | PULP FICTION | 1994/10/26 |  
   
 ## :key: Mise en place d'une clé primaire sur notre table
 La clef primaire : **primary key** ou **PK**  
