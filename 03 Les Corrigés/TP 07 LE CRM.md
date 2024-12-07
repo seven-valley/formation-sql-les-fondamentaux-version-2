@@ -74,6 +74,7 @@ REFERENCES devis(id);
 ```  
 ## 2 - Ajouter les données  
 ```sql
+USE my_crm;
 -- LES DATA
 INSERT INTO client (nom) VALUES 
 	('Mairie de Rennes'),
@@ -121,6 +122,7 @@ INSERT INTO facture (reference,info,total,devis_id,date_crea,date_paiement)
 |FA006|Neo Soft|	logiciel ERP|2000|2023-03-01| |	  
 
 ```sql
+USE my_crm;
 SELECT 
 client.nom,
 facture.reference,
@@ -163,7 +165,7 @@ _Afficher 0 factures si il n'y a pas de factures_
 |Amazon |0|
   
 ```sql
-SE my_crm;
+USE my_crm;
 SELECT 
 client.nom,
 COUNT(facture.id) AS nb_factures
@@ -175,6 +177,7 @@ GROUP BY(client.nom)
 ```
 - autre possibilité avec RIGHT join
 ```sql
+USE my_crm;
 SELECT 
 client.nom,
 count(facture.id)
@@ -230,7 +233,6 @@ SELECT SUM(total) FROM facture WHERE date_paiement IS NULL;
 ```
 - autre possibilité avec le nom client
 ```sql
--- 5 - afficher la somme des factures en attente de paiement
 USE my_crm;
 
 SELECT 
@@ -319,7 +321,7 @@ AND DATEDIFF(NOW(),date_crea)  > 30;
   **[OPTIONEL]**  
 :shipit:Réaliser le modèle relationnel sur db diagram  et fournir le prompt  
 [db Diagram](https://dbdiagram.io/home)    
-<img src="../../img/dbdiagram.svg" width="200"> 
+<img src="../img/dbdiagram.svg" width="200"> 
 ```
 Table "client" {
   "id" INT [pk, not null, increment]
