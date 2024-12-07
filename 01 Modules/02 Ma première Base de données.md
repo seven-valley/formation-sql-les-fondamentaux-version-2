@@ -13,7 +13,7 @@ Le PDF : 02 Ma première Base de données.pdf
 :two: Saisir le code SQL  
 :three:  Cliquez sur l'éclaire
 
-<img src="../img/02/terminal.png" width="500">     
+<img src="../img/screen/terminal.png" width="500">     
 
 
 ## Une documentation bien utile !
