@@ -3,7 +3,7 @@
 Avec plusieurs <code>INNER JOIN</code>  
 Avec Plusieurs <code>LEFT JOIN</code>
 
-<img src="../img/db-svg/07-le_village.svg" width="600">
+<img src="../img/db-svg/07-le_village.svg" width="700">
 
 <img src="../img/xl/04-village.png" width="700">
 
