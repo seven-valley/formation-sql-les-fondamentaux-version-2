@@ -34,9 +34,8 @@ Création d'une table personne
 
 
 ## JOUR 1 APRES MIDI
-<div style="display:flex;justify-content:space-between">
-<div><img src="./img/mod/m3.webp" width="200"></div><div><img src="./img/mod/m3.webp" width="200"></div>
-</div>
+
+<div style="float:left"><img src="./img/mod/m3.webp" width="200"></div><div  style="float:right">><img src="./img/mod/m3.webp" width="200"></div>
 
 
 
