@@ -116,7 +116,7 @@ INNER JOIN region ON pays.id
 :four: Je regarde la jointure entre les 2 tables  
 Je prends le champ <code>pays_id</code>sur la table<code>region</code> 
 
-<img src="../img/tp/td8/etape3.webp" width="650">
+<img src="../img/tp/td8/etape4.webp" width="600">
 
 ```sql
 
@@ -127,6 +127,20 @@ INNER JOIN region ON pays.id = region.pays_id
 
 ```
 
+-----------------------------------------------------------
+:five: Je cible la table <code>ville</code>
+
+<img src="../img/tp/td8/etape5.webp" width="60">
+
+```sql
+
+SELECT
+pays.nom
+FROM pays
+INNER JOIN region ON pays.id = region.pays_id
+INNER JOIN ville 
+
+```
 
 
 ```sql
