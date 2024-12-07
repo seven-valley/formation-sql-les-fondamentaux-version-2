@@ -1,5 +1,5 @@
 # TP 3 Le monde des chats - partie 2
-<img src="../../img/three.webp" width="100"> 
+<img src="../../img/num/three.webp" width="100"> 
 Prise en main des commandes :  
   
 <code>INSERT INTO</code>    
@@ -12,10 +12,10 @@ Prise en main des commandes :
 | 3 | Bengal | marron | 18 |
 | 4 | Scottish Fold | marron | 10 |
   
-![maincoon](/img/09/maincoon.webp)
-![siamois](/img/09/siamois.webp)
-![bengal](/img/09/bengal.webp)
-![scottish](/img/09/scottish.webp)
+![maincoon](../img/tp/tp1/maincoon.webp)
+![siamois](../img/tp/tp1/siamois.webp)
+![bengal](../img/tp/tp1/bengal.webp)
+![scottish](../img/tp/tp1/scottish.webp)
 
 ## Pour rappel voici la structure de la table
 ```sql
@@ -41,7 +41,9 @@ CREATE TABLE IF NOT EXISTS chat(
 :seven: - Afficher la moyenne d'age des chats  
 :eight: - Afficher le nombre de chats dans la table   
 :nine: - Afficher le nombre de chat avec couleur d'yeux marron  
-10 - Afficher le nombre de chat par couleur d'yeux    
+10 - Afficher le chat avec la plus petite durée de vie avec <code>LIMIT</code> & <code>ORDER BY</code>     
+11 - Afficher le nombre de chat par couleur d'yeux avec <code>LIMIT</code> & <code>ORDER BY</code>     
+12 - Afficher le nombre de chat par couleur d'yeux    
 [BONUS] - Ajouter les données à partir d'un fichier excel  
 
 # Résultats attendus
