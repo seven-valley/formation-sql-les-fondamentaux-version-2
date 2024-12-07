@@ -17,7 +17,7 @@
 ## Les données
 <img src="../img/xl/05-jointure.png" width="800">
   
-<img src="../img/tp/td7/once2.jpg" width="80">
+<img src="../img/tp/td7/once2.jpg" width="200">
 
 
 ## La Base de données
