@@ -136,12 +136,12 @@ Extraire les données avec plusieurs jointures
 
 
 ## Jour 3 MATIN
-<a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">
-  <img src="./img/mod/m7.webp" width="300">
+<a href="./00 Les fichiers PDF - Supports de cours/08 La table de jointures.pdf">
+  <img src="./img/mod/m8.webp" width="300">
 </a>  
 <br>
-<a href="./00 Les fichiers PDF - Supports de cours/07 La table de jointure.pdf">  
-07 La table de jointure
+<a href="./00 Les fichiers PDF - Supports de cours/08 La table de jointures.pdf">
+08 La table de jointure
 </a>
 
 ### Les Tables de jointures :
