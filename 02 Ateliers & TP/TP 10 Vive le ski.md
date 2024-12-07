@@ -1,7 +1,7 @@
 # TP 10 - Location ski
-<img src="../../img/ten.webp" width="100">  <img src="../../img/jeanpaul.webp" width="100">
+<img src="../img/num/ten.webp" width="100">  <img src="../img/tp/tp10/jeanpaul.webp" width="100">
 
-<img src="../../img/05/ski.svg" width="800">
+<img src="../img/db-svg/11-ski.svg" width="800">
 
 # Les données
 ```sql

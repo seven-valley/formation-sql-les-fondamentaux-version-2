@@ -1,7 +1,9 @@
 # TP 10 - Location ski
 ## :warning: La correction
 
-<img src="../../img/c.webp" width="100">  <img src="../../img/ten.webp" width="100">  <img src="../../img/jeanpaul.webp" width="100">
+<img src="../img/c.webp" width="100">  <img src="../img/num/ten.webp" width="100">  <img src="../img/tp/tp10/jeanpaul.webp" width="100">
+
+<img src="../img/db-svg/11-ski.svg" width="800">
 
 # Partie 1
 - Créer la base de données
