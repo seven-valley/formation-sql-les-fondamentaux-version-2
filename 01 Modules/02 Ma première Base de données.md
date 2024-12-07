@@ -20,7 +20,7 @@
 https://www.w3schools.com/mysql/default.asp  
 https://sql.sh/  
 https://dev.mysql.com/doc/refman/8.4/en/select.html  
-(Tuto Learn sql)[https://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/]  
+(Tuto Learn sql)(ttps://learnsql.fr/blog/20-exemples-de-requetes-sql-de-base-pour-les-debutants-une-vue-d-ensemble-complete/)  
 
 ## Création d'une base de données &#x1F600;
 Commande pour créer une base de données
