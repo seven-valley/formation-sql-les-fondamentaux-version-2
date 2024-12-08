@@ -29,15 +29,16 @@ Une couleur est posséder par plusieurs fruits <code>One to Many</code>
   - La clef étragère <code>couleur_id</code> de la table fruit doit correspondre à la clef primaire <code>id</code> de couleur  
 
 ## VIOLATION DE CONTRAINTE
-Je ne peux pas supprimer une couleur
+Je ne peux pas supprimer une couleur  
 Si la clef primaire est utilisé en clef étrangère
 <img src="../img/tp/td5/violation-1.png" width="600">
+:warning:  Cette requête est bloquée  
 
 ```sql
 DELETE FROM couleur where id=1;
 ```
+$\color{red}{\text{[Violation de contrainte de clef étrangère]}}$
 
-![alt text](image.png)
 
 
 
