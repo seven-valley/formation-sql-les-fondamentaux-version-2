@@ -50,6 +50,17 @@ INSERT INTO fruit (nom,couleur_id) VALUES ('banane',4);
 ```
 $\color{red}{\text{Violation de contrainte de clef étrangère}}$
 --------------------------
+Je ne peux pas Supprimer une table dont les clef primaire sont relié à une clef étrangère  
+Je doit supprimer fruit en premier   
+qui n'existe pas en tant que clef primaire  
+<img src="../img/tp/td5/violation-3.png" width="600"><br>
+
+:warning:  Cette requête est bloquée  
+```sql
+DROP TABLE couleur;
+```
+$\color{red}{\text{Violation de contrainte de clef étrangère}}$
+--------------------------
 
 ## Création des tables Version 1 :
 **Version 1** la clef étrangère est definit dans la table <code>fruit</code>
