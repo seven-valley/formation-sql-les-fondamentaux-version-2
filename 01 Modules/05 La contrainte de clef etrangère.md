@@ -40,8 +40,8 @@ DELETE FROM couleur WHERE id=1;
 ```
 $\color{red}{\text{Violation de contrainte de clef étrangère}}$
 --------------------------
-Je ne peux pas supprimer une couleur  
-Si la clef primaire est utilisé en clef étrangère
+Je ne peux pas insérer une clef étrangère   
+qui n'existe pas en tant que clef primaire  
 <img src="../img/tp/td5/violation-2.png" width="600"><br>
 
 :warning:  Cette requête est bloquée  
