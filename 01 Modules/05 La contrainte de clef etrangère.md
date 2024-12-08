@@ -11,7 +11,7 @@ Le PDF : 05 La contrainte de clef étrangère
 <br>
 <br>
      
-  <img src="../img/tp/td5/jointure.png" width="600">
+<img src="../img/tp/td5/jointure.png" width="600">
   
 <img src="../img/xl/01-salade.png" width="600">
 
@@ -28,7 +28,16 @@ Une couleur est posséder par plusieurs fruits <code>One to Many</code>
   - je viens vérifier que l'id ajouter est bien un id de clef primaire existant.  
   - La clef étragère <code>couleur_id</code> de la table fruit doit correspondre à la clef primaire <code>id</code> de couleur  
 
+## VIOLATION DE CONTRAINTE
+Je ne peux pas supprimer une couleur
+Si la clef primaire est utilisé en clef étrangère
+<img src="../img/tp/td5/violation-1.png" width="600">
 
+```sql
+DELETE FROM couleur where id=1;
+```
+
+![alt text](image.png)
 
 
 

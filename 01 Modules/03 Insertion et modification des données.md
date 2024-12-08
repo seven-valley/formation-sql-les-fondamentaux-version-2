@@ -86,7 +86,7 @@ Utiliser <code>DELETE</code> pour effacer un film
 Effacer un film  
 Effacer un enregistrement
 ```sql
-DELETE FROM film where id=1;
+DELETE FROM film WHERE id=1;
 ```
 
   
