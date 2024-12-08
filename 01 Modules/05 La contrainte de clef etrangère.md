@@ -31,7 +31,9 @@ Une couleur est posséder par plusieurs fruits <code>One to Many</code>
 ## VIOLATION DE CONTRAINTE
 Je ne peux pas supprimer une couleur  
 Si la clef primaire est utilisé en clef étrangère
-<img src="../img/tp/td5/violation-1.png" width="600">
+  
+<img src="../img/tp/td5/violation-1.png" width="600"><br>
+  
 :warning:  Cette requête est bloquée  
 
 ```sql
